@@ -1,0 +1,280 @@
+<form (ngSubmit)="onSubmit()" [formGroup]="dynamicForm">
+    <div *ngFor="let item of formFields; trackBy: trackByKey" [ngClass]="getFieldClasses(item)">
+        <label *ngIf="isLabelVisible(item)" [class]="'label-' + item.type">
+            {{ item.name | translate }}
+            <span *ngIf="item.required" class="required">*</span>
+        </label>
+
+        <ng-container *ngIf="isFieldVisible(item)" [ngSwitch]="item.type">
+            <input 
+                *ngSwitchCase="'text'"
+                [formControlName]="item.key" [name]="item.key"
+                [mask]="item.mask ? item.maskValue : null"  
+                [required]="item.required"
+                [placeholder]="item.placeholder ? (item.placeholder | translate) : ''"
+                [value]="item.default && item.default" 
+                [type]="item.type"
+                (change)="onVinculumChange($event.target.value, item)"
+            >
+
+            <input 
+                *ngSwitchCase="'color'"
+                [formControlName]="item.key" [name]="item.key"
+                [mask]="item.mask ? item.maskValue : null" 
+                [required]="item.required" 
+                [placeholder]="item.placeholder ? (item.placeholder | translate) : ''"
+                [value]="item.default && item.default" 
+                [type]="item.type"
+            >
+
+            <input 
+                *ngSwitchCase="'email'"
+                [formControlName]="item.key" [name]="item.key"
+                [mask]="item.mask ? item.maskValue : null" 
+                [required]="item.required" 
+                [placeholder]="item.placeholder ? (item.placeholder | translate) : ''"
+                [value]="item.default && item.default" 
+                [type]="item.type"
+            >
+
+            <div *ngSwitchCase="'password'" class="password-field">
+                <input 
+                    [formControlName]="item.key" [name]="item.key"
+                    [mask]="item.mask ? item.maskValue : null" 
+                    [required]="item.required" 
+                    [placeholder]="item.placeholder ? (item.placeholder | translate) : ''"
+                    [value]="item.default && item.default" 
+                    [type]="showPassword ? 'text' : 'password'" 
+                >
+                <button type="button" (click)="togglePasswordVisibility()">
+                    <i [class]="showPassword ?  'bx bx-low-vision' : 'bx bx-show-alt'"></i>
+                </button>
+            </div>
+
+            <input 
+                *ngSwitchCase="'number'"
+                [formControlName]="item.key" [name]="item.key"
+                [mask]="item.mask ? item.maskValue : null" 
+                [required]="item.required" 
+                [placeholder]="item.placeholder ? (item.placeholder | translate) : ''"
+                [value]="item.default && item.default" 
+                [type]="item.type"
+            >
+
+            <input 
+                *ngSwitchCase="'tel'"
+                [formControlName]="item.key" [name]="item.key"
+                [mask]="item.mask ? item.maskValue : null" 
+                [required]="item.required" 
+                [placeholder]="item.placeholder ? (item.placeholder | translate) : ''"
+                [value]="item.default && item.default" 
+                [type]="item.type"
+            >
+
+            <input 
+                *ngSwitchCase="'date'"
+                [formControlName]="item.key" [name]="item.key"
+                [mask]="item.mask ? item.maskValue : null" 
+                [required]="item.required" 
+                [placeholder]="item.placeholder ? (item.placeholder | translate) : ''"
+                [value]="item.default && item.default" 
+                [type]="item.type"
+            >
+
+            <input 
+                *ngSwitchCase="'date-time'"
+                [formControlName]="item.key" [name]="item.key"
+                [mask]="item.mask ? item.maskValue : null" 
+                [required]="item.required" 
+                [placeholder]="item.placeholder ? (item.placeholder | translate) : ''"
+                [value]="item.default && item.default" 
+                type="datetime-local"
+            />
+
+            <textarea 
+                *ngSwitchCase="'textarea'"
+                [formControlName]="item.key" [name]="item.key"
+                [rows]="item.rows ?? 5"
+                [required]="item.required"
+                [placeholder]="item.placeholder ? (item.placeholder | translate) : ''"
+            ></textarea>
+            
+            <hr *ngSwitchCase="'dashed'">
+
+            <fieldset *ngSwitchCase="'radio'" class="type-12 type-radio">
+                <div *ngFor="let option of item.items" class="card-radio">
+                    <input type="radio" 
+                        [formControlName]="item.key"
+                        [autocomplete]="'new-' + item.key" 
+                        [id]="option.label"
+                        [name]="item.key"
+                        [value]="option.value"
+                    />
+                    <label [for]="option.value">{{option.label}}</label>
+                </div>
+            </fieldset>
+
+            <div *ngSwitchCase="'checkbox'" class="fields-checkbox">
+                <input [formControlName]="item.key" type="checkbox" class="checkbox-input">
+                <label [class]="'label-' + item.type">
+                    {{item.labelCheck | translate }}
+                </label>
+            </div>
+
+            <ng-container *ngSwitchCase="'select-fix'">
+                <ng-select [formControlName]="item.key" [required]="item.required" [multiple]="item.multiple">
+                    <ng-option value="" disabled selected>Selecione uma opção</ng-option>
+                    <ng-option 
+                        *ngFor="let option of item.options" 
+                        [value]="option.key"
+                    >
+                        {{ option.value | translate }}
+                    </ng-option>
+                </ng-select>
+            </ng-container>
+
+            <ng-container *ngSwitchCase="'select-internal'">
+                <ng-select 
+                    [formControlName]="item.key" 
+                    (change)="onVinculumChange($event, item)"
+                    [required]="item.required" 
+                    [multiple]="item.multiple"
+                >
+                    <ng-option value="" disabled selected>Selecione uma opção</ng-option>
+                    <ng-option 
+                        *ngFor="let option of dataCache[item.key]" 
+                        [value]="option[item.items['key']]"
+                    >
+                        {{ option[item.items['value']] }}
+                    </ng-option>
+                </ng-select>
+            </ng-container>
+
+            <ng-container *ngSwitchCase="'select-icon'">
+                <div class="select-icon">
+                    <div class="preview-icon">
+                        <i [class]="dynamicForm.get(item.key)?.value"></i>
+                    </div>
+                    <button type="button" class="btn btn-primary" (click)="openIconSelectionModal(item.key)">Clique para Selecionar</button>
+                    <input 
+                        [formControlName]="item.key" 
+                        hidden [name]="item.key" 
+                        [required]="item.required" 
+                        [value]="item.default && item.default" 
+                        [type]="item.type"
+                    >
+                </div>
+            </ng-container>
+
+            <ng-container *ngSwitchCase="'select-image'">
+                <div class="select-image-container">
+                    <div *ngFor="let option of item.options" class="card-image">
+                        <label [style]="createSelectImageStyle(option.image)">
+                            <input 
+                                type="radio" 
+                                [id]="option.value"
+                                [formControlName]="item.key" 
+                                [value]="option.key"
+                                [name]="item.key" 
+                            >
+                        </label>
+                        <span>{{ option.value | translate }}</span>
+                    </div>
+                </div>
+            </ng-container>
+
+            <ng-container *ngSwitchCase="'upload-file'">
+                <div *ngIf="renderImage[item.key] !== null" class="upload-file-render">
+                    <img [src]="renderImage[item.key]">
+                </div>
+                <core-drop-file-input 
+                    [accept]="item.fileSupported"
+                    [multiple]="item.multiple"
+                    [icon]="item.icon"
+                    (fileChanged)="convertFileToBase64AndUpdateForm($event, item.key)"
+                ></core-drop-file-input>
+            </ng-container>
+
+            <ng-container *ngSwitchCase="'list-forms'">
+                <div class="list-forms">
+                    <div class="listItem" *ngFor="let list of listCache[item.key]; let listIndex = index">
+                        <div class="listValue">
+                            <p>{{list[item.keyVision]}}</p>
+                        </div>
+                        <div class="listEdit">
+                            <button class="btn-func view" type="button"
+                                (click)="openListFormModal(item.key, item.fields, list, listIndex)">
+                                <i class='bx bxs-edit'></i>
+                            </button>
+                            <button *ngIf="item.seeDelete" type="button"
+                                (click)="deleteListItem(item, item.key, listIndex)" class="btn-func trash">
+                                <i class='bx bx-trash'></i>
+                            </button>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary" type="button" (click)="openListFormModal(item.key, item.fields)">
+                        {{(item.titleList ?? 'FORMS.TITLE_LIST_FORMS') | translate}}
+                    </button>
+                </div>
+            </ng-container>
+
+            <ng-container *ngSwitchCase="'webcam'">
+                <div class="webcam-container" [ngStyle]="{'min-height': !(videoStreams[item.key] || capturedImages[item.key]) ? '450px' : 'auto'}">
+                    <video
+                        [hidden]="!videoStreams[item.key]"
+                        #videoElement
+                        *ngIf="!capturedImages[item.key]"
+                        autoplay
+                        playsinline
+                    ></video>
+
+                    <div *ngIf="capturedImages[item.key]" class="captured-image-preview">
+                        <img [src]="capturedImages[item.key]" alt="Captured Image">
+                    </div>
+
+                    <div class="webcam-controls">
+                        <button *ngIf="videoStreams[item.key] && !capturedImages[item.key]" type="button" class="button-cancel" (click)="stopWebcam(item.key)">
+                            <i class='bx bx-video-off'></i>
+                        </button>
+
+                        <button *ngIf="!videoStreams[item.key]" type="button" class="button-video" (click)="startWebcam(item.key)">
+                            <i class='bx bx-video'></i>
+                        </button>
+
+                        <button *ngIf="videoStreams[item.key] && !capturedImages[item.key]" type="button" class="button-capture" (click)="captureImage(item.key)">
+                            <i class='bx bxs-camera'></i>
+                        </button>
+
+                        <button *ngIf="capturedImages[item.key]" type="button" class="button-video" (click)="retakePhoto(item.key)">
+                            <i class='bx bx-camera'></i>
+                        </button>
+                    </div>
+                </div>
+
+                <canvas #canvasElement hidden></canvas>
+            </ng-container>
+        </ng-container>
+
+        <div *ngIf="dynamicForm.get(item.key)?.invalid && dynamicForm.get(item.key)?.touched" class="error-container">
+            <i class='bx bx-error'></i>
+            <small class="error-message" *ngIf="getFirstErrorMessage(item)">
+                {{ getFirstErrorMessage(item) | translate }}
+            </small>
+        </div>
+
+    </div>
+
+    <div *ngIf="loading" class="loading-submit">
+        <loading-circle [loading]="loading"></loading-circle>
+    </div>
+
+   <div class="buttons-group">    
+        <button *ngIf="!loading" (click)="cancelInsertion()" class="btn btn-cancel" type="button">
+            {{ 'FORMS.BUTTONS.CANCEL' | translate }}
+        </button>
+
+        <button *ngIf="!loading" class="btn btn-submit" [disabled]="!dynamicForm.valid" type="submit">
+            {{ operation === 'create' ? ('FORMS.BUTTONS.CREATE' | translate) : ('FORMS.BUTTONS.UPDATE' | translate) }}
+        </button>
+    </div>
+</form>

@@ -1,0 +1,52 @@
+<div class="table-settings-overlay">
+    <div class="table-settings-container">
+        <div class="header-settings">
+            <h2>{{ 'TABLE_SETTINGS.HEADER_TITLE' | translate }}</h2>
+            <button type="button" class="btn-close" aria-label="close" (click)="closeSettings()"></button>
+        </div>
+
+        <div class="card-settings">
+            <h3 *ngIf="fixColumn">{{ 'TABLE_SETTINGS.FIXED_COLUMNS' | translate }}</h3>
+            <ng-container *ngFor="let column of columns; let i = index">
+                <div class="card-value" *ngIf="column.fixed">
+                    <div class="values">
+                        <mat-slide-toggle disabled checked></mat-slide-toggle>
+                        <p>{{ column.value }}</p>
+                    </div>
+                    <div class="settings-buttons">
+                        <button (click)="toggleFixColumn(column)" attr.aria-label="{{ 'TABLE_SETTINGS.ICON.PIN' | translate }}">
+                            <i class='bx bx-pin'></i>
+                        </button>
+                        <button disabled attr.aria-label="{{ 'TABLE_SETTINGS.ICON.MOVE_UP' | translate }}">
+                            <i class='bx bx-chevron-up'></i>
+                        </button>
+                        <button disabled attr.aria-label="{{ 'TABLE_SETTINGS.ICON.MOVE_DOWN' | translate }}">
+                            <i class='bx bx-chevron-down'></i>
+                        </button>
+                    </div>
+                </div>
+            </ng-container>
+
+            <h3>{{ 'TABLE_SETTINGS.OTHER_COLUMNS' | translate }}</h3>
+            <ng-container *ngFor="let column of columns; let i = index">
+                <div class="card-value" *ngIf="!column.fixed">
+                    <div class="values">
+                        <mat-slide-toggle [checked]="column.visible" (change)="toggleColumnVisibility(column, i)"></mat-slide-toggle>
+                        <p>{{ column.value }}</p>
+                    </div>
+                    <div class="settings-buttons">
+                        <button (click)="toggleFixColumn(column)" attr.aria-label="{{ 'TABLE_SETTINGS.ICON.PIN' | translate }}">
+                            <i class='bx bx-pin'></i>
+                        </button>
+                        <button *ngIf="i > 0" (click)="moveColumn(column, 'up')" attr.aria-label="{{ 'TABLE_SETTINGS.ICON.MOVE_UP' | translate }}">
+                            <i class='bx bx-chevron-up'></i>
+                        </button>
+                        <button *ngIf="i < columns.length - 1" (click)="moveColumn(column, 'down')" attr.aria-label="{{ 'TABLE_SETTINGS.ICON.MOVE_DOWN' | translate }}">
+                            <i class='bx bx-chevron-down'></i>
+                        </button>
+                    </div>
+                </div>
+            </ng-container>
+        </div>
+    </div>
+</div>

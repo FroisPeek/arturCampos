@@ -1,0 +1,6556 @@
+[
+    {
+        "type": "regular",
+        "selector": "bx bx-",
+        "list": [
+            {
+                "icon": "caret-up-circle",
+                "name": "caret-up-circle"
+            },
+            {
+                "icon": "note",
+                "name": "note"
+            },
+            {
+                "icon": "dice-5",
+                "name": "dice-5"
+            },
+            {
+                "icon": "bus-school",
+                "name": "bus-school"
+            },
+            {
+                "icon": "bible",
+                "name": "bible"
+            },
+            {
+                "icon": "chevron-down-square",
+                "name": "chevron-down-square"
+            },
+            {
+                "icon": "arrow-from-bottom",
+                "name": "arrow-from-bottom"
+            },
+            {
+                "icon": "wifi-2",
+                "name": "wifi-2"
+            },
+            {
+                "icon": "book-reader",
+                "name": "book-reader"
+            },
+            {
+                "icon": "message-rounded-check",
+                "name": "message-rounded-check"
+            },
+            {
+                "icon": "message-minus",
+                "name": "message-minus"
+            },
+            {
+                "icon": "message-rounded-edit",
+                "name": "message-rounded-edit"
+            },
+            {
+                "icon": "caret-right-circle",
+                "name": "caret-right-circle"
+            },
+            {
+                "icon": "category-alt",
+                "name": "category-alt"
+            },
+            {
+                "icon": "comment-minus",
+                "name": "comment-minus"
+            },
+            {
+                "icon": "vector",
+                "name": "vector"
+            },
+            {
+                "icon": "pointer",
+                "name": "pointer"
+            },
+            {
+                "icon": "movie-play",
+                "name": "movie-play"
+            },
+            {
+                "icon": "message-edit",
+                "name": "message-edit"
+            },
+            {
+                "icon": "calendar-event",
+                "name": "calendar-event"
+            },
+            {
+                "icon": "envelope-open",
+                "name": "envelope-open"
+            },
+            {
+                "icon": "game",
+                "name": "game"
+            },
+            {
+                "icon": "font-family",
+                "name": "font-family"
+            },
+            {
+                "icon": "caret-up",
+                "name": "caret-up"
+            },
+            {
+                "icon": "grid-small",
+                "name": "grid-small"
+            },
+            {
+                "icon": "message-x",
+                "name": "message-x"
+            },
+            {
+                "icon": "abacus",
+                "name": "abacus"
+            },
+            {
+                "icon": "microchip",
+                "name": "microchip"
+            },
+            {
+                "icon": "message-rounded-detail",
+                "name": "message-rounded-detail"
+            },
+            {
+                "icon": "rotate-left",
+                "name": "rotate-left"
+            },
+            {
+                "icon": "coin-stack",
+                "name": "coin-stack"
+            },
+            {
+                "icon": "dice-3",
+                "name": "dice-3"
+            },
+            {
+                "icon": "task-x",
+                "name": "task-x"
+            },
+            {
+                "icon": "home-smile",
+                "name": "home-smile"
+            },
+            {
+                "icon": "chevron-left-circle",
+                "name": "chevron-left-circle"
+            },
+            {
+                "icon": "cctv",
+                "name": "cctv"
+            },
+            {
+                "icon": "card",
+                "name": "card"
+            },
+            {
+                "icon": "wifi-1",
+                "name": "wifi-1"
+            },
+            {
+                "icon": "baseball",
+                "name": "baseball"
+            },
+            {
+                "icon": "message-alt-detail",
+                "name": "message-alt-detail"
+            },
+            {
+                "icon": "shield-x",
+                "name": "shield-x"
+            },
+            {
+                "icon": "recycle",
+                "name": "recycle"
+            },
+            {
+                "icon": "border-inner",
+                "name": "border-inner"
+            },
+            {
+                "icon": "arrow-from-right",
+                "name": "arrow-from-right"
+            },
+            {
+                "icon": "magnet",
+                "name": "magnet"
+            },
+            {
+                "icon": "caret-up-square",
+                "name": "caret-up-square"
+            },
+            {
+                "icon": "bookmark-alt-plus",
+                "name": "bookmark-alt-plus"
+            },
+            {
+                "icon": "badge",
+                "name": "badge"
+            },
+            {
+                "icon": "intersect",
+                "name": "intersect"
+            },
+            {
+                "icon": "caret-left-square",
+                "name": "caret-left-square"
+            },
+            {
+                "icon": "layer-plus",
+                "name": "layer-plus"
+            },
+            {
+                "icon": "caret-left",
+                "name": "caret-left"
+            },
+            {
+                "icon": "chevron-up-square",
+                "name": "chevron-up-square"
+            },
+            {
+                "icon": "bookmark-alt",
+                "name": "bookmark-alt"
+            },
+            {
+                "icon": "bookmark-alt-minus",
+                "name": "bookmark-alt-minus"
+            },
+            {
+                "icon": "unlink",
+                "name": "unlink"
+            },
+            {
+                "icon": "show-alt",
+                "name": "show-alt"
+            },
+            {
+                "icon": "camera-movie",
+                "name": "camera-movie"
+            },
+            {
+                "icon": "unite",
+                "name": "unite"
+            },
+            {
+                "icon": "arch",
+                "name": "arch"
+            },
+            {
+                "icon": "chevron-down-circle",
+                "name": "chevron-down-circle"
+            },
+            {
+                "icon": "heart-square",
+                "name": "heart-square"
+            },
+            {
+                "icon": "arrow-to-left",
+                "name": "arrow-to-left"
+            },
+            {
+                "icon": "wifi-0",
+                "name": "wifi-0"
+            },
+            {
+                "icon": "current-location",
+                "name": "current-location"
+            },
+            {
+                "icon": "coin",
+                "name": "coin"
+            },
+            {
+                "icon": "sort-up",
+                "name": "sort-up"
+            },
+            {
+                "icon": "comment-detail",
+                "name": "comment-detail"
+            },
+            {
+                "icon": "message-alt-minus",
+                "name": "message-alt-minus"
+            },
+            {
+                "icon": "library",
+                "name": "library"
+            },
+            {
+                "icon": "move-vertical",
+                "name": "move-vertical"
+            },
+            {
+                "icon": "loader",
+                "name": "loader"
+            },
+            {
+                "icon": "reply",
+                "name": "reply"
+            },
+            {
+                "icon": "sitemap",
+                "name": "sitemap"
+            },
+            {
+                "icon": "strikethrough",
+                "name": "strikethrough"
+            },
+            {
+                "icon": "tag",
+                "name": "tag"
+            },
+            {
+                "icon": "crop",
+                "name": "crop"
+            },
+            {
+                "icon": "globe",
+                "name": "globe"
+            },
+            {
+                "icon": "command",
+                "name": "command"
+            },
+            {
+                "icon": "share-alt",
+                "name": "share-alt"
+            },
+            {
+                "icon": "file-blank",
+                "name": "file-blank"
+            },
+            {
+                "icon": "station",
+                "name": "station"
+            },
+            {
+                "icon": "radar",
+                "name": "radar"
+            },
+            {
+                "icon": "cart",
+                "name": "cart"
+            },
+            {
+                "icon": "server",
+                "name": "server"
+            },
+            {
+                "icon": "highlight",
+                "name": "highlight"
+            },
+            {
+                "icon": "chip",
+                "name": "chip"
+            },
+            {
+                "icon": "notification",
+                "name": "notification"
+            },
+            {
+                "icon": "phone-outgoing",
+                "name": "phone-outgoing"
+            },
+            {
+                "icon": "dollar-circle",
+                "name": "dollar-circle"
+            },
+            {
+                "icon": "menu-alt-right",
+                "name": "menu-alt-right"
+            },
+            {
+                "icon": "circle",
+                "name": "circle"
+            },
+            {
+                "icon": "horizontal-center",
+                "name": "horizontal-center"
+            },
+            {
+                "icon": "user-circle",
+                "name": "user-circle"
+            },
+            {
+                "icon": "trash",
+                "name": "trash"
+            },
+            {
+                "icon": "list-minus",
+                "name": "list-minus"
+            },
+            {
+                "icon": "barcode",
+                "name": "barcode"
+            },
+            {
+                "icon": "repost",
+                "name": "repost"
+            },
+            {
+                "icon": "down-arrow",
+                "name": "down-arrow"
+            },
+            {
+                "icon": "store",
+                "name": "store"
+            },
+            {
+                "icon": "mobile-alt",
+                "name": "mobile-alt"
+            },
+            {
+                "icon": "bus",
+                "name": "bus"
+            },
+            {
+                "icon": "cog",
+                "name": "cog"
+            },
+            {
+                "icon": "dislike",
+                "name": "dislike"
+            },
+            {
+                "icon": "tennis-ball",
+                "name": "tennis-ball"
+            },
+            {
+                "icon": "cloud-lightning",
+                "name": "cloud-lightning"
+            },
+            {
+                "icon": "table",
+                "name": "table"
+            },
+            {
+                "icon": "dialpad",
+                "name": "dialpad"
+            },
+            {
+                "icon": "support",
+                "name": "support"
+            },
+            {
+                "icon": "left-arrow",
+                "name": "left-arrow"
+            },
+            {
+                "icon": "slider-alt",
+                "name": "slider-alt"
+            },
+            {
+                "icon": "log-out",
+                "name": "log-out"
+            },
+            {
+                "icon": "cloud-light-rain",
+                "name": "cloud-light-rain"
+            },
+            {
+                "icon": "sidebar",
+                "name": "sidebar"
+            },
+            {
+                "icon": "laptop",
+                "name": "laptop"
+            },
+            {
+                "icon": "message-rounded",
+                "name": "message-rounded"
+            },
+            {
+                "icon": "disc",
+                "name": "disc"
+            },
+            {
+                "icon": "carousel",
+                "name": "carousel"
+            },
+            {
+                "icon": "first-aid",
+                "name": "first-aid"
+            },
+            {
+                "icon": "football",
+                "name": "football"
+            },
+            {
+                "icon": "braille",
+                "name": "braille"
+            },
+            {
+                "icon": "bomb",
+                "name": "bomb"
+            },
+            {
+                "icon": "chevron-right-square",
+                "name": "chevron-right-square"
+            },
+            {
+                "icon": "message-square-error",
+                "name": "message-square-error"
+            },
+            {
+                "icon": "message-alt-error",
+                "name": "message-alt-error"
+            },
+            {
+                "icon": "brain",
+                "name": "brain"
+            },
+            {
+                "icon": "message-square-check",
+                "name": "message-square-check"
+            },
+            {
+                "icon": "caret-down-square",
+                "name": "caret-down-square"
+            },
+            {
+                "icon": "color-fill",
+                "name": "color-fill"
+            },
+            {
+                "icon": "test-tube",
+                "name": "test-tube"
+            },
+            {
+                "icon": "stats",
+                "name": "stats"
+            },
+            {
+                "icon": "id-card",
+                "name": "id-card"
+            },
+            {
+                "icon": "been-here",
+                "name": "been-here"
+            },
+            {
+                "icon": "message-alt-x",
+                "name": "message-alt-x"
+            },
+            {
+                "icon": "church",
+                "name": "church"
+            },
+            {
+                "icon": "arrow-from-top",
+                "name": "arrow-from-top"
+            },
+            {
+                "icon": "cabinet",
+                "name": "cabinet"
+            },
+            {
+                "icon": "message-square-edit",
+                "name": "message-square-edit"
+            },
+            {
+                "icon": "expand-alt",
+                "name": "expand-alt"
+            },
+            {
+                "icon": "calendar-edit",
+                "name": "calendar-edit"
+            },
+            {
+                "icon": "door-open",
+                "name": "door-open"
+            },
+            {
+                "icon": "capsule",
+                "name": "capsule"
+            },
+            {
+                "icon": "help-circle",
+                "name": "help-circle"
+            },
+            {
+                "icon": "location-plus",
+                "name": "location-plus"
+            },
+            {
+                "icon": "comment-error",
+                "name": "comment-error"
+            },
+            {
+                "icon": "caret-down",
+                "name": "caret-down"
+            },
+            {
+                "icon": "message-alt-add",
+                "name": "message-alt-add"
+            },
+            {
+                "icon": "exclude",
+                "name": "exclude"
+            },
+            {
+                "icon": "beer",
+                "name": "beer"
+            },
+            {
+                "icon": "bookmark-heart",
+                "name": "bookmark-heart"
+            },
+            {
+                "icon": "window-alt",
+                "name": "window-alt"
+            },
+            {
+                "icon": "outline",
+                "name": "outline"
+            },
+            {
+                "icon": "message-square-detail",
+                "name": "message-square-detail"
+            },
+            {
+                "icon": "list-ul",
+                "name": "list-ul"
+            },
+            {
+                "icon": "rename",
+                "name": "rename"
+            },
+            {
+                "icon": "analyse",
+                "name": "analyse"
+            },
+            {
+                "icon": "bath",
+                "name": "bath"
+            },
+            {
+                "icon": "grid-alt",
+                "name": "grid-alt"
+            },
+            {
+                "icon": "tv",
+                "name": "tv"
+            },
+            {
+                "icon": "poll",
+                "name": "poll"
+            },
+            {
+                "icon": "user-minus",
+                "name": "user-minus"
+            },
+            {
+                "icon": "rocket",
+                "name": "rocket"
+            },
+            {
+                "icon": "film",
+                "name": "film"
+            },
+            {
+                "icon": "star",
+                "name": "star"
+            },
+            {
+                "icon": "wifi",
+                "name": "wifi"
+            },
+            {
+                "icon": "alarm-off",
+                "name": "alarm-off"
+            },
+            {
+                "icon": "lock",
+                "name": "lock"
+            },
+            {
+                "icon": "dumbbell",
+                "name": "dumbbell"
+            },
+            {
+                "icon": "paperclip",
+                "name": "paperclip"
+            },
+            {
+                "icon": "underline",
+                "name": "underline"
+            },
+            {
+                "icon": "columns",
+                "name": "columns"
+            },
+            {
+                "icon": "dock-right",
+                "name": "dock-right"
+            },
+            {
+                "icon": "adjust",
+                "name": "adjust"
+            },
+            {
+                "icon": "body",
+                "name": "body"
+            },
+            {
+                "icon": "drink",
+                "name": "drink"
+            },
+            {
+                "icon": "glasses-alt",
+                "name": "glasses-alt"
+            },
+            {
+                "icon": "home-heart",
+                "name": "home-heart"
+            },
+            {
+                "icon": "collection",
+                "name": "collection"
+            },
+            {
+                "icon": "ruler",
+                "name": "ruler"
+            },
+            {
+                "icon": "duplicate",
+                "name": "duplicate"
+            },
+            {
+                "icon": "link",
+                "name": "link"
+            },
+            {
+                "icon": "up-arrow",
+                "name": "up-arrow"
+            },
+            {
+                "icon": "video-plus",
+                "name": "video-plus"
+            },
+            {
+                "icon": "plug",
+                "name": "plug"
+            },
+            {
+                "icon": "aperture",
+                "name": "aperture"
+            },
+            {
+                "icon": "list-ol",
+                "name": "list-ol"
+            },
+            {
+                "icon": "window-open",
+                "name": "window-open"
+            },
+            {
+                "icon": "taxi",
+                "name": "taxi"
+            },
+            {
+                "icon": "tab",
+                "name": "tab"
+            },
+            {
+                "icon": "area",
+                "name": "area"
+            },
+            {
+                "icon": "shopping-bag",
+                "name": "shopping-bag"
+            },
+            {
+                "icon": "voicemail",
+                "name": "voicemail"
+            },
+            {
+                "icon": "water",
+                "name": "water"
+            },
+            {
+                "icon": "move",
+                "name": "move"
+            },
+            {
+                "icon": "map",
+                "name": "map"
+            },
+            {
+                "icon": "dock-left",
+                "name": "dock-left"
+            },
+            {
+                "icon": "collapse",
+                "name": "collapse"
+            },
+            {
+                "icon": "code-block",
+                "name": "code-block"
+            },
+            {
+                "icon": "notification-off",
+                "name": "notification-off"
+            },
+            {
+                "icon": "layer",
+                "name": "layer"
+            },
+            {
+                "icon": "task",
+                "name": "task"
+            },
+            {
+                "icon": "pin",
+                "name": "pin"
+            },
+            {
+                "icon": "log-in",
+                "name": "log-in"
+            },
+            {
+                "icon": "pie-chart-alt",
+                "name": "pie-chart-alt"
+            },
+            {
+                "icon": "font-color",
+                "name": "font-color"
+            },
+            {
+                "icon": "shape-polygon",
+                "name": "shape-polygon"
+            },
+            {
+                "icon": "comment-x",
+                "name": "comment-x"
+            },
+            {
+                "icon": "bong",
+                "name": "bong"
+            },
+            {
+                "icon": "cookie",
+                "name": "cookie"
+            },
+            {
+                "icon": "chevron-up-circle",
+                "name": "chevron-up-circle"
+            },
+            {
+                "icon": "trip",
+                "name": "trip"
+            },
+            {
+                "icon": "message-rounded-error",
+                "name": "message-rounded-error"
+            },
+            {
+                "icon": "dice-2",
+                "name": "dice-2"
+            },
+            {
+                "icon": "arrow-to-bottom",
+                "name": "arrow-to-bottom"
+            },
+            {
+                "icon": "traffic-cone",
+                "name": "traffic-cone"
+            },
+            {
+                "icon": "message-rounded-add",
+                "name": "message-rounded-add"
+            },
+            {
+                "icon": "donate-heart",
+                "name": "donate-heart"
+            },
+            {
+                "icon": "badge-check",
+                "name": "badge-check"
+            },
+            {
+                "icon": "home-circle",
+                "name": "home-circle"
+            },
+            {
+                "icon": "webcam",
+                "name": "webcam"
+            },
+            {
+                "icon": "caret-left-circle",
+                "name": "caret-left-circle"
+            },
+            {
+                "icon": "wine",
+                "name": "wine"
+            },
+            {
+                "icon": "dice-4",
+                "name": "dice-4"
+            },
+            {
+                "icon": "border-none",
+                "name": "border-none"
+            },
+            {
+                "icon": "info-square",
+                "name": "info-square"
+            },
+            {
+                "icon": "comment-edit",
+                "name": "comment-edit"
+            },
+            {
+                "icon": "trim",
+                "name": "trim"
+            },
+            {
+                "icon": "chair",
+                "name": "chair"
+            },
+            {
+                "icon": "refresh",
+                "name": "refresh"
+            },
+            {
+                "icon": "blanket",
+                "name": "blanket"
+            },
+            {
+                "icon": "tag-alt",
+                "name": "tag-alt"
+            },
+            {
+                "icon": "arrow-to-right",
+                "name": "arrow-to-right"
+            },
+            {
+                "icon": "atom",
+                "name": "atom"
+            },
+            {
+                "icon": "paste",
+                "name": "paste"
+            },
+            {
+                "icon": "link-external",
+                "name": "link-external"
+            },
+            {
+                "icon": "list-plus",
+                "name": "list-plus"
+            },
+            {
+                "icon": "heading",
+                "name": "heading"
+            },
+            {
+                "icon": "calculator",
+                "name": "calculator"
+            },
+            {
+                "icon": "trash-alt",
+                "name": "trash-alt"
+            },
+            {
+                "icon": "detail",
+                "name": "detail"
+            },
+            {
+                "icon": "window",
+                "name": "window"
+            },
+            {
+                "icon": "closet",
+                "name": "closet"
+            },
+            {
+                "icon": "swim",
+                "name": "swim"
+            },
+            {
+                "icon": "user",
+                "name": "user"
+            },
+            {
+                "icon": "link-alt",
+                "name": "link-alt"
+            },
+            {
+                "icon": "shield-quarter",
+                "name": "shield-quarter"
+            },
+            {
+                "icon": "box",
+                "name": "box"
+            },
+            {
+                "icon": "user-check",
+                "name": "user-check"
+            },
+            {
+                "icon": "paper-plane",
+                "name": "paper-plane"
+            },
+            {
+                "icon": "cube",
+                "name": "cube"
+            },
+            {
+                "icon": "cart-alt",
+                "name": "cart-alt"
+            },
+            {
+                "icon": "x",
+                "name": "x"
+            },
+            {
+                "icon": "phone",
+                "name": "phone"
+            },
+            {
+                "icon": "slider",
+                "name": "slider"
+            },
+            {
+                "icon": "anchor",
+                "name": "anchor"
+            },
+            {
+                "icon": "alarm",
+                "name": "alarm"
+            },
+            {
+                "icon": "message",
+                "name": "message"
+            },
+            {
+                "icon": "power-off",
+                "name": "power-off"
+            },
+            {
+                "icon": "share",
+                "name": "share"
+            },
+            {
+                "icon": "joystick",
+                "name": "joystick"
+            },
+            {
+                "icon": "heart",
+                "name": "heart"
+            },
+            {
+                "icon": "like",
+                "name": "like"
+            },
+            {
+                "icon": "shield",
+                "name": "shield"
+            },
+            {
+                "icon": "trophy",
+                "name": "trophy"
+            },
+            {
+                "icon": "export",
+                "name": "export"
+            },
+            {
+                "icon": "sun",
+                "name": "sun"
+            },
+            {
+                "icon": "edit",
+                "name": "edit"
+            },
+            {
+                "icon": "layout",
+                "name": "layout"
+            },
+            {
+                "icon": "folder-open",
+                "name": "folder-open"
+            },
+            {
+                "icon": "phone-incoming",
+                "name": "phone-incoming"
+            },
+            {
+                "icon": "group",
+                "name": "group"
+            },
+            {
+                "icon": "list-check",
+                "name": "list-check"
+            },
+            {
+                "icon": "book-heart",
+                "name": "book-heart"
+            },
+            {
+                "icon": "merge",
+                "name": "merge"
+            },
+            {
+                "icon": "paint",
+                "name": "paint"
+            },
+            {
+                "icon": "calendar-heart",
+                "name": "calendar-heart"
+            },
+            {
+                "icon": "heart-circle",
+                "name": "heart-circle"
+            },
+            {
+                "icon": "barcode-reader",
+                "name": "barcode-reader"
+            },
+            {
+                "icon": "chevron-left-square",
+                "name": "chevron-left-square"
+            },
+            {
+                "icon": "arrow-from-left",
+                "name": "arrow-from-left"
+            },
+            {
+                "icon": "message-check",
+                "name": "message-check"
+            },
+            {
+                "icon": "glasses",
+                "name": "glasses"
+            },
+            {
+                "icon": "sticker",
+                "name": "sticker"
+            },
+            {
+                "icon": "message-square-add",
+                "name": "message-square-add"
+            },
+            {
+                "icon": "walk",
+                "name": "walk"
+            },
+            {
+                "icon": "caret-right",
+                "name": "caret-right"
+            },
+            {
+                "icon": "message-add",
+                "name": "message-add"
+            },
+            {
+                "icon": "brush",
+                "name": "brush"
+            },
+            {
+                "icon": "message-detail",
+                "name": "message-detail"
+            },
+            {
+                "icon": "line-chart-down",
+                "name": "line-chart-down"
+            },
+            {
+                "icon": "message-error",
+                "name": "message-error"
+            },
+            {
+                "icon": "layer-minus",
+                "name": "layer-minus"
+            },
+            {
+                "icon": "calendar-exclamation",
+                "name": "calendar-exclamation"
+            },
+            {
+                "icon": "alarm-snooze",
+                "name": "alarm-snooze"
+            },
+            {
+                "icon": "save",
+                "name": "save"
+            },
+            {
+                "icon": "usb",
+                "name": "usb"
+            },
+            {
+                "icon": "calendar-alt",
+                "name": "calendar-alt"
+            },
+            {
+                "icon": "phone-call",
+                "name": "phone-call"
+            },
+            {
+                "icon": "map-alt",
+                "name": "map-alt"
+            },
+            {
+                "icon": "comment-add",
+                "name": "comment-add"
+            },
+            {
+                "icon": "message-rounded-minus",
+                "name": "message-rounded-minus"
+            },
+            {
+                "icon": "equalizer",
+                "name": "equalizer"
+            },
+            {
+                "icon": "low-vision",
+                "name": "low-vision"
+            },
+            {
+                "icon": "credit-card-front",
+                "name": "credit-card-front"
+            },
+            {
+                "icon": "move-horizontal",
+                "name": "move-horizontal"
+            },
+            {
+                "icon": "coffee-togo",
+                "name": "coffee-togo"
+            },
+            {
+                "icon": "eraser",
+                "name": "eraser"
+            },
+            {
+                "icon": "sort-alt-2",
+                "name": "sort-alt-2"
+            },
+            {
+                "icon": "bracket",
+                "name": "bracket"
+            },
+            {
+                "icon": "message-alt-check",
+                "name": "message-alt-check"
+            },
+            {
+                "icon": "arrow-to-top",
+                "name": "arrow-to-top"
+            },
+            {
+                "icon": "category",
+                "name": "category"
+            },
+            {
+                "icon": "dice-1",
+                "name": "dice-1"
+            },
+            {
+                "icon": "network-chart",
+                "name": "network-chart"
+            },
+            {
+                "icon": "grid-horizontal",
+                "name": "grid-horizontal"
+            },
+            {
+                "icon": "joystick-button",
+                "name": "joystick-button"
+            },
+            {
+                "icon": "book-add",
+                "name": "book-add"
+            },
+            {
+                "icon": "alarm-exclamation",
+                "name": "alarm-exclamation"
+            },
+            {
+                "icon": "message-alt-edit",
+                "name": "message-alt-edit"
+            },
+            {
+                "icon": "message-square-minus",
+                "name": "message-square-minus"
+            },
+            {
+                "icon": "bone",
+                "name": "bone"
+            },
+            {
+                "icon": "timer",
+                "name": "timer"
+            },
+            {
+                "icon": "meh",
+                "name": "meh"
+            },
+            {
+                "icon": "loader-alt",
+                "name": "loader-alt"
+            },
+            {
+                "icon": "infinite",
+                "name": "infinite"
+            },
+            {
+                "icon": "lock-open",
+                "name": "lock-open"
+            },
+            {
+                "icon": "dock-bottom",
+                "name": "dock-bottom"
+            },
+            {
+                "icon": "hdd",
+                "name": "hdd"
+            },
+            {
+                "icon": "check-circle",
+                "name": "check-circle"
+            },
+            {
+                "icon": "headphone",
+                "name": "headphone"
+            },
+            {
+                "icon": "font",
+                "name": "font"
+            },
+            {
+                "icon": "windows",
+                "name": "windows"
+            },
+            {
+                "icon": "hourglass",
+                "name": "hourglass"
+            },
+            {
+                "icon": "battery",
+                "name": "battery"
+            },
+            {
+                "icon": "redo",
+                "name": "redo"
+            },
+            {
+                "icon": "file",
+                "name": "file"
+            },
+            {
+                "icon": "package",
+                "name": "package"
+            },
+            {
+                "icon": "fingerprint",
+                "name": "fingerprint"
+            },
+            {
+                "icon": "undo",
+                "name": "undo"
+            },
+            {
+                "icon": "mobile",
+                "name": "mobile"
+            },
+            {
+                "icon": "world",
+                "name": "world"
+            },
+            {
+                "icon": "hash",
+                "name": "hash"
+            },
+            {
+                "icon": "wind",
+                "name": "wind"
+            },
+            {
+                "icon": "right-arrow",
+                "name": "right-arrow"
+            },
+            {
+                "icon": "globe-alt",
+                "name": "globe-alt"
+            },
+            {
+                "icon": "navigation",
+                "name": "navigation"
+            },
+            {
+                "icon": "bot",
+                "name": "bot"
+            },
+            {
+                "icon": "select-multiple",
+                "name": "select-multiple"
+            },
+            {
+                "icon": "news",
+                "name": "news"
+            },
+            {
+                "icon": "spray-can",
+                "name": "spray-can"
+            },
+            {
+                "icon": "medal",
+                "name": "medal"
+            },
+            {
+                "icon": "message-rounded-x",
+                "name": "message-rounded-x"
+            },
+            {
+                "icon": "vial",
+                "name": "vial"
+            },
+            {
+                "icon": "mask",
+                "name": "mask"
+            },
+            {
+                "icon": "book-alt",
+                "name": "book-alt"
+            },
+            {
+                "icon": "camera-home",
+                "name": "camera-home"
+            },
+            {
+                "icon": "sort-down",
+                "name": "sort-down"
+            },
+            {
+                "icon": "caret-right-square",
+                "name": "caret-right-square"
+            },
+            {
+                "icon": "tachometer",
+                "name": "tachometer"
+            },
+            {
+                "icon": "rewind-circle",
+                "name": "rewind-circle"
+            },
+            {
+                "icon": "comment-check",
+                "name": "comment-check"
+            },
+            {
+                "icon": "money",
+                "name": "money"
+            },
+            {
+                "icon": "message-square-x",
+                "name": "message-square-x"
+            },
+            {
+                "icon": "minus-back",
+                "name": "minus-back"
+            },
+            {
+                "icon": "chevron-right-circle",
+                "name": "chevron-right-circle"
+            },
+            {
+                "icon": "donate-blood",
+                "name": "donate-blood"
+            },
+            {
+                "icon": "caret-down-circle",
+                "name": "caret-down-circle"
+            },
+            {
+                "icon": "dice-6",
+                "name": "dice-6"
+            },
+            {
+                "icon": "scan",
+                "name": "scan"
+            },
+            {
+                "icon": "calendar-week",
+                "name": "calendar-week"
+            },
+            {
+                "icon": "calendar-star",
+                "name": "calendar-star"
+            },
+            {
+                "icon": "repeat",
+                "name": "repeat"
+            },
+            {
+                "icon": "meteor",
+                "name": "meteor"
+            },
+            {
+                "icon": "grid-vertical",
+                "name": "grid-vertical"
+            },
+            {
+                "icon": "minus-front",
+                "name": "minus-front"
+            },
+            {
+                "icon": "border-outer",
+                "name": "border-outer"
+            },
+            {
+                "icon": "transfer",
+                "name": "transfer"
+            },
+            {
+                "icon": "bed",
+                "name": "bed"
+            },
+            {
+                "icon": "user-plus",
+                "name": "user-plus"
+            },
+            {
+                "icon": "skip-next-circle",
+                "name": "skip-next-circle"
+            },
+            {
+                "icon": "briefcase-alt",
+                "name": "briefcase-alt"
+            },
+            {
+                "icon": "award",
+                "name": "award"
+            },
+            {
+                "icon": "loader-circle",
+                "name": "loader-circle"
+            },
+            {
+                "icon": "images",
+                "name": "images"
+            },
+            {
+                "icon": "target-lock",
+                "name": "target-lock"
+            },
+            {
+                "icon": "window-close",
+                "name": "window-close"
+            },
+            {
+                "icon": "car",
+                "name": "car"
+            },
+            {
+                "icon": "handicap",
+                "name": "handicap"
+            },
+            {
+                "icon": "purchase-tag",
+                "name": "purchase-tag"
+            },
+            {
+                "icon": "reply-all",
+                "name": "reply-all"
+            },
+            {
+                "icon": "git-compare",
+                "name": "git-compare"
+            },
+            {
+                "icon": "subdirectory-left",
+                "name": "subdirectory-left"
+            },
+            {
+                "icon": "train",
+                "name": "train"
+            },
+            {
+                "icon": "subdirectory-right",
+                "name": "subdirectory-right"
+            },
+            {
+                "icon": "italic",
+                "name": "italic"
+            },
+            {
+                "icon": "pie-chart",
+                "name": "pie-chart"
+            },
+            {
+                "icon": "cut",
+                "name": "cut"
+            },
+            {
+                "icon": "import",
+                "name": "import"
+            },
+            {
+                "icon": "cloud-rain",
+                "name": "cloud-rain"
+            },
+            {
+                "icon": "git-merge",
+                "name": "git-merge"
+            },
+            {
+                "icon": "filter",
+                "name": "filter"
+            },
+            {
+                "icon": "pencil",
+                "name": "pencil"
+            },
+            {
+                "icon": "text",
+                "name": "text"
+            },
+            {
+                "icon": "movie",
+                "name": "movie"
+            },
+            {
+                "icon": "cloud-drizzle",
+                "name": "cloud-drizzle"
+            },
+            {
+                "icon": "user-x",
+                "name": "user-x"
+            },
+            {
+                "icon": "upload",
+                "name": "upload"
+            },
+            {
+                "icon": "pen",
+                "name": "pen"
+            },
+            {
+                "icon": "plus",
+                "name": "plus"
+            },
+            {
+                "icon": "ball",
+                "name": "ball"
+            },
+            {
+                "icon": "skip-previous-circle",
+                "name": "skip-previous-circle"
+            },
+            {
+                "icon": "font-size",
+                "name": "font-size"
+            },
+            {
+                "icon": "git-pull-request",
+                "name": "git-pull-request"
+            },
+            {
+                "icon": "dock-top",
+                "name": "dock-top"
+            },
+            {
+                "icon": "home",
+                "name": "home"
+            },
+            {
+                "icon": "credit-card",
+                "name": "credit-card"
+            },
+            {
+                "icon": "home-alt",
+                "name": "home-alt"
+            },
+            {
+                "icon": "search-alt",
+                "name": "search-alt"
+            },
+            {
+                "icon": "certification",
+                "name": "certification"
+            },
+            {
+                "icon": "revision",
+                "name": "revision"
+            },
+            {
+                "icon": "flag",
+                "name": "flag"
+            },
+            {
+                "icon": "cast",
+                "name": "cast"
+            },
+            {
+                "icon": "joystick-alt",
+                "name": "joystick-alt"
+            },
+            {
+                "icon": "spreadsheet",
+                "name": "spreadsheet"
+            },
+            {
+                "icon": "microphone-off",
+                "name": "microphone-off"
+            },
+            {
+                "icon": "crown",
+                "name": "crown"
+            },
+            {
+                "icon": "wallet",
+                "name": "wallet"
+            },
+            {
+                "icon": "check-double",
+                "name": "check-double"
+            },
+            {
+                "icon": "planet",
+                "name": "planet"
+            },
+            {
+                "icon": "restaurant",
+                "name": "restaurant"
+            },
+            {
+                "icon": "expand",
+                "name": "expand"
+            },
+            {
+                "icon": "music",
+                "name": "music"
+            },
+            {
+                "icon": "hotel",
+                "name": "hotel"
+            },
+            {
+                "icon": "git-commit",
+                "name": "git-commit"
+            },
+            {
+                "icon": "minus",
+                "name": "minus"
+            },
+            {
+                "icon": "chalkboard",
+                "name": "chalkboard"
+            },
+            {
+                "icon": "paragraph",
+                "name": "paragraph"
+            },
+            {
+                "icon": "sort",
+                "name": "sort"
+            },
+            {
+                "icon": "shield-alt",
+                "name": "shield-alt"
+            },
+            {
+                "icon": "history",
+                "name": "history"
+            },
+            {
+                "icon": "git-repo-forked",
+                "name": "git-repo-forked"
+            },
+            {
+                "icon": "photo-album",
+                "name": "photo-album"
+            },
+            {
+                "icon": "wrench",
+                "name": "wrench"
+            },
+            {
+                "icon": "album",
+                "name": "album"
+            },
+            {
+                "icon": "pulse",
+                "name": "pulse"
+            },
+            {
+                "icon": "rotate-right",
+                "name": "rotate-right"
+            },
+            {
+                "icon": "cloud-snow",
+                "name": "cloud-snow"
+            },
+            {
+                "icon": "check",
+                "name": "check"
+            },
+            {
+                "icon": "upvote",
+                "name": "upvote"
+            },
+            {
+                "icon": "video-off",
+                "name": "video-off"
+            },
+            {
+                "icon": "happy",
+                "name": "happy"
+            },
+            {
+                "icon": "shuffle",
+                "name": "shuffle"
+            },
+            {
+                "icon": "mouse",
+                "name": "mouse"
+            },
+            {
+                "icon": "selection",
+                "name": "selection"
+            },
+            {
+                "icon": "screenshot",
+                "name": "screenshot"
+            },
+            {
+                "icon": "git-branch",
+                "name": "git-branch"
+            },
+            {
+                "icon": "menu-alt-left",
+                "name": "menu-alt-left"
+            },
+            {
+                "icon": "bold",
+                "name": "bold"
+            },
+            {
+                "icon": "downvote",
+                "name": "downvote"
+            },
+            {
+                "icon": "sad",
+                "name": "sad"
+            },
+            {
+                "icon": "send",
+                "name": "send"
+            },
+            {
+                "icon": "dizzy",
+                "name": "dizzy"
+            },
+            {
+                "icon": "rewind",
+                "name": "rewind"
+            },
+            {
+                "icon": "up-arrow-circle",
+                "name": "up-arrow-circle"
+            },
+            {
+                "icon": "bullseye",
+                "name": "bullseye"
+            },
+            {
+                "icon": "basketball",
+                "name": "basketball"
+            },
+            {
+                "icon": "accessibility",
+                "name": "accessibility"
+            },
+            {
+                "icon": "female",
+                "name": "female"
+            },
+            {
+                "icon": "bell-off",
+                "name": "bell-off"
+            },
+            {
+                "icon": "street-view",
+                "name": "street-view"
+            },
+            {
+                "icon": "crosshair",
+                "name": "crosshair"
+            },
+            {
+                "icon": "smile",
+                "name": "smile"
+            },
+            {
+                "icon": "landscape",
+                "name": "landscape"
+            },
+            {
+                "icon": "calendar-minus",
+                "name": "calendar-minus"
+            },
+            {
+                "icon": "happy-heart-eyes",
+                "name": "happy-heart-eyes"
+            },
+            {
+                "icon": "dish",
+                "name": "dish"
+            },
+            {
+                "icon": "right-indent",
+                "name": "right-indent"
+            },
+            {
+                "icon": "shocked",
+                "name": "shocked"
+            },
+            {
+                "icon": "fullscreen",
+                "name": "fullscreen"
+            },
+            {
+                "icon": "wifi-off",
+                "name": "wifi-off"
+            },
+            {
+                "icon": "speaker",
+                "name": "speaker"
+            },
+            {
+                "icon": "gift",
+                "name": "gift"
+            },
+            {
+                "icon": "shekel",
+                "name": "shekel"
+            },
+            {
+                "icon": "chevrons-down",
+                "name": "chevrons-down"
+            },
+            {
+                "icon": "registered",
+                "name": "registered"
+            },
+            {
+                "icon": "collapse-vertical",
+                "name": "collapse-vertical"
+            },
+            {
+                "icon": "toggle-left",
+                "name": "toggle-left"
+            },
+            {
+                "icon": "left-top-arrow-circle",
+                "name": "left-top-arrow-circle"
+            },
+            {
+                "icon": "compass",
+                "name": "compass"
+            },
+            {
+                "icon": "dna",
+                "name": "dna"
+            },
+            {
+                "icon": "ruble",
+                "name": "ruble"
+            },
+            {
+                "icon": "droplet",
+                "name": "droplet"
+            },
+            {
+                "icon": "gas-pump",
+                "name": "gas-pump"
+            },
+            {
+                "icon": "bolt-circle",
+                "name": "bolt-circle"
+            },
+            {
+                "icon": "play",
+                "name": "play"
+            },
+            {
+                "icon": "tone",
+                "name": "tone"
+            },
+            {
+                "icon": "phone-off",
+                "name": "phone-off"
+            },
+            {
+                "icon": "dots-vertical",
+                "name": "dots-vertical"
+            },
+            {
+                "icon": "checkbox-square",
+                "name": "checkbox-square"
+            },
+            {
+                "icon": "sort-z-a",
+                "name": "sort-z-a"
+            },
+            {
+                "icon": "show",
+                "name": "show"
+            },
+            {
+                "icon": "meh-blank",
+                "name": "meh-blank"
+            },
+            {
+                "icon": "happy-beaming",
+                "name": "happy-beaming"
+            },
+            {
+                "icon": "filter-alt",
+                "name": "filter-alt"
+            },
+            {
+                "icon": "border-bottom",
+                "name": "border-bottom"
+            },
+            {
+                "icon": "bar-chart-alt-2",
+                "name": "bar-chart-alt-2"
+            },
+            {
+                "icon": "run",
+                "name": "run"
+            },
+            {
+                "icon": "cool",
+                "name": "cool"
+            },
+            {
+                "icon": "square",
+                "name": "square"
+            },
+            {
+                "icon": "chevrons-left",
+                "name": "chevrons-left"
+            },
+            {
+                "icon": "camera-off",
+                "name": "camera-off"
+            },
+            {
+                "icon": "minus-circle",
+                "name": "minus-circle"
+            },
+            {
+                "icon": "chevrons-right",
+                "name": "chevrons-right"
+            },
+            {
+                "icon": "zoom-in",
+                "name": "zoom-in"
+            },
+            {
+                "icon": "calendar-x",
+                "name": "calendar-x"
+            },
+            {
+                "icon": "customize",
+                "name": "customize"
+            },
+            {
+                "icon": "mouse-alt",
+                "name": "mouse-alt"
+            },
+            {
+                "icon": "collapse-horizontal",
+                "name": "collapse-horizontal"
+            },
+            {
+                "icon": "grid",
+                "name": "grid"
+            },
+            {
+                "icon": "vertical-center",
+                "name": "vertical-center"
+            },
+            {
+                "icon": "time",
+                "name": "time"
+            },
+            {
+                "icon": "chevron-up",
+                "name": "chevron-up"
+            },
+            {
+                "icon": "transfer-alt",
+                "name": "transfer-alt"
+            },
+            {
+                "icon": "align-left",
+                "name": "align-left"
+            },
+            {
+                "icon": "time-five",
+                "name": "time-five"
+            },
+            {
+                "icon": "left-arrow-circle",
+                "name": "left-arrow-circle"
+            },
+            {
+                "icon": "bug-alt",
+                "name": "bug-alt"
+            },
+            {
+                "icon": "data",
+                "name": "data"
+            },
+            {
+                "icon": "image-alt",
+                "name": "image-alt"
+            },
+            {
+                "icon": "microphone",
+                "name": "microphone"
+            },
+            {
+                "icon": "checkbox",
+                "name": "checkbox"
+            },
+            {
+                "icon": "calendar-check",
+                "name": "calendar-check"
+            },
+            {
+                "icon": "border-top",
+                "name": "border-top"
+            },
+            {
+                "icon": "question-mark",
+                "name": "question-mark"
+            },
+            {
+                "icon": "exit-fullscreen",
+                "name": "exit-fullscreen"
+            },
+            {
+                "icon": "book-content",
+                "name": "book-content"
+            },
+            {
+                "icon": "shape-square",
+                "name": "shape-square"
+            },
+            {
+                "icon": "shape-circle",
+                "name": "shape-circle"
+            },
+            {
+                "icon": "euro",
+                "name": "euro"
+            },
+            {
+                "icon": "basket",
+                "name": "basket"
+            },
+            {
+                "icon": "dollar",
+                "name": "dollar"
+            },
+            {
+                "icon": "plus-circle",
+                "name": "plus-circle"
+            },
+            {
+                "icon": "memory-card",
+                "name": "memory-card"
+            },
+            {
+                "icon": "play-circle",
+                "name": "play-circle"
+            },
+            {
+                "icon": "log-out-circle",
+                "name": "log-out-circle"
+            },
+            {
+                "icon": "cloud-download",
+                "name": "cloud-download"
+            },
+            {
+                "icon": "skip-next",
+                "name": "skip-next"
+            },
+            {
+                "icon": "bitcoin",
+                "name": "bitcoin"
+            },
+            {
+                "icon": "sort-a-z",
+                "name": "sort-a-z"
+            },
+            {
+                "icon": "briefcase",
+                "name": "briefcase"
+            },
+            {
+                "icon": "right-top-arrow-circle",
+                "name": "right-top-arrow-circle"
+            },
+            {
+                "icon": "left-arrow-alt",
+                "name": "left-arrow-alt"
+            },
+            {
+                "icon": "bell-plus",
+                "name": "bell-plus"
+            },
+            {
+                "icon": "angry",
+                "name": "angry"
+            },
+            {
+                "icon": "printer",
+                "name": "printer"
+            },
+            {
+                "icon": "dots-horizontal",
+                "name": "dots-horizontal"
+            },
+            {
+                "icon": "terminal",
+                "name": "terminal"
+            },
+            {
+                "icon": "book-bookmark",
+                "name": "book-bookmark"
+            },
+            {
+                "icon": "briefcase-alt-2",
+                "name": "briefcase-alt-2"
+            },
+            {
+                "icon": "fridge",
+                "name": "fridge"
+            },
+            {
+                "icon": "buildings",
+                "name": "buildings"
+            },
+            {
+                "icon": "video-recording",
+                "name": "video-recording"
+            },
+            {
+                "icon": "math",
+                "name": "math"
+            },
+            {
+                "icon": "male-female",
+                "name": "male-female"
+            },
+            {
+                "icon": "popsicle",
+                "name": "popsicle"
+            },
+            {
+                "icon": "circle-half",
+                "name": "circle-half"
+            },
+            {
+                "icon": "home-alt-2",
+                "name": "home-alt-2"
+            },
+            {
+                "icon": "cheese",
+                "name": "cheese"
+            },
+            {
+                "icon": "circle-quarter",
+                "name": "circle-quarter"
+            },
+            {
+                "icon": "baguette",
+                "name": "baguette"
+            },
+            {
+                "icon": "bowl-rice",
+                "name": "bowl-rice"
+            },
+            {
+                "icon": "pie-chart-alt-2",
+                "name": "pie-chart-alt-2"
+            },
+            {
+                "icon": "wallet-alt",
+                "name": "wallet-alt"
+            },
+            {
+                "icon": "reset",
+                "name": "reset"
+            },
+            {
+                "icon": "dots-vertical-rounded",
+                "name": "dots-vertical-rounded"
+            },
+            {
+                "icon": "mobile-landscape",
+                "name": "mobile-landscape"
+            },
+            {
+                "icon": "toggle-right",
+                "name": "toggle-right"
+            },
+            {
+                "icon": "message-alt",
+                "name": "message-alt"
+            },
+            {
+                "icon": "bookmark-minus",
+                "name": "bookmark-minus"
+            },
+            {
+                "icon": "border-right",
+                "name": "border-right"
+            },
+            {
+                "icon": "tired",
+                "name": "tired"
+            },
+            {
+                "icon": "envelope",
+                "name": "envelope"
+            },
+            {
+                "icon": "key",
+                "name": "key"
+            },
+            {
+                "icon": "border-all",
+                "name": "border-all"
+            },
+            {
+                "icon": "radio-circle",
+                "name": "radio-circle"
+            },
+            {
+                "icon": "captions",
+                "name": "captions"
+            },
+            {
+                "icon": "slideshow",
+                "name": "slideshow"
+            },
+            {
+                "icon": "cycling",
+                "name": "cycling"
+            },
+            {
+                "icon": "hive",
+                "name": "hive"
+            },
+            {
+                "icon": "video",
+                "name": "video"
+            },
+            {
+                "icon": "upside-down",
+                "name": "upside-down"
+            },
+            {
+                "icon": "mobile-vibration",
+                "name": "mobile-vibration"
+            },
+            {
+                "icon": "bar-chart-square",
+                "name": "bar-chart-square"
+            },
+            {
+                "icon": "clinic",
+                "name": "clinic"
+            },
+            {
+                "icon": "square-rounded",
+                "name": "square-rounded"
+            },
+            {
+                "icon": "arrow-back",
+                "name": "arrow-back"
+            },
+            {
+                "icon": "image-add",
+                "name": "image-add"
+            },
+            {
+                "icon": "checkbox-checked",
+                "name": "checkbox-checked"
+            },
+            {
+                "icon": "download",
+                "name": "download"
+            },
+            {
+                "icon": "bar-chart-alt",
+                "name": "bar-chart-alt"
+            },
+            {
+                "icon": "lock-open-alt",
+                "name": "lock-open-alt"
+            },
+            {
+                "icon": "message-rounded-dots",
+                "name": "message-rounded-dots"
+            },
+            {
+                "icon": "chevron-left",
+                "name": "chevron-left"
+            },
+            {
+                "icon": "copy-alt",
+                "name": "copy-alt"
+            },
+            {
+                "icon": "bar-chart",
+                "name": "bar-chart"
+            },
+            {
+                "icon": "bluetooth",
+                "name": "bluetooth"
+            },
+            {
+                "icon": "signal-1",
+                "name": "signal-1"
+            },
+            {
+                "icon": "no-signal",
+                "name": "no-signal"
+            },
+            {
+                "icon": "reflect-vertical",
+                "name": "reflect-vertical"
+            },
+            {
+                "icon": "cart-add",
+                "name": "cart-add"
+            },
+            {
+                "icon": "building",
+                "name": "building"
+            },
+            {
+                "icon": "paint-roll",
+                "name": "paint-roll"
+            },
+            {
+                "icon": "extension",
+                "name": "extension"
+            },
+            {
+                "icon": "archive",
+                "name": "archive"
+            },
+            {
+                "icon": "expand-horizontal",
+                "name": "expand-horizontal"
+            },
+            {
+                "icon": "bowl-hot",
+                "name": "bowl-hot"
+            },
+            {
+                "icon": "lemon",
+                "name": "lemon"
+            },
+            {
+                "icon": "qr-scan",
+                "name": "qr-scan"
+            },
+            {
+                "icon": "signal-4",
+                "name": "signal-4"
+            },
+            {
+                "icon": "signal-2",
+                "name": "signal-2"
+            },
+            {
+                "icon": "signal-3",
+                "name": "signal-3"
+            },
+            {
+                "icon": "signal-5",
+                "name": "signal-5"
+            },
+            {
+                "icon": "desktop",
+                "name": "desktop"
+            },
+            {
+                "icon": "code-alt",
+                "name": "code-alt"
+            },
+            {
+                "icon": "pound",
+                "name": "pound"
+            },
+            {
+                "icon": "right-arrow-alt",
+                "name": "right-arrow-alt"
+            },
+            {
+                "icon": "comment-dots",
+                "name": "comment-dots"
+            },
+            {
+                "icon": "comment",
+                "name": "comment"
+            },
+            {
+                "icon": "credit-card-alt",
+                "name": "credit-card-alt"
+            },
+            {
+                "icon": "archive-in",
+                "name": "archive-in"
+            },
+            {
+                "icon": "border-left",
+                "name": "border-left"
+            },
+            {
+                "icon": "rectangle",
+                "name": "rectangle"
+            },
+            {
+                "icon": "stop-circle",
+                "name": "stop-circle"
+            },
+            {
+                "icon": "ghost",
+                "name": "ghost"
+            },
+            {
+                "icon": "volume-full",
+                "name": "volume-full"
+            },
+            {
+                "icon": "calendar",
+                "name": "calendar"
+            },
+            {
+                "icon": "moon",
+                "name": "moon"
+            },
+            {
+                "icon": "check-shield",
+                "name": "check-shield"
+            },
+            {
+                "icon": "first-page",
+                "name": "first-page"
+            },
+            {
+                "icon": "folder-plus",
+                "name": "folder-plus"
+            },
+            {
+                "icon": "book",
+                "name": "book"
+            },
+            {
+                "icon": "laugh",
+                "name": "laugh"
+            },
+            {
+                "icon": "left-indent",
+                "name": "left-indent"
+            },
+            {
+                "icon": "plus-medical",
+                "name": "plus-medical"
+            },
+            {
+                "icon": "edit-alt",
+                "name": "edit-alt"
+            },
+            {
+                "icon": "cylinder",
+                "name": "cylinder"
+            },
+            {
+                "icon": "cube-alt",
+                "name": "cube-alt"
+            },
+            {
+                "icon": "align-right",
+                "name": "align-right"
+            },
+            {
+                "icon": "checkbox-minus",
+                "name": "checkbox-minus"
+            },
+            {
+                "icon": "leaf",
+                "name": "leaf"
+            },
+            {
+                "icon": "trending-up",
+                "name": "trending-up"
+            },
+            {
+                "icon": "brightness",
+                "name": "brightness"
+            },
+            {
+                "icon": "dots-horizontal-rounded",
+                "name": "dots-horizontal-rounded"
+            },
+            {
+                "icon": "yen",
+                "name": "yen"
+            },
+            {
+                "icon": "add-to-queue",
+                "name": "add-to-queue"
+            },
+            {
+                "icon": "bookmarks",
+                "name": "bookmarks"
+            },
+            {
+                "icon": "candles",
+                "name": "candles"
+            },
+            {
+                "icon": "cross",
+                "name": "cross"
+            },
+            {
+                "icon": "circle-three-quarter",
+                "name": "circle-three-quarter"
+            },
+            {
+                "icon": "fork",
+                "name": "fork"
+            },
+            {
+                "icon": "lira",
+                "name": "lira"
+            },
+            {
+                "icon": "x-circle",
+                "name": "x-circle"
+            },
+            {
+                "icon": "bell",
+                "name": "bell"
+            },
+            {
+                "icon": "hide",
+                "name": "hide"
+            },
+            {
+                "icon": "notepad",
+                "name": "notepad"
+            },
+            {
+                "icon": "down-arrow-circle",
+                "name": "down-arrow-circle"
+            },
+            {
+                "icon": "volume-low",
+                "name": "volume-low"
+            },
+            {
+                "icon": "space-bar",
+                "name": "space-bar"
+            },
+            {
+                "icon": "up-arrow-alt",
+                "name": "up-arrow-alt"
+            },
+            {
+                "icon": "qr",
+                "name": "qr"
+            },
+            {
+                "icon": "directions",
+                "name": "directions"
+            },
+            {
+                "icon": "cuboid",
+                "name": "cuboid"
+            },
+            {
+                "icon": "buoy",
+                "name": "buoy"
+            },
+            {
+                "icon": "fast-forward",
+                "name": "fast-forward"
+            },
+            {
+                "icon": "copyright",
+                "name": "copyright"
+            },
+            {
+                "icon": "female-sign",
+                "name": "female-sign"
+            },
+            {
+                "icon": "file-find",
+                "name": "file-find"
+            },
+            {
+                "icon": "skip-previous",
+                "name": "skip-previous"
+            },
+            {
+                "icon": "message-alt-dots",
+                "name": "message-alt-dots"
+            },
+            {
+                "icon": "health",
+                "name": "health"
+            },
+            {
+                "icon": "exit",
+                "name": "exit"
+            },
+            {
+                "icon": "chart",
+                "name": "chart"
+            },
+            {
+                "icon": "copy",
+                "name": "copy"
+            },
+            {
+                "icon": "message-dots",
+                "name": "message-dots"
+            },
+            {
+                "icon": "book-open",
+                "name": "book-open"
+            },
+            {
+                "icon": "clipboard",
+                "name": "clipboard"
+            },
+            {
+                "icon": "polygon",
+                "name": "polygon"
+            },
+            {
+                "icon": "calendar-plus",
+                "name": "calendar-plus"
+            },
+            {
+                "icon": "last-page",
+                "name": "last-page"
+            },
+            {
+                "icon": "coffee",
+                "name": "coffee"
+            },
+            {
+                "icon": "archive-out",
+                "name": "archive-out"
+            },
+            {
+                "icon": "bulb",
+                "name": "bulb"
+            },
+            {
+                "icon": "bookmark",
+                "name": "bookmark"
+            },
+            {
+                "icon": "cloud-upload",
+                "name": "cloud-upload"
+            },
+            {
+                "icon": "male",
+                "name": "male"
+            },
+            {
+                "icon": "mail-send",
+                "name": "mail-send"
+            },
+            {
+                "icon": "chat",
+                "name": "chat"
+            },
+            {
+                "icon": "podcast",
+                "name": "podcast"
+            },
+            {
+                "icon": "party",
+                "name": "party"
+            },
+            {
+                "icon": "money-withdraw",
+                "name": "money-withdraw"
+            },
+            {
+                "icon": "hard-hat",
+                "name": "hard-hat"
+            },
+            {
+                "icon": "reflect-horizontal",
+                "name": "reflect-horizontal"
+            },
+            {
+                "icon": "bell-minus",
+                "name": "bell-minus"
+            },
+            {
+                "icon": "lock-alt",
+                "name": "lock-alt"
+            },
+            {
+                "icon": "doughnut-chart",
+                "name": "doughnut-chart"
+            },
+            {
+                "icon": "wink-smile",
+                "name": "wink-smile"
+            },
+            {
+                "icon": "align-middle",
+                "name": "align-middle"
+            },
+            {
+                "icon": "cloud",
+                "name": "cloud"
+            },
+            {
+                "icon": "label",
+                "name": "label"
+            },
+            {
+                "icon": "band-aid",
+                "name": "band-aid"
+            },
+            {
+                "icon": "food-tag",
+                "name": "food-tag"
+            },
+            {
+                "icon": "user-voice",
+                "name": "user-voice"
+            },
+            {
+                "icon": "camera",
+                "name": "camera"
+            },
+            {
+                "icon": "log-in-circle",
+                "name": "log-in-circle"
+            },
+            {
+                "icon": "cake",
+                "name": "cake"
+            },
+            {
+                "icon": "volume-mute",
+                "name": "volume-mute"
+            },
+            {
+                "icon": "male-sign",
+                "name": "male-sign"
+            },
+            {
+                "icon": "check-square",
+                "name": "check-square"
+            },
+            {
+                "icon": "rupee",
+                "name": "rupee"
+            },
+            {
+                "icon": "at",
+                "name": "at"
+            },
+            {
+                "icon": "map-pin",
+                "name": "map-pin"
+            },
+            {
+                "icon": "zoom-out",
+                "name": "zoom-out"
+            },
+            {
+                "icon": "stopwatch",
+                "name": "stopwatch"
+            },
+            {
+                "icon": "folder-minus",
+                "name": "folder-minus"
+            },
+            {
+                "icon": "purchase-tag-alt",
+                "name": "purchase-tag-alt"
+            },
+            {
+                "icon": "shape-triangle",
+                "name": "shape-triangle"
+            },
+            {
+                "icon": "right-down-arrow-circle",
+                "name": "right-down-arrow-circle"
+            },
+            {
+                "icon": "brightness-half",
+                "name": "brightness-half"
+            },
+            {
+                "icon": "message-square-dots",
+                "name": "message-square-dots"
+            },
+            {
+                "icon": "receipt",
+                "name": "receipt"
+            },
+            {
+                "icon": "collapse-alt",
+                "name": "collapse-alt"
+            },
+            {
+                "icon": "chevron-right",
+                "name": "chevron-right"
+            },
+            {
+                "icon": "stop",
+                "name": "stop"
+            },
+            {
+                "icon": "devices",
+                "name": "devices"
+            },
+            {
+                "icon": "block",
+                "name": "block"
+            },
+            {
+                "icon": "alarm-add",
+                "name": "alarm-add"
+            },
+            {
+                "icon": "folder",
+                "name": "folder"
+            },
+            {
+                "icon": "pause",
+                "name": "pause"
+            },
+            {
+                "icon": "menu",
+                "name": "menu"
+            },
+            {
+                "icon": "food-menu",
+                "name": "food-menu"
+            },
+            {
+                "icon": "diamond",
+                "name": "diamond"
+            },
+            {
+                "icon": "building-house",
+                "name": "building-house"
+            },
+            {
+                "icon": "won",
+                "name": "won"
+            },
+            {
+                "icon": "spa",
+                "name": "spa"
+            },
+            {
+                "icon": "scatter-chart",
+                "name": "scatter-chart"
+            },
+            {
+                "icon": "cricket-ball",
+                "name": "cricket-ball"
+            },
+            {
+                "icon": "message-square",
+                "name": "message-square"
+            },
+            {
+                "icon": "search",
+                "name": "search"
+            },
+            {
+                "icon": "left-down-arrow-circle",
+                "name": "left-down-arrow-circle"
+            },
+            {
+                "icon": "error",
+                "name": "error"
+            },
+            {
+                "icon": "code-curly",
+                "name": "code-curly"
+            },
+            {
+                "icon": "trending-down",
+                "name": "trending-down"
+            },
+            {
+                "icon": "user-pin",
+                "name": "user-pin"
+            },
+            {
+                "icon": "info-circle",
+                "name": "info-circle"
+            },
+            {
+                "icon": "pause-circle",
+                "name": "pause-circle"
+            },
+            {
+                "icon": "wink-tongue",
+                "name": "wink-tongue"
+            },
+            {
+                "icon": "bowling-ball",
+                "name": "bowling-ball"
+            },
+            {
+                "icon": "face",
+                "name": "face"
+            },
+            {
+                "icon": "brush-alt",
+                "name": "brush-alt"
+            },
+            {
+                "icon": "bug",
+                "name": "bug"
+            },
+            {
+                "icon": "chevrons-up",
+                "name": "chevrons-up"
+            },
+            {
+                "icon": "palette",
+                "name": "palette"
+            },
+            {
+                "icon": "border-radius",
+                "name": "border-radius"
+            },
+            {
+                "icon": "search-alt-2",
+                "name": "search-alt-2"
+            },
+            {
+                "icon": "code",
+                "name": "code"
+            },
+            {
+                "icon": "volume",
+                "name": "volume"
+            },
+            {
+                "icon": "conversation",
+                "name": "conversation"
+            },
+            {
+                "icon": "no-entry",
+                "name": "no-entry"
+            },
+            {
+                "icon": "broadcast",
+                "name": "broadcast"
+            },
+            {
+                "icon": "sync",
+                "name": "sync"
+            },
+            {
+                "icon": "meh-alt",
+                "name": "meh-alt"
+            },
+            {
+                "icon": "store-alt",
+                "name": "store-alt"
+            },
+            {
+                "icon": "align-justify",
+                "name": "align-justify"
+            },
+            {
+                "icon": "chevron-down",
+                "name": "chevron-down"
+            },
+            {
+                "icon": "fast-forward-circle",
+                "name": "fast-forward-circle"
+            },
+            {
+                "icon": "error-alt",
+                "name": "error-alt"
+            },
+            {
+                "icon": "right-arrow-circle",
+                "name": "right-arrow-circle"
+            },
+            {
+                "icon": "pyramid",
+                "name": "pyramid"
+            },
+            {
+                "icon": "rss",
+                "name": "rss"
+            },
+            {
+                "icon": "dialpad-alt",
+                "name": "dialpad-alt"
+            },
+            {
+                "icon": "confused",
+                "name": "confused"
+            },
+            {
+                "icon": "bookmark-plus",
+                "name": "bookmark-plus"
+            },
+            {
+                "icon": "radio",
+                "name": "radio"
+            },
+            {
+                "icon": "image",
+                "name": "image"
+            },
+            {
+                "icon": "radio-circle-marked",
+                "name": "radio-circle-marked"
+            },
+            {
+                "icon": "happy-alt",
+                "name": "happy-alt"
+            },
+            {
+                "icon": "sleepy",
+                "name": "sleepy"
+            },
+            {
+                "icon": "line-chart",
+                "name": "line-chart"
+            },
+            {
+                "icon": "down-arrow-alt",
+                "name": "down-arrow-alt"
+            },
+            {
+                "icon": "error-circle",
+                "name": "error-circle"
+            },
+            {
+                "icon": "shield-alt-2",
+                "name": "shield-alt-2"
+            },
+            {
+                "icon": "expand-vertical",
+                "name": "expand-vertical"
+            },
+            {
+                "icon": "injection",
+                "name": "injection"
+            },
+            {
+                "icon": "cable-car",
+                "name": "cable-car"
+            },
+            {
+                "icon": "knife",
+                "name": "knife"
+            },
+            {
+                "icon": "cart-download",
+                "name": "cart-download"
+            },
+            {
+                "icon": "color",
+                "name": "color"
+            },
+            {
+                "icon": "objects-horizontal-left",
+                "name": "objects-horizontal-left"
+            },
+            {
+                "icon": "objects-horizontal-right",
+                "name": "objects-horizontal-right"
+            },
+            {
+                "icon": "vertical-top",
+                "name": "vertical-top"
+            },
+            {
+                "icon": "shield-plus",
+                "name": "shield-plus"
+            },
+            {
+                "icon": "objects-horizontal-center",
+                "name": "objects-horizontal-center"
+            },
+            {
+                "icon": "objects-vertical-top",
+                "name": "objects-vertical-top"
+            },
+            {
+                "icon": "horizontal-right",
+                "name": "horizontal-right"
+            },
+            {
+                "icon": "shield-minus",
+                "name": "shield-minus"
+            },
+            {
+                "icon": "objects-vertical-bottom",
+                "name": "objects-vertical-bottom"
+            },
+            {
+                "icon": "rfid",
+                "name": "rfid"
+            },
+            {
+                "icon": "child",
+                "name": "child"
+            },
+            {
+                "icon": "objects-vertical-center",
+                "name": "objects-vertical-center"
+            },
+            {
+                "icon": "horizontal-left",
+                "name": "horizontal-left"
+            },
+            {
+                "icon": "vertical-bottom",
+                "name": "vertical-bottom"
+            },
+            {
+                "icon": "universal-access",
+                "name": "universal-access"
+            },
+            {
+                "icon": "shower",
+                "name": "shower"
+            },
+            {
+                "icon": "sushi",
+                "name": "sushi"
+            }
+        ]
+    },
+    {
+        "type": "logos",
+        "selector": "bx bxl-",
+        "list": [
+            {
+                "icon": "kubernetes",
+                "name": "kubernetes"
+            },
+            {
+                "icon": "dev-to",
+                "name": "dev-to"
+            },
+            {
+                "icon": "product-hunt",
+                "name": "product-hunt"
+            },
+            {
+                "icon": "airbnb",
+                "name": "airbnb"
+            },
+            {
+                "icon": "c-plus-plus",
+                "name": "c-plus-plus"
+            },
+            {
+                "icon": "markdown",
+                "name": "markdown"
+            },
+            {
+                "icon": "stack-overflow",
+                "name": "stack-overflow"
+            },
+            {
+                "icon": "foursquare",
+                "name": "foursquare"
+            },
+            {
+                "icon": "javascript",
+                "name": "javascript"
+            },
+            {
+                "icon": "joomla",
+                "name": "joomla"
+            },
+            {
+                "icon": "snapchat",
+                "name": "snapchat"
+            },
+            {
+                "icon": "medium-old",
+                "name": "medium-old"
+            },
+            {
+                "icon": "jsfiddle",
+                "name": "jsfiddle"
+            },
+            {
+                "icon": "kickstarter",
+                "name": "kickstarter"
+            },
+            {
+                "icon": "spring-boot",
+                "name": "spring-boot"
+            },
+            {
+                "icon": "bootstrap",
+                "name": "bootstrap"
+            },
+            {
+                "icon": "flickr",
+                "name": "flickr"
+            },
+            {
+                "icon": "wordpress",
+                "name": "wordpress"
+            },
+            {
+                "icon": "python",
+                "name": "python"
+            },
+            {
+                "icon": "baidu",
+                "name": "baidu"
+            },
+            {
+                "icon": "stripe",
+                "name": "stripe"
+            },
+            {
+                "icon": "microsoft",
+                "name": "microsoft"
+            },
+            {
+                "icon": "digg",
+                "name": "digg"
+            },
+            {
+                "icon": "redux",
+                "name": "redux"
+            },
+            {
+                "icon": "angular",
+                "name": "angular"
+            },
+            {
+                "icon": "whatsapp-square",
+                "name": "whatsapp-square"
+            },
+            {
+                "icon": "react",
+                "name": "react"
+            },
+            {
+                "icon": "django",
+                "name": "django"
+            },
+            {
+                "icon": "squarespace",
+                "name": "squarespace"
+            },
+            {
+                "icon": "ebay",
+                "name": "ebay"
+            },
+            {
+                "icon": "paypal",
+                "name": "paypal"
+            },
+            {
+                "icon": "windows",
+                "name": "windows"
+            },
+            {
+                "icon": "bitcoin",
+                "name": "bitcoin"
+            },
+            {
+                "icon": "zoom",
+                "name": "zoom"
+            },
+            {
+                "icon": "drupal",
+                "name": "drupal"
+            },
+            {
+                "icon": "microsoft-teams",
+                "name": "microsoft-teams"
+            },
+            {
+                "icon": "firebase",
+                "name": "firebase"
+            },
+            {
+                "icon": "spotify",
+                "name": "spotify"
+            },
+            {
+                "icon": "deviantart",
+                "name": "deviantart"
+            },
+            {
+                "icon": "magento",
+                "name": "magento"
+            },
+            {
+                "icon": "instagram",
+                "name": "instagram"
+            },
+            {
+                "icon": "medium-square",
+                "name": "medium-square"
+            },
+            {
+                "icon": "slack",
+                "name": "slack"
+            },
+            {
+                "icon": "play-store",
+                "name": "play-store"
+            },
+            {
+                "icon": "mastercard",
+                "name": "mastercard"
+            },
+            {
+                "icon": "android",
+                "name": "android"
+            },
+            {
+                "icon": "skype",
+                "name": "skype"
+            },
+            {
+                "icon": "vimeo",
+                "name": "vimeo"
+            },
+            {
+                "icon": "blogger",
+                "name": "blogger"
+            },
+            {
+                "icon": "discord",
+                "name": "discord"
+            },
+            {
+                "icon": "facebook-square",
+                "name": "facebook-square"
+            },
+            {
+                "icon": "medium",
+                "name": "medium"
+            },
+            {
+                "icon": "yelp",
+                "name": "yelp"
+            },
+            {
+                "icon": "discourse",
+                "name": "discourse"
+            },
+            {
+                "icon": "internet-explorer",
+                "name": "internet-explorer"
+            },
+            {
+                "icon": "yahoo",
+                "name": "yahoo"
+            },
+            {
+                "icon": "firefox",
+                "name": "firefox"
+            },
+            {
+                "icon": "visa",
+                "name": "visa"
+            },
+            {
+                "icon": "quora",
+                "name": "quora"
+            },
+            {
+                "icon": "bing",
+                "name": "bing"
+            },
+            {
+                "icon": "shopify",
+                "name": "shopify"
+            },
+            {
+                "icon": "vk",
+                "name": "vk"
+            },
+            {
+                "icon": "apple",
+                "name": "apple"
+            },
+            {
+                "icon": "behance",
+                "name": "behance"
+            },
+            {
+                "icon": "twitch",
+                "name": "twitch"
+            },
+            {
+                "icon": "edge",
+                "name": "edge"
+            },
+            {
+                "icon": "opera",
+                "name": "opera"
+            },
+            {
+                "icon": "unsplash",
+                "name": "unsplash"
+            },
+            {
+                "icon": "500px",
+                "name": "500px"
+            },
+            {
+                "icon": "nodejs",
+                "name": "nodejs"
+            },
+            {
+                "icon": "digitalocean",
+                "name": "digitalocean"
+            },
+            {
+                "icon": "less",
+                "name": "less"
+            },
+            {
+                "icon": "periscope",
+                "name": "periscope"
+            },
+            {
+                "icon": "google",
+                "name": "google"
+            },
+            {
+                "icon": "git",
+                "name": "git"
+            },
+            {
+                "icon": "creative-commons",
+                "name": "creative-commons"
+            },
+            {
+                "icon": "ok-ru",
+                "name": "ok-ru"
+            },
+            {
+                "icon": "amazon",
+                "name": "amazon"
+            },
+            {
+                "icon": "blender",
+                "name": "blender"
+            },
+            {
+                "icon": "soundcloud",
+                "name": "soundcloud"
+            },
+            {
+                "icon": "codepen",
+                "name": "codepen"
+            },
+            {
+                "icon": "flickr-square",
+                "name": "flickr-square"
+            },
+            {
+                "icon": "wikipedia",
+                "name": "wikipedia"
+            },
+            {
+                "icon": "mailchimp",
+                "name": "mailchimp"
+            },
+            {
+                "icon": "tumblr",
+                "name": "tumblr"
+            },
+            {
+                "icon": "messenger",
+                "name": "messenger"
+            },
+            {
+                "icon": "pinterest",
+                "name": "pinterest"
+            },
+            {
+                "icon": "dropbox",
+                "name": "dropbox"
+            },
+            {
+                "icon": "google-cloud",
+                "name": "google-cloud"
+            },
+            {
+                "icon": "telegram",
+                "name": "telegram"
+            },
+            {
+                "icon": "tux",
+                "name": "tux"
+            },
+            {
+                "icon": "vuejs",
+                "name": "vuejs"
+            },
+            {
+                "icon": "chrome",
+                "name": "chrome"
+            },
+            {
+                "icon": "trello",
+                "name": "trello"
+            },
+            {
+                "icon": "wix",
+                "name": "wix"
+            },
+            {
+                "icon": "sass",
+                "name": "sass"
+            },
+            {
+                "icon": "invision",
+                "name": "invision"
+            },
+            {
+                "icon": "html5",
+                "name": "html5"
+            },
+            {
+                "icon": "css3",
+                "name": "css3"
+            },
+            {
+                "icon": "dailymotion",
+                "name": "dailymotion"
+            },
+            {
+                "icon": "linkedin",
+                "name": "linkedin"
+            },
+            {
+                "icon": "google-plus-circle",
+                "name": "google-plus-circle"
+            },
+            {
+                "icon": "whatsapp",
+                "name": "whatsapp"
+            },
+            {
+                "icon": "dribbble",
+                "name": "dribbble"
+            },
+            {
+                "icon": "facebook",
+                "name": "facebook"
+            },
+            {
+                "icon": "slack-old",
+                "name": "slack-old"
+            },
+            {
+                "icon": "linkedin-square",
+                "name": "linkedin-square"
+            },
+            {
+                "icon": "google-plus",
+                "name": "google-plus"
+            },
+            {
+                "icon": "twitter",
+                "name": "twitter"
+            },
+            {
+                "icon": "github",
+                "name": "github"
+            },
+            {
+                "icon": "youtube",
+                "name": "youtube"
+            },
+            {
+                "icon": "pocket",
+                "name": "pocket"
+            },
+            {
+                "icon": "reddit",
+                "name": "reddit"
+            },
+            {
+                "icon": "mastodon",
+                "name": "mastodon"
+            },
+            {
+                "icon": "patreon",
+                "name": "patreon"
+            },
+            {
+                "icon": "upwork",
+                "name": "upwork"
+            },
+            {
+                "icon": "figma",
+                "name": "figma"
+            },
+            {
+                "icon": "99designs",
+                "name": "99designs"
+            },
+            {
+                "icon": "sketch",
+                "name": "sketch"
+            },
+            {
+                "icon": "docker",
+                "name": "docker"
+            },
+            {
+                "icon": "discord-alt",
+                "name": "discord-alt"
+            },
+            {
+                "icon": "aws",
+                "name": "aws"
+            },
+            {
+                "icon": "gmail",
+                "name": "gmail"
+            },
+            {
+                "icon": "unity",
+                "name": "unity"
+            },
+            {
+                "icon": "audible",
+                "name": "audible"
+            },
+            {
+                "icon": "jquery",
+                "name": "jquery"
+            },
+            {
+                "icon": "mongodb",
+                "name": "mongodb"
+            },
+            {
+                "icon": "postgresql",
+                "name": "postgresql"
+            },
+            {
+                "icon": "tiktok",
+                "name": "tiktok"
+            },
+            {
+                "icon": "heroku",
+                "name": "heroku"
+            },
+            {
+                "icon": "venmo",
+                "name": "venmo"
+            },
+            {
+                "icon": "java",
+                "name": "java"
+            },
+            {
+                "icon": "algolia",
+                "name": "algolia"
+            },
+            {
+                "icon": "imdb",
+                "name": "imdb"
+            },
+            {
+                "icon": "flutter",
+                "name": "flutter"
+            },
+            {
+                "icon": "go-lang",
+                "name": "go-lang"
+            },
+            {
+                "icon": "redbubble",
+                "name": "redbubble"
+            },
+            {
+                "icon": "meta",
+                "name": "meta"
+            },
+            {
+                "icon": "gitlab",
+                "name": "gitlab"
+            },
+            {
+                "icon": "steam",
+                "name": "steam"
+            },
+            {
+                "icon": "pinterest-alt",
+                "name": "pinterest-alt"
+            },
+            {
+                "icon": "instagram-alt",
+                "name": "instagram-alt"
+            },
+            {
+                "icon": "flask",
+                "name": "flask"
+            },
+            {
+                "icon": "etsy",
+                "name": "etsy"
+            },
+            {
+                "icon": "adobe",
+                "name": "adobe"
+            },
+            {
+                "icon": "visual-studio",
+                "name": "visual-studio"
+            },
+            {
+                "icon": "php",
+                "name": "php"
+            },
+            {
+                "icon": "tailwind-css",
+                "name": "tailwind-css"
+            },
+            {
+                "icon": "facebook-circle",
+                "name": "facebook-circle"
+            },
+            {
+                "icon": "trip-advisor",
+                "name": "trip-advisor"
+            },
+            {
+                "icon": "netlify",
+                "name": "netlify"
+            },
+            {
+                "icon": "deezer",
+                "name": "deezer"
+            },
+            {
+                "icon": "xing",
+                "name": "xing"
+            },
+            {
+                "icon": "graphql",
+                "name": "graphql"
+            },
+            {
+                "icon": "typescript",
+                "name": "typescript"
+            }
+        ]
+    },
+    {
+        "type": "solid",
+        "selector": "bx bxs-",
+        "list": [
+            {
+                "icon": "dice-1",
+                "name": "dice-1"
+            },
+            {
+                "icon": "camera-home",
+                "name": "camera-home"
+            },
+            {
+                "icon": "comment-edit",
+                "name": "comment-edit"
+            },
+            {
+                "icon": "coffee-alt",
+                "name": "coffee-alt"
+            },
+            {
+                "icon": "radiation",
+                "name": "radiation"
+            },
+            {
+                "icon": "piano",
+                "name": "piano"
+            },
+            {
+                "icon": "home-smile",
+                "name": "home-smile"
+            },
+            {
+                "icon": "arrow-from-right",
+                "name": "arrow-from-right"
+            },
+            {
+                "icon": "bookmark-alt-plus",
+                "name": "bookmark-alt-plus"
+            },
+            {
+                "icon": "layer-minus",
+                "name": "layer-minus"
+            },
+            {
+                "icon": "flame",
+                "name": "flame"
+            },
+            {
+                "icon": "car-mechanic",
+                "name": "car-mechanic"
+            },
+            {
+                "icon": "chevrons-up",
+                "name": "chevrons-up"
+            },
+            {
+                "icon": "caret-left-square",
+                "name": "caret-left-square"
+            },
+            {
+                "icon": "beer",
+                "name": "beer"
+            },
+            {
+                "icon": "church",
+                "name": "church"
+            },
+            {
+                "icon": "chevrons-left",
+                "name": "chevrons-left"
+            },
+            {
+                "icon": "virus",
+                "name": "virus"
+            },
+            {
+                "icon": "message-error",
+                "name": "message-error"
+            },
+            {
+                "icon": "comment-check",
+                "name": "comment-check"
+            },
+            {
+                "icon": "thermometer",
+                "name": "thermometer"
+            },
+            {
+                "icon": "directions",
+                "name": "directions"
+            },
+            {
+                "icon": "arrow-to-top",
+                "name": "arrow-to-top"
+            },
+            {
+                "icon": "pointer",
+                "name": "pointer"
+            },
+            {
+                "icon": "cart-add",
+                "name": "cart-add"
+            },
+            {
+                "icon": "cabinet",
+                "name": "cabinet"
+            },
+            {
+                "icon": "home-heart",
+                "name": "home-heart"
+            },
+            {
+                "icon": "message-alt-detail",
+                "name": "message-alt-detail"
+            },
+            {
+                "icon": "credit-card-front",
+                "name": "credit-card-front"
+            },
+            {
+                "icon": "keyboard",
+                "name": "keyboard"
+            },
+            {
+                "icon": "shapes",
+                "name": "shapes"
+            },
+            {
+                "icon": "layer-plus",
+                "name": "layer-plus"
+            },
+            {
+                "icon": "copyright",
+                "name": "copyright"
+            },
+            {
+                "icon": "chevron-down",
+                "name": "chevron-down"
+            },
+            {
+                "icon": "capsule",
+                "name": "capsule"
+            },
+            {
+                "icon": "sticker",
+                "name": "sticker"
+            },
+            {
+                "icon": "chevron-left",
+                "name": "chevron-left"
+            },
+            {
+                "icon": "cloud-lightning",
+                "name": "cloud-lightning"
+            },
+            {
+                "icon": "bone",
+                "name": "bone"
+            },
+            {
+                "icon": "vector",
+                "name": "vector"
+            },
+            {
+                "icon": "dice-4",
+                "name": "dice-4"
+            },
+            {
+                "icon": "gas-pump",
+                "name": "gas-pump"
+            },
+            {
+                "icon": "message-square-error",
+                "name": "message-square-error"
+            },
+            {
+                "icon": "message-rounded-detail",
+                "name": "message-rounded-detail"
+            },
+            {
+                "icon": "coin-stack",
+                "name": "coin-stack"
+            },
+            {
+                "icon": "guitar-amp",
+                "name": "guitar-amp"
+            },
+            {
+                "icon": "user-rectangle",
+                "name": "user-rectangle"
+            },
+            {
+                "icon": "bullseye",
+                "name": "bullseye"
+            },
+            {
+                "icon": "comment-minus",
+                "name": "comment-minus"
+            },
+            {
+                "icon": "chevron-left-square",
+                "name": "chevron-left-square"
+            },
+            {
+                "icon": "left-arrow-square",
+                "name": "left-arrow-square"
+            },
+            {
+                "icon": "chess",
+                "name": "chess"
+            },
+            {
+                "icon": "dice-5",
+                "name": "dice-5"
+            },
+            {
+                "icon": "movie-play",
+                "name": "movie-play"
+            },
+            {
+                "icon": "up-arrow-square",
+                "name": "up-arrow-square"
+            },
+            {
+                "icon": "message-square-add",
+                "name": "message-square-add"
+            },
+            {
+                "icon": "basketball",
+                "name": "basketball"
+            },
+            {
+                "icon": "message-square-minus",
+                "name": "message-square-minus"
+            },
+            {
+                "icon": "binoculars",
+                "name": "binoculars"
+            },
+            {
+                "icon": "low-vision",
+                "name": "low-vision"
+            },
+            {
+                "icon": "info-square",
+                "name": "info-square"
+            },
+            {
+                "icon": "dice-2",
+                "name": "dice-2"
+            },
+            {
+                "icon": "diamond",
+                "name": "diamond"
+            },
+            {
+                "icon": "book-alt",
+                "name": "book-alt"
+            },
+            {
+                "icon": "eraser",
+                "name": "eraser"
+            },
+            {
+                "icon": "location-plus",
+                "name": "location-plus"
+            },
+            {
+                "icon": "face-mask",
+                "name": "face-mask"
+            },
+            {
+                "icon": "chevron-down-circle",
+                "name": "chevron-down-circle"
+            },
+            {
+                "icon": "dryer",
+                "name": "dryer"
+            },
+            {
+                "icon": "category",
+                "name": "category"
+            },
+            {
+                "icon": "pencil",
+                "name": "pencil"
+            },
+            {
+                "icon": "like",
+                "name": "like"
+            },
+            {
+                "icon": "folder",
+                "name": "folder"
+            },
+            {
+                "icon": "wrench",
+                "name": "wrench"
+            },
+            {
+                "icon": "music",
+                "name": "music"
+            },
+            {
+                "icon": "inbox",
+                "name": "inbox"
+            },
+            {
+                "icon": "quote-right",
+                "name": "quote-right"
+            },
+            {
+                "icon": "zap",
+                "name": "zap"
+            },
+            {
+                "icon": "plug",
+                "name": "plug"
+            },
+            {
+                "icon": "skull",
+                "name": "skull"
+            },
+            {
+                "icon": "planet",
+                "name": "planet"
+            },
+            {
+                "icon": "user-circle",
+                "name": "user-circle"
+            },
+            {
+                "icon": "adjust",
+                "name": "adjust"
+            },
+            {
+                "icon": "cloud",
+                "name": "cloud"
+            },
+            {
+                "icon": "chart",
+                "name": "chart"
+            },
+            {
+                "icon": "terminal",
+                "name": "terminal"
+            },
+            {
+                "icon": "message-rounded",
+                "name": "message-rounded"
+            },
+            {
+                "icon": "x-square",
+                "name": "x-square"
+            },
+            {
+                "icon": "select-multiple",
+                "name": "select-multiple"
+            },
+            {
+                "icon": "lock",
+                "name": "lock"
+            },
+            {
+                "icon": "phone-incoming",
+                "name": "phone-incoming"
+            },
+            {
+                "icon": "crown",
+                "name": "crown"
+            },
+            {
+                "icon": "send",
+                "name": "send"
+            },
+            {
+                "icon": "volume",
+                "name": "volume"
+            },
+            {
+                "icon": "paste",
+                "name": "paste"
+            },
+            {
+                "icon": "folder-open",
+                "name": "folder-open"
+            },
+            {
+                "icon": "book",
+                "name": "book"
+            },
+            {
+                "icon": "rename",
+                "name": "rename"
+            },
+            {
+                "icon": "shopping-bag-alt",
+                "name": "shopping-bag-alt"
+            },
+            {
+                "icon": "up-arrow-circle",
+                "name": "up-arrow-circle"
+            },
+            {
+                "icon": "watch",
+                "name": "watch"
+            },
+            {
+                "icon": "home",
+                "name": "home"
+            },
+            {
+                "icon": "error",
+                "name": "error"
+            },
+            {
+                "icon": "filter-alt",
+                "name": "filter-alt"
+            },
+            {
+                "icon": "shield",
+                "name": "shield"
+            },
+            {
+                "icon": "cookie",
+                "name": "cookie"
+            },
+            {
+                "icon": "message-detail",
+                "name": "message-detail"
+            },
+            {
+                "icon": "game",
+                "name": "game"
+            },
+            {
+                "icon": "shield-x",
+                "name": "shield-x"
+            },
+            {
+                "icon": "caret-up-square",
+                "name": "caret-up-square"
+            },
+            {
+                "icon": "virus-block",
+                "name": "virus-block"
+            },
+            {
+                "icon": "tree",
+                "name": "tree"
+            },
+            {
+                "icon": "arch",
+                "name": "arch"
+            },
+            {
+                "icon": "ev-station",
+                "name": "ev-station"
+            },
+            {
+                "icon": "bookmark-alt",
+                "name": "bookmark-alt"
+            },
+            {
+                "icon": "chevron-right-circle",
+                "name": "chevron-right-circle"
+            },
+            {
+                "icon": "coffee-togo",
+                "name": "coffee-togo"
+            },
+            {
+                "icon": "flask",
+                "name": "flask"
+            },
+            {
+                "icon": "comment-x",
+                "name": "comment-x"
+            },
+            {
+                "icon": "chevrons-right",
+                "name": "chevrons-right"
+            },
+            {
+                "icon": "book-reader",
+                "name": "book-reader"
+            },
+            {
+                "icon": "bible",
+                "name": "bible"
+            },
+            {
+                "icon": "plane",
+                "name": "plane"
+            },
+            {
+                "icon": "camera-movie",
+                "name": "camera-movie"
+            },
+            {
+                "icon": "arrow-from-top",
+                "name": "arrow-from-top"
+            },
+            {
+                "icon": "chevron-up-square",
+                "name": "chevron-up-square"
+            },
+            {
+                "icon": "bong",
+                "name": "bong"
+            },
+            {
+                "icon": "badge-dollar",
+                "name": "badge-dollar"
+            },
+            {
+                "icon": "message-edit",
+                "name": "message-edit"
+            },
+            {
+                "icon": "key",
+                "name": "key"
+            },
+            {
+                "icon": "duplicate",
+                "name": "duplicate"
+            },
+            {
+                "icon": "layer",
+                "name": "layer"
+            },
+            {
+                "icon": "video",
+                "name": "video"
+            },
+            {
+                "icon": "camera",
+                "name": "camera"
+            },
+            {
+                "icon": "dock-right",
+                "name": "dock-right"
+            },
+            {
+                "icon": "tag",
+                "name": "tag"
+            },
+            {
+                "icon": "image",
+                "name": "image"
+            },
+            {
+                "icon": "taxi",
+                "name": "taxi"
+            },
+            {
+                "icon": "coupon",
+                "name": "coupon"
+            },
+            {
+                "icon": "conversation",
+                "name": "conversation"
+            },
+            {
+                "icon": "briefcase-alt",
+                "name": "briefcase-alt"
+            },
+            {
+                "icon": "phone-outgoing",
+                "name": "phone-outgoing"
+            },
+            {
+                "icon": "lock-open",
+                "name": "lock-open"
+            },
+            {
+                "icon": "purchase-tag",
+                "name": "purchase-tag"
+            },
+            {
+                "icon": "file-blank",
+                "name": "file-blank"
+            },
+            {
+                "icon": "bell-off",
+                "name": "bell-off"
+            },
+            {
+                "icon": "file",
+                "name": "file"
+            },
+            {
+                "icon": "bot",
+                "name": "bot"
+            },
+            {
+                "icon": "eyedropper",
+                "name": "eyedropper"
+            },
+            {
+                "icon": "playlist",
+                "name": "playlist"
+            },
+            {
+                "icon": "pen",
+                "name": "pen"
+            },
+            {
+                "icon": "archive",
+                "name": "archive"
+            },
+            {
+                "icon": "ball",
+                "name": "ball"
+            },
+            {
+                "icon": "package",
+                "name": "package"
+            },
+            {
+                "icon": "ruler",
+                "name": "ruler"
+            },
+            {
+                "icon": "heart",
+                "name": "heart"
+            },
+            {
+                "icon": "folder-plus",
+                "name": "folder-plus"
+            },
+            {
+                "icon": "map",
+                "name": "map"
+            },
+            {
+                "icon": "image-alt",
+                "name": "image-alt"
+            },
+            {
+                "icon": "building",
+                "name": "building"
+            },
+            {
+                "icon": "battery-charging",
+                "name": "battery-charging"
+            },
+            {
+                "icon": "film",
+                "name": "film"
+            },
+            {
+                "icon": "printer",
+                "name": "printer"
+            },
+            {
+                "icon": "movie",
+                "name": "movie"
+            },
+            {
+                "icon": "cog",
+                "name": "cog"
+            },
+            {
+                "icon": "file-image",
+                "name": "file-image"
+            },
+            {
+                "icon": "sun",
+                "name": "sun"
+            },
+            {
+                "icon": "book-open",
+                "name": "book-open"
+            },
+            {
+                "icon": "buoy",
+                "name": "buoy"
+            },
+            {
+                "icon": "hide",
+                "name": "hide"
+            },
+            {
+                "icon": "group",
+                "name": "group"
+            },
+            {
+                "icon": "message",
+                "name": "message"
+            },
+            {
+                "icon": "book-bookmark",
+                "name": "book-bookmark"
+            },
+            {
+                "icon": "message-square-check",
+                "name": "message-square-check"
+            },
+            {
+                "icon": "disc",
+                "name": "disc"
+            },
+            {
+                "icon": "dice-6",
+                "name": "dice-6"
+            },
+            {
+                "icon": "arrow-to-right",
+                "name": "arrow-to-right"
+            },
+            {
+                "icon": "arrow-from-left",
+                "name": "arrow-from-left"
+            },
+            {
+                "icon": "bookmark-heart",
+                "name": "bookmark-heart"
+            },
+            {
+                "icon": "car-crash",
+                "name": "car-crash"
+            },
+            {
+                "icon": "been-here",
+                "name": "been-here"
+            },
+            {
+                "icon": "microchip",
+                "name": "microchip"
+            },
+            {
+                "icon": "message-x",
+                "name": "message-x"
+            },
+            {
+                "icon": "right-arrow-alt",
+                "name": "right-arrow-alt"
+            },
+            {
+                "icon": "alarm-exclamation",
+                "name": "alarm-exclamation"
+            },
+            {
+                "icon": "traffic-cone",
+                "name": "traffic-cone"
+            },
+            {
+                "icon": "message-rounded-check",
+                "name": "message-rounded-check"
+            },
+            {
+                "icon": "down-arrow-alt",
+                "name": "down-arrow-alt"
+            },
+            {
+                "icon": "file-import",
+                "name": "file-import"
+            },
+            {
+                "icon": "message-square-edit",
+                "name": "message-square-edit"
+            },
+            {
+                "icon": "flag-checkered",
+                "name": "flag-checkered"
+            },
+            {
+                "icon": "file-export",
+                "name": "file-export"
+            },
+            {
+                "icon": "bookmark-alt-minus",
+                "name": "bookmark-alt-minus"
+            },
+            {
+                "icon": "message-rounded-add",
+                "name": "message-rounded-add"
+            },
+            {
+                "icon": "card",
+                "name": "card"
+            },
+            {
+                "icon": "calendar-edit",
+                "name": "calendar-edit"
+            },
+            {
+                "icon": "car-wash",
+                "name": "car-wash"
+            },
+            {
+                "icon": "arrow-to-bottom",
+                "name": "arrow-to-bottom"
+            },
+            {
+                "icon": "dice-3",
+                "name": "dice-3"
+            },
+            {
+                "icon": "message-alt-check",
+                "name": "message-alt-check"
+            },
+            {
+                "icon": "cloud-rain",
+                "name": "cloud-rain"
+            },
+            {
+                "icon": "star-half",
+                "name": "star-half"
+            },
+            {
+                "icon": "microphone-alt",
+                "name": "microphone-alt"
+            },
+            {
+                "icon": "sort-alt",
+                "name": "sort-alt"
+            },
+            {
+                "icon": "volume-low",
+                "name": "volume-low"
+            },
+            {
+                "icon": "chip",
+                "name": "chip"
+            },
+            {
+                "icon": "discount",
+                "name": "discount"
+            },
+            {
+                "icon": "checkbox-checked",
+                "name": "checkbox-checked"
+            },
+            {
+                "icon": "error-circle",
+                "name": "error-circle"
+            },
+            {
+                "icon": "copy",
+                "name": "copy"
+            },
+            {
+                "icon": "hdd",
+                "name": "hdd"
+            },
+            {
+                "icon": "dock-bottom",
+                "name": "dock-bottom"
+            },
+            {
+                "icon": "eject",
+                "name": "eject"
+            },
+            {
+                "icon": "map-alt",
+                "name": "map-alt"
+            },
+            {
+                "icon": "tag-x",
+                "name": "tag-x"
+            },
+            {
+                "icon": "bell-ring",
+                "name": "bell-ring"
+            },
+            {
+                "icon": "coffee",
+                "name": "coffee"
+            },
+            {
+                "icon": "microphone",
+                "name": "microphone"
+            },
+            {
+                "icon": "first-aid",
+                "name": "first-aid"
+            },
+            {
+                "icon": "battery-full",
+                "name": "battery-full"
+            },
+            {
+                "icon": "star",
+                "name": "star"
+            },
+            {
+                "icon": "cloud-download",
+                "name": "cloud-download"
+            },
+            {
+                "icon": "alarm-snooze",
+                "name": "alarm-snooze"
+            },
+            {
+                "icon": "envelope-open",
+                "name": "envelope-open"
+            },
+            {
+                "icon": "spray-can",
+                "name": "spray-can"
+            },
+            {
+                "icon": "caret-right-square",
+                "name": "caret-right-square"
+            },
+            {
+                "icon": "direction-right",
+                "name": "direction-right"
+            },
+            {
+                "icon": "backpack",
+                "name": "backpack"
+            },
+            {
+                "icon": "caret-down-square",
+                "name": "caret-down-square"
+            },
+            {
+                "icon": "webcam",
+                "name": "webcam"
+            },
+            {
+                "icon": "message-add",
+                "name": "message-add"
+            },
+            {
+                "icon": "cctv",
+                "name": "cctv"
+            },
+            {
+                "icon": "megaphone",
+                "name": "megaphone"
+            },
+            {
+                "icon": "book-heart",
+                "name": "book-heart"
+            },
+            {
+                "icon": "message-alt-edit",
+                "name": "message-alt-edit"
+            },
+            {
+                "icon": "up-arrow-alt",
+                "name": "up-arrow-alt"
+            },
+            {
+                "icon": "tachometer",
+                "name": "tachometer"
+            },
+            {
+                "icon": "calendar-week",
+                "name": "calendar-week"
+            },
+            {
+                "icon": "message-alt-error",
+                "name": "message-alt-error"
+            },
+            {
+                "icon": "blanket",
+                "name": "blanket"
+            },
+            {
+                "icon": "message-minus",
+                "name": "message-minus"
+            },
+            {
+                "icon": "message-rounded-edit",
+                "name": "message-rounded-edit"
+            },
+            {
+                "icon": "calendar-heart",
+                "name": "calendar-heart"
+            },
+            {
+                "icon": "tv",
+                "name": "tv"
+            },
+            {
+                "icon": "file-pdf",
+                "name": "file-pdf"
+            },
+            {
+                "icon": "brain",
+                "name": "brain"
+            },
+            {
+                "icon": "message-alt-add",
+                "name": "message-alt-add"
+            },
+            {
+                "icon": "chevrons-down",
+                "name": "chevrons-down"
+            },
+            {
+                "icon": "badge",
+                "name": "badge"
+            },
+            {
+                "icon": "home-circle",
+                "name": "home-circle"
+            },
+            {
+                "icon": "pizza",
+                "name": "pizza"
+            },
+            {
+                "icon": "brush",
+                "name": "brush"
+            },
+            {
+                "icon": "chevron-down-square",
+                "name": "chevron-down-square"
+            },
+            {
+                "icon": "left-arrow-alt",
+                "name": "left-arrow-alt"
+            },
+            {
+                "icon": "note",
+                "name": "note"
+            },
+            {
+                "icon": "category-alt",
+                "name": "category-alt"
+            },
+            {
+                "icon": "bolt",
+                "name": "bolt"
+            },
+            {
+                "icon": "message-square-x",
+                "name": "message-square-x"
+            },
+            {
+                "icon": "message-rounded-minus",
+                "name": "message-rounded-minus"
+            },
+            {
+                "icon": "yin-yang",
+                "name": "yin-yang"
+            },
+            {
+                "icon": "shopping-bags",
+                "name": "shopping-bags"
+            },
+            {
+                "icon": "coin",
+                "name": "coin"
+            },
+            {
+                "icon": "calendar-exclamation",
+                "name": "calendar-exclamation"
+            },
+            {
+                "icon": "message-rounded-error",
+                "name": "message-rounded-error"
+            },
+            {
+                "icon": "factory",
+                "name": "factory"
+            },
+            {
+                "icon": "chevron-right",
+                "name": "chevron-right"
+            },
+            {
+                "icon": "magic-wand",
+                "name": "magic-wand"
+            },
+            {
+                "icon": "book-add",
+                "name": "book-add"
+            },
+            {
+                "icon": "donate-heart",
+                "name": "donate-heart"
+            },
+            {
+                "icon": "medal",
+                "name": "medal"
+            },
+            {
+                "icon": "message-check",
+                "name": "message-check"
+            },
+            {
+                "icon": "badge-check",
+                "name": "badge-check"
+            },
+            {
+                "icon": "ship",
+                "name": "ship"
+            },
+            {
+                "icon": "joystick-button",
+                "name": "joystick-button"
+            },
+            {
+                "icon": "message-rounded-x",
+                "name": "message-rounded-x"
+            },
+            {
+                "icon": "chevron-up-circle",
+                "name": "chevron-up-circle"
+            },
+            {
+                "icon": "network-chart",
+                "name": "network-chart"
+            },
+            {
+                "icon": "florist",
+                "name": "florist"
+            },
+            {
+                "icon": "mask",
+                "name": "mask"
+            },
+            {
+                "icon": "chevron-right-square",
+                "name": "chevron-right-square"
+            },
+            {
+                "icon": "edit-location",
+                "name": "edit-location"
+            },
+            {
+                "icon": "car-garage",
+                "name": "car-garage"
+            },
+            {
+                "icon": "help-circle",
+                "name": "help-circle"
+            },
+            {
+                "icon": "arrow-to-left",
+                "name": "arrow-to-left"
+            },
+            {
+                "icon": "heart-circle",
+                "name": "heart-circle"
+            },
+            {
+                "icon": "file-archive",
+                "name": "file-archive"
+            },
+            {
+                "icon": "crop",
+                "name": "crop"
+            },
+            {
+                "icon": "message-alt-minus",
+                "name": "message-alt-minus"
+            },
+            {
+                "icon": "message-alt-x",
+                "name": "message-alt-x"
+            },
+            {
+                "icon": "arrow-from-bottom",
+                "name": "arrow-from-bottom"
+            },
+            {
+                "icon": "tag-alt",
+                "name": "tag-alt"
+            },
+            {
+                "icon": "t-shirt",
+                "name": "t-shirt"
+            },
+            {
+                "icon": "microphone-off",
+                "name": "microphone-off"
+            },
+            {
+                "icon": "bar-chart-square",
+                "name": "bar-chart-square"
+            },
+            {
+                "icon": "dollar-circle",
+                "name": "dollar-circle"
+            },
+            {
+                "icon": "plus-circle",
+                "name": "plus-circle"
+            },
+            {
+                "icon": "show",
+                "name": "show"
+            },
+            {
+                "icon": "x-circle",
+                "name": "x-circle"
+            },
+            {
+                "icon": "flag-alt",
+                "name": "flag-alt"
+            },
+            {
+                "icon": "shopping-bag",
+                "name": "shopping-bag"
+            },
+            {
+                "icon": "tennis-ball",
+                "name": "tennis-ball"
+            },
+            {
+                "icon": "share",
+                "name": "share"
+            },
+            {
+                "icon": "phone",
+                "name": "phone"
+            },
+            {
+                "icon": "alarm",
+                "name": "alarm"
+            },
+            {
+                "icon": "joystick",
+                "name": "joystick"
+            },
+            {
+                "icon": "report",
+                "name": "report"
+            },
+            {
+                "icon": "widget",
+                "name": "widget"
+            },
+            {
+                "icon": "to-top",
+                "name": "to-top"
+            },
+            {
+                "icon": "radio",
+                "name": "radio"
+            },
+            {
+                "icon": "trash-alt",
+                "name": "trash-alt"
+            },
+            {
+                "icon": "dock-left",
+                "name": "dock-left"
+            },
+            {
+                "icon": "phone-call",
+                "name": "phone-call"
+            },
+            {
+                "icon": "bus",
+                "name": "bus"
+            },
+            {
+                "icon": "calculator",
+                "name": "calculator"
+            },
+            {
+                "icon": "spreadsheet",
+                "name": "spreadsheet"
+            },
+            {
+                "icon": "briefcase",
+                "name": "briefcase"
+            },
+            {
+                "icon": "joystick-alt",
+                "name": "joystick-alt"
+            },
+            {
+                "icon": "plus-square",
+                "name": "plus-square"
+            },
+            {
+                "icon": "box",
+                "name": "box"
+            },
+            {
+                "icon": "hourglass",
+                "name": "hourglass"
+            },
+            {
+                "icon": "bug",
+                "name": "bug"
+            },
+            {
+                "icon": "dislike",
+                "name": "dislike"
+            },
+            {
+                "icon": "edit",
+                "name": "edit"
+            },
+            {
+                "icon": "window-alt",
+                "name": "window-alt"
+            },
+            {
+                "icon": "hotel",
+                "name": "hotel"
+            },
+            {
+                "icon": "chevron-up",
+                "name": "chevron-up"
+            },
+            {
+                "icon": "landmark",
+                "name": "landmark"
+            },
+            {
+                "icon": "user-account",
+                "name": "user-account"
+            },
+            {
+                "icon": "cart-download",
+                "name": "cart-download"
+            },
+            {
+                "icon": "user-badge",
+                "name": "user-badge"
+            },
+            {
+                "icon": "calendar-star",
+                "name": "calendar-star"
+            },
+            {
+                "icon": "right-arrow-square",
+                "name": "right-arrow-square"
+            },
+            {
+                "icon": "door-open",
+                "name": "door-open"
+            },
+            {
+                "icon": "down-arrow-square",
+                "name": "down-arrow-square"
+            },
+            {
+                "icon": "baseball",
+                "name": "baseball"
+            },
+            {
+                "icon": "heart-square",
+                "name": "heart-square"
+            },
+            {
+                "icon": "meteor",
+                "name": "meteor"
+            },
+            {
+                "icon": "magnet",
+                "name": "magnet"
+            },
+            {
+                "icon": "message-square-detail",
+                "name": "message-square-detail"
+            },
+            {
+                "icon": "washer",
+                "name": "washer"
+            },
+            {
+                "icon": "donate-blood",
+                "name": "donate-blood"
+            },
+            {
+                "icon": "car-battery",
+                "name": "car-battery"
+            },
+            {
+                "icon": "chevron-left-circle",
+                "name": "chevron-left-circle"
+            },
+            {
+                "icon": "bus-school",
+                "name": "bus-school"
+            },
+            {
+                "icon": "ambulance",
+                "name": "ambulance"
+            },
+            {
+                "icon": "color-fill",
+                "name": "color-fill"
+            },
+            {
+                "icon": "bomb",
+                "name": "bomb"
+            },
+            {
+                "icon": "cube",
+                "name": "cube"
+            },
+            {
+                "icon": "camera-off",
+                "name": "camera-off"
+            },
+            {
+                "icon": "news",
+                "name": "news"
+            },
+            {
+                "icon": "videos",
+                "name": "videos"
+            },
+            {
+                "icon": "award",
+                "name": "award"
+            },
+            {
+                "icon": "collection",
+                "name": "collection"
+            },
+            {
+                "icon": "captions",
+                "name": "captions"
+            },
+            {
+                "icon": "toggle-left",
+                "name": "toggle-left"
+            },
+            {
+                "icon": "download",
+                "name": "download"
+            },
+            {
+                "icon": "checkbox",
+                "name": "checkbox"
+            },
+            {
+                "icon": "pie-chart-alt",
+                "name": "pie-chart-alt"
+            },
+            {
+                "icon": "bookmark-plus",
+                "name": "bookmark-plus"
+            },
+            {
+                "icon": "dock-top",
+                "name": "dock-top"
+            },
+            {
+                "icon": "wallet",
+                "name": "wallet"
+            },
+            {
+                "icon": "check-circle",
+                "name": "check-circle"
+            },
+            {
+                "icon": "toggle-right",
+                "name": "toggle-right"
+            },
+            {
+                "icon": "bed",
+                "name": "bed"
+            },
+            {
+                "icon": "quote-left",
+                "name": "quote-left"
+            },
+            {
+                "icon": "bell",
+                "name": "bell"
+            },
+            {
+                "icon": "user-detail",
+                "name": "user-detail"
+            },
+            {
+                "icon": "area",
+                "name": "area"
+            },
+            {
+                "icon": "watch-alt",
+                "name": "watch-alt"
+            },
+            {
+                "icon": "rocket",
+                "name": "rocket"
+            },
+            {
+                "icon": "paper-plane",
+                "name": "paper-plane"
+            },
+            {
+                "icon": "left-arrow-circle",
+                "name": "left-arrow-circle"
+            },
+            {
+                "icon": "pie-chart",
+                "name": "pie-chart"
+            },
+            {
+                "icon": "video-off",
+                "name": "video-off"
+            },
+            {
+                "icon": "barcode",
+                "name": "barcode"
+            },
+            {
+                "icon": "server",
+                "name": "server"
+            },
+            {
+                "icon": "drink",
+                "name": "drink"
+            },
+            {
+                "icon": "dashboard",
+                "name": "dashboard"
+            },
+            {
+                "icon": "droplet",
+                "name": "droplet"
+            },
+            {
+                "icon": "save",
+                "name": "save"
+            },
+            {
+                "icon": "minus-circle",
+                "name": "minus-circle"
+            },
+            {
+                "icon": "flag",
+                "name": "flag"
+            },
+            {
+                "icon": "user-minus",
+                "name": "user-minus"
+            },
+            {
+                "icon": "down-arrow-circle",
+                "name": "down-arrow-circle"
+            },
+            {
+                "icon": "file-plus",
+                "name": "file-plus"
+            },
+            {
+                "icon": "mouse",
+                "name": "mouse"
+            },
+            {
+                "icon": "cloud-upload",
+                "name": "cloud-upload"
+            },
+            {
+                "icon": "certification",
+                "name": "certification"
+            },
+            {
+                "icon": "train",
+                "name": "train"
+            },
+            {
+                "icon": "upvote",
+                "name": "upvote"
+            },
+            {
+                "icon": "bookmark",
+                "name": "bookmark"
+            },
+            {
+                "icon": "hot",
+                "name": "hot"
+            },
+            {
+                "icon": "info-circle",
+                "name": "info-circle"
+            },
+            {
+                "icon": "volume-mute",
+                "name": "volume-mute"
+            },
+            {
+                "icon": "grid-alt",
+                "name": "grid-alt"
+            },
+            {
+                "icon": "minus-square",
+                "name": "minus-square"
+            },
+            {
+                "icon": "right-arrow-circle",
+                "name": "right-arrow-circle"
+            },
+            {
+                "icon": "pin",
+                "name": "pin"
+            },
+            {
+                "icon": "torch",
+                "name": "torch"
+            },
+            {
+                "icon": "envelope",
+                "name": "envelope"
+            },
+            {
+                "icon": "contact",
+                "name": "contact"
+            },
+            {
+                "icon": "user",
+                "name": "user"
+            },
+            {
+                "icon": "moon",
+                "name": "moon"
+            },
+            {
+                "icon": "gift",
+                "name": "gift"
+            },
+            {
+                "icon": "share-alt",
+                "name": "share-alt"
+            },
+            {
+                "icon": "navigation",
+                "name": "navigation"
+            },
+            {
+                "icon": "bath",
+                "name": "bath"
+            },
+            {
+                "icon": "user-plus",
+                "name": "user-plus"
+            },
+            {
+                "icon": "car",
+                "name": "car"
+            },
+            {
+                "icon": "volume-full",
+                "name": "volume-full"
+            },
+            {
+                "icon": "downvote",
+                "name": "downvote"
+            },
+            {
+                "icon": "trophy",
+                "name": "trophy"
+            },
+            {
+                "icon": "store",
+                "name": "store"
+            },
+            {
+                "icon": "battery",
+                "name": "battery"
+            },
+            {
+                "icon": "truck",
+                "name": "truck"
+            },
+            {
+                "icon": "battery-low",
+                "name": "battery-low"
+            },
+            {
+                "icon": "photo-album",
+                "name": "photo-album"
+            },
+            {
+                "icon": "video-plus",
+                "name": "video-plus"
+            },
+            {
+                "icon": "cart-alt",
+                "name": "cart-alt"
+            },
+            {
+                "icon": "trash",
+                "name": "trash"
+            },
+            {
+                "icon": "bookmark-star",
+                "name": "bookmark-star"
+            },
+            {
+                "icon": "album",
+                "name": "album"
+            },
+            {
+                "icon": "alarm-off",
+                "name": "alarm-off"
+            },
+            {
+                "icon": "detail",
+                "name": "detail"
+            },
+            {
+                "icon": "bulb",
+                "name": "bulb"
+            },
+            {
+                "icon": "cart",
+                "name": "cart"
+            },
+            {
+                "icon": "plane-land",
+                "name": "plane-land"
+            },
+            {
+                "icon": "customize",
+                "name": "customize"
+            },
+            {
+                "icon": "food-menu",
+                "name": "food-menu"
+            },
+            {
+                "icon": "bell-plus",
+                "name": "bell-plus"
+            },
+            {
+                "icon": "exit",
+                "name": "exit"
+            },
+            {
+                "icon": "component",
+                "name": "component"
+            },
+            {
+                "icon": "copy-alt",
+                "name": "copy-alt"
+            },
+            {
+                "icon": "cool",
+                "name": "cool"
+            },
+            {
+                "icon": "quote-single-right",
+                "name": "quote-single-right"
+            },
+            {
+                "icon": "message-square",
+                "name": "message-square"
+            },
+            {
+                "icon": "calendar-event",
+                "name": "calendar-event"
+            },
+            {
+                "icon": "bookmark-minus",
+                "name": "bookmark-minus"
+            },
+            {
+                "icon": "institution",
+                "name": "institution"
+            },
+            {
+                "icon": "left-arrow",
+                "name": "left-arrow"
+            },
+            {
+                "icon": "plane-take-off",
+                "name": "plane-take-off"
+            },
+            {
+                "icon": "paint-roll",
+                "name": "paint-roll"
+            },
+            {
+                "icon": "sad",
+                "name": "sad"
+            },
+            {
+                "icon": "right-down-arrow-circle",
+                "name": "right-down-arrow-circle"
+            },
+            {
+                "icon": "message-square-dots",
+                "name": "message-square-dots"
+            },
+            {
+                "icon": "file-html",
+                "name": "file-html"
+            },
+            {
+                "icon": "spa",
+                "name": "spa"
+            },
+            {
+                "icon": "cat",
+                "name": "cat"
+            },
+            {
+                "icon": "folder-minus",
+                "name": "folder-minus"
+            },
+            {
+                "icon": "speaker",
+                "name": "speaker"
+            },
+            {
+                "icon": "layout",
+                "name": "layout"
+            },
+            {
+                "icon": "tree-alt",
+                "name": "tree-alt"
+            },
+            {
+                "icon": "lemon",
+                "name": "lemon"
+            },
+            {
+                "icon": "credit-card",
+                "name": "credit-card"
+            },
+            {
+                "icon": "mobile-vibration",
+                "name": "mobile-vibration"
+            },
+            {
+                "icon": "paint",
+                "name": "paint"
+            },
+            {
+                "icon": "hand-left",
+                "name": "hand-left"
+            },
+            {
+                "icon": "user-voice",
+                "name": "user-voice"
+            },
+            {
+                "icon": "school",
+                "name": "school"
+            },
+            {
+                "icon": "polygon",
+                "name": "polygon"
+            },
+            {
+                "icon": "file-json",
+                "name": "file-json"
+            },
+            {
+                "icon": "time-five",
+                "name": "time-five"
+            },
+            {
+                "icon": "phone-off",
+                "name": "phone-off"
+            },
+            {
+                "icon": "message-alt",
+                "name": "message-alt"
+            },
+            {
+                "icon": "wink-smile",
+                "name": "wink-smile"
+            },
+            {
+                "icon": "book-content",
+                "name": "book-content"
+            },
+            {
+                "icon": "square-rounded",
+                "name": "square-rounded"
+            },
+            {
+                "icon": "tone",
+                "name": "tone"
+            },
+            {
+                "icon": "traffic",
+                "name": "traffic"
+            },
+            {
+                "icon": "smile",
+                "name": "smile"
+            },
+            {
+                "icon": "user-x",
+                "name": "user-x"
+            },
+            {
+                "icon": "extension",
+                "name": "extension"
+            },
+            {
+                "icon": "square",
+                "name": "square"
+            },
+            {
+                "icon": "caret-left-circle",
+                "name": "caret-left-circle"
+            },
+            {
+                "icon": "map-pin",
+                "name": "map-pin"
+            },
+            {
+                "icon": "offer",
+                "name": "offer"
+            },
+            {
+                "icon": "registered",
+                "name": "registered"
+            },
+            {
+                "icon": "fridge",
+                "name": "fridge"
+            },
+            {
+                "icon": "file-txt",
+                "name": "file-txt"
+            },
+            {
+                "icon": "bookmarks",
+                "name": "bookmarks"
+            },
+            {
+                "icon": "log-in",
+                "name": "log-in"
+            },
+            {
+                "icon": "mouse-alt",
+                "name": "mouse-alt"
+            },
+            {
+                "icon": "skip-next-circle",
+                "name": "skip-next-circle"
+            },
+            {
+                "icon": "traffic-barrier",
+                "name": "traffic-barrier"
+            },
+            {
+                "icon": "right-top-arrow-circle",
+                "name": "right-top-arrow-circle"
+            },
+            {
+                "icon": "vial",
+                "name": "vial"
+            },
+            {
+                "icon": "shocked",
+                "name": "shocked"
+            },
+            {
+                "icon": "happy",
+                "name": "happy"
+            },
+            {
+                "icon": "add-to-queue",
+                "name": "add-to-queue"
+            },
+            {
+                "icon": "wine",
+                "name": "wine"
+            },
+            {
+                "icon": "devices",
+                "name": "devices"
+            },
+            {
+                "icon": "cake",
+                "name": "cake"
+            },
+            {
+                "icon": "plane-alt",
+                "name": "plane-alt"
+            },
+            {
+                "icon": "wink-tongue",
+                "name": "wink-tongue"
+            },
+            {
+                "icon": "carousel",
+                "name": "carousel"
+            },
+            {
+                "icon": "bolt-circle",
+                "name": "bolt-circle"
+            },
+            {
+                "icon": "data",
+                "name": "data"
+            },
+            {
+                "icon": "hourglass-bottom",
+                "name": "hourglass-bottom"
+            },
+            {
+                "icon": "archive-in",
+                "name": "archive-in"
+            },
+            {
+                "icon": "bowling-ball",
+                "name": "bowling-ball"
+            },
+            {
+                "icon": "brightness-half",
+                "name": "brightness-half"
+            },
+            {
+                "icon": "cube-alt",
+                "name": "cube-alt"
+            },
+            {
+                "icon": "cricket-ball",
+                "name": "cricket-ball"
+            },
+            {
+                "icon": "circle-quarter",
+                "name": "circle-quarter"
+            },
+            {
+                "icon": "caret-right-circle",
+                "name": "caret-right-circle"
+            },
+            {
+                "icon": "hand",
+                "name": "hand"
+            },
+            {
+                "icon": "circle-half",
+                "name": "circle-half"
+            },
+            {
+                "icon": "baguette",
+                "name": "baguette"
+            },
+            {
+                "icon": "search-alt-2",
+                "name": "search-alt-2"
+            },
+            {
+                "icon": "happy-alt",
+                "name": "happy-alt"
+            },
+            {
+                "icon": "file-md",
+                "name": "file-md"
+            },
+            {
+                "icon": "chalkboard",
+                "name": "chalkboard"
+            },
+            {
+                "icon": "zoom-out",
+                "name": "zoom-out"
+            },
+            {
+                "icon": "left-down-arrow-circle",
+                "name": "left-down-arrow-circle"
+            },
+            {
+                "icon": "comment-add",
+                "name": "comment-add"
+            },
+            {
+                "icon": "checkbox-minus",
+                "name": "checkbox-minus"
+            },
+            {
+                "icon": "file-find",
+                "name": "file-find"
+            },
+            {
+                "icon": "right-arrow",
+                "name": "right-arrow"
+            },
+            {
+                "icon": "business",
+                "name": "business"
+            },
+            {
+                "icon": "grid",
+                "name": "grid"
+            },
+            {
+                "icon": "droplet-half",
+                "name": "droplet-half"
+            },
+            {
+                "icon": "parking",
+                "name": "parking"
+            },
+            {
+                "icon": "face",
+                "name": "face"
+            },
+            {
+                "icon": "file-png",
+                "name": "file-png"
+            },
+            {
+                "icon": "doughnut-chart",
+                "name": "doughnut-chart"
+            },
+            {
+                "icon": "adjust-alt",
+                "name": "adjust-alt"
+            },
+            {
+                "icon": "file-js",
+                "name": "file-js"
+            },
+            {
+                "icon": "pyramid",
+                "name": "pyramid"
+            },
+            {
+                "icon": "calendar-minus",
+                "name": "calendar-minus"
+            },
+            {
+                "icon": "meh",
+                "name": "meh"
+            },
+            {
+                "icon": "dog",
+                "name": "dog"
+            },
+            {
+                "icon": "bowl-rice",
+                "name": "bowl-rice"
+            },
+            {
+                "icon": "leaf",
+                "name": "leaf"
+            },
+            {
+                "icon": "hard-hat",
+                "name": "hard-hat"
+            },
+            {
+                "icon": "palette",
+                "name": "palette"
+            },
+            {
+                "icon": "file-jpg",
+                "name": "file-jpg"
+            },
+            {
+                "icon": "quote-alt-right",
+                "name": "quote-alt-right"
+            },
+            {
+                "icon": "file-doc",
+                "name": "file-doc"
+            },
+            {
+                "icon": "log-out",
+                "name": "log-out"
+            },
+            {
+                "icon": "log-in-circle",
+                "name": "log-in-circle"
+            },
+            {
+                "icon": "confused",
+                "name": "confused"
+            },
+            {
+                "icon": "slideshow",
+                "name": "slideshow"
+            },
+            {
+                "icon": "happy-beaming",
+                "name": "happy-beaming"
+            },
+            {
+                "icon": "skip-previous-circle",
+                "name": "skip-previous-circle"
+            },
+            {
+                "icon": "tired",
+                "name": "tired"
+            },
+            {
+                "icon": "buildings",
+                "name": "buildings"
+            },
+            {
+                "icon": "purchase-tag-alt",
+                "name": "purchase-tag-alt"
+            },
+            {
+                "icon": "quote-single-left",
+                "name": "quote-single-left"
+            },
+            {
+                "icon": "message-alt-dots",
+                "name": "message-alt-dots"
+            },
+            {
+                "icon": "user-pin",
+                "name": "user-pin"
+            },
+            {
+                "icon": "calendar",
+                "name": "calendar"
+            },
+            {
+                "icon": "caret-down-circle",
+                "name": "caret-down-circle"
+            },
+            {
+                "icon": "comment-detail",
+                "name": "comment-detail"
+            },
+            {
+                "icon": "basket",
+                "name": "basket"
+            },
+            {
+                "icon": "dizzy",
+                "name": "dizzy"
+            },
+            {
+                "icon": "left-top-arrow-circle",
+                "name": "left-top-arrow-circle"
+            },
+            {
+                "icon": "city",
+                "name": "city"
+            },
+            {
+                "icon": "party",
+                "name": "party"
+            },
+            {
+                "icon": "invader",
+                "name": "invader"
+            },
+            {
+                "icon": "archive-out",
+                "name": "archive-out"
+            },
+            {
+                "icon": "popsicle",
+                "name": "popsicle"
+            },
+            {
+                "icon": "dish",
+                "name": "dish"
+            },
+            {
+                "icon": "rewind-circle",
+                "name": "rewind-circle"
+            },
+            {
+                "icon": "brightness",
+                "name": "brightness"
+            },
+            {
+                "icon": "bell-minus",
+                "name": "bell-minus"
+            },
+            {
+                "icon": "file-gif",
+                "name": "file-gif"
+            },
+            {
+                "icon": "angry",
+                "name": "angry"
+            },
+            {
+                "icon": "mobile",
+                "name": "mobile"
+            },
+            {
+                "icon": "graduation",
+                "name": "graduation"
+            },
+            {
+                "icon": "hourglass-top",
+                "name": "hourglass-top"
+            },
+            {
+                "icon": "receipt",
+                "name": "receipt"
+            },
+            {
+                "icon": "upside-down",
+                "name": "upside-down"
+            },
+            {
+                "icon": "brush-alt",
+                "name": "brush-alt"
+            },
+            {
+                "icon": "store-alt",
+                "name": "store-alt"
+            },
+            {
+                "icon": "band-aid",
+                "name": "band-aid"
+            },
+            {
+                "icon": "landscape",
+                "name": "landscape"
+            },
+            {
+                "icon": "bar-chart-alt-2",
+                "name": "bar-chart-alt-2"
+            },
+            {
+                "icon": "message-rounded-dots",
+                "name": "message-rounded-dots"
+            },
+            {
+                "icon": "chat",
+                "name": "chat"
+            },
+            {
+                "icon": "timer",
+                "name": "timer"
+            },
+            {
+                "icon": "bug-alt",
+                "name": "bug-alt"
+            },
+            {
+                "icon": "id-card",
+                "name": "id-card"
+            },
+            {
+                "icon": "direction-left",
+                "name": "direction-left"
+            },
+            {
+                "icon": "laugh",
+                "name": "laugh"
+            },
+            {
+                "icon": "hand-up",
+                "name": "hand-up"
+            },
+            {
+                "icon": "calendar-x",
+                "name": "calendar-x"
+            },
+            {
+                "icon": "lock-alt",
+                "name": "lock-alt"
+            },
+            {
+                "icon": "meh-alt",
+                "name": "meh-alt"
+            },
+            {
+                "icon": "down-arrow",
+                "name": "down-arrow"
+            },
+            {
+                "icon": "rectangle",
+                "name": "rectangle"
+            },
+            {
+                "icon": "time",
+                "name": "time"
+            },
+            {
+                "icon": "log-out-circle",
+                "name": "log-out-circle"
+            },
+            {
+                "icon": "hand-right",
+                "name": "hand-right"
+            },
+            {
+                "icon": "edit-alt",
+                "name": "edit-alt"
+            },
+            {
+                "icon": "cheese",
+                "name": "cheese"
+            },
+            {
+                "icon": "home-alt-2",
+                "name": "home-alt-2"
+            },
+            {
+                "icon": "cuboid",
+                "name": "cuboid"
+            },
+            {
+                "icon": "alarm-add",
+                "name": "alarm-add"
+            },
+            {
+                "icon": "happy-heart-eyes",
+                "name": "happy-heart-eyes"
+            },
+            {
+                "icon": "meh-blank",
+                "name": "meh-blank"
+            },
+            {
+                "icon": "baby-carriage",
+                "name": "baby-carriage"
+            },
+            {
+                "icon": "notification-off",
+                "name": "notification-off"
+            },
+            {
+                "icon": "notification",
+                "name": "notification"
+            },
+            {
+                "icon": "pie-chart-alt-2",
+                "name": "pie-chart-alt-2"
+            },
+            {
+                "icon": "comment",
+                "name": "comment"
+            },
+            {
+                "icon": "briefcase-alt-2",
+                "name": "briefcase-alt-2"
+            },
+            {
+                "icon": "message-dots",
+                "name": "message-dots"
+            },
+            {
+                "icon": "check-square",
+                "name": "check-square"
+            },
+            {
+                "icon": "wallet-alt",
+                "name": "wallet-alt"
+            },
+            {
+                "icon": "user-check",
+                "name": "user-check"
+            },
+            {
+                "icon": "fast-forward-circle",
+                "name": "fast-forward-circle"
+            },
+            {
+                "icon": "hand-down",
+                "name": "hand-down"
+            },
+            {
+                "icon": "video-recording",
+                "name": "video-recording"
+            },
+            {
+                "icon": "camera-plus",
+                "name": "camera-plus"
+            },
+            {
+                "icon": "zoom-in",
+                "name": "zoom-in"
+            },
+            {
+                "icon": "error-alt",
+                "name": "error-alt"
+            },
+            {
+                "icon": "stopwatch",
+                "name": "stopwatch"
+            },
+            {
+                "icon": "file-css",
+                "name": "file-css"
+            },
+            {
+                "icon": "up-arrow",
+                "name": "up-arrow"
+            },
+            {
+                "icon": "injection",
+                "name": "injection"
+            },
+            {
+                "icon": "calendar-alt",
+                "name": "calendar-alt"
+            },
+            {
+                "icon": "quote-alt-left",
+                "name": "quote-alt-left"
+            },
+            {
+                "icon": "comment-dots",
+                "name": "comment-dots"
+            },
+            {
+                "icon": "ghost",
+                "name": "ghost"
+            },
+            {
+                "icon": "calendar-plus",
+                "name": "calendar-plus"
+            },
+            {
+                "icon": "circle",
+                "name": "circle"
+            },
+            {
+                "icon": "cable-car",
+                "name": "cable-car"
+            },
+            {
+                "icon": "cylinder",
+                "name": "cylinder"
+            },
+            {
+                "icon": "check-shield",
+                "name": "check-shield"
+            },
+            {
+                "icon": "memory-card",
+                "name": "memory-card"
+            },
+            {
+                "icon": "credit-card-alt",
+                "name": "credit-card-alt"
+            },
+            {
+                "icon": "analyse",
+                "name": "analyse"
+            },
+            {
+                "icon": "sleepy",
+                "name": "sleepy"
+            },
+            {
+                "icon": "comment-error",
+                "name": "comment-error"
+            },
+            {
+                "icon": "bank",
+                "name": "bank"
+            },
+            {
+                "icon": "caret-up-circle",
+                "name": "caret-up-circle"
+            },
+            {
+                "icon": "calendar-check",
+                "name": "calendar-check"
+            },
+            {
+                "icon": "compass",
+                "name": "compass"
+            },
+            {
+                "icon": "clinic",
+                "name": "clinic"
+            },
+            {
+                "icon": "no-entry",
+                "name": "no-entry"
+            },
+            {
+                "icon": "building-house",
+                "name": "building-house"
+            },
+            {
+                "icon": "search",
+                "name": "search"
+            },
+            {
+                "icon": "label",
+                "name": "label"
+            },
+            {
+                "icon": "notepad",
+                "name": "notepad"
+            },
+            {
+                "icon": "image-add",
+                "name": "image-add"
+            },
+            {
+                "icon": "lock-open-alt",
+                "name": "lock-open-alt"
+            },
+            {
+                "icon": "shield-alt-2",
+                "name": "shield-alt-2"
+            },
+            {
+                "icon": "bowl-hot",
+                "name": "bowl-hot"
+            },
+            {
+                "icon": "circle-three-quarter",
+                "name": "circle-three-quarter"
+            },
+            {
+                "icon": "color",
+                "name": "color"
+            },
+            {
+                "icon": "objects-horizontal-center",
+                "name": "objects-horizontal-center"
+            },
+            {
+                "icon": "objects-horizontal-left",
+                "name": "objects-horizontal-left"
+            },
+            {
+                "icon": "objects-vertical-top",
+                "name": "objects-vertical-top"
+            },
+            {
+                "icon": "universal-access",
+                "name": "universal-access"
+            },
+            {
+                "icon": "objects-vertical-center",
+                "name": "objects-vertical-center"
+            },
+            {
+                "icon": "shield-plus",
+                "name": "shield-plus"
+            },
+            {
+                "icon": "objects-horizontal-right",
+                "name": "objects-horizontal-right"
+            },
+            {
+                "icon": "objects-vertical-bottom",
+                "name": "objects-vertical-bottom"
+            },
+            {
+                "icon": "shield-minus",
+                "name": "shield-minus"
+            },
+            {
+                "icon": "castle",
+                "name": "castle"
+            },
+            {
+                "icon": "shower",
+                "name": "shower"
+            },
+            {
+                "icon": "sushi",
+                "name": "sushi"
+            },
+            {
+                "icon": "pear",
+                "name": "pear"
+            },
+            {
+                "icon": "coffee-bean",
+                "name": "coffee-bean"
+            },
+            {
+                "icon": "balloon",
+                "name": "balloon"
+            }
+        ]
+    }
+]

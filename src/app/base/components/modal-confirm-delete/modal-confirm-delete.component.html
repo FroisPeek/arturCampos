@@ -1,0 +1,17 @@
+<div class="modal-header">
+  <h4 class="modal-title">{{ 'MODAL.DELETE_CONFIRMATION.TITLE' | translate }}</h4>
+</div>
+
+<div class="modal-body">
+  <div class="d-flex justify-content-around">
+    <button type="button" class="btn btn-success btn-lg" (click)="removeItem()" *ngIf="!loadingDelete">
+      {{ 'MODAL.DELETE_CONFIRMATION.YES' | translate }}
+    </button>
+
+    <button type="button" class="btn btn-danger btn-lg" (click)="closeModal(false)" *ngIf="!loadingDelete">
+      {{ 'MODAL.DELETE_CONFIRMATION.NO' | translate }}
+    </button>
+  </div>
+
+  <loading-circle [loading]="loadingDelete"></loading-circle>
+</div>

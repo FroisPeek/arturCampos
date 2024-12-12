@@ -1,0 +1,92 @@
+<div class="container-table" [ngClass]="{'scrollable-table': shouldScroll}">
+    <table>
+        <thead>
+            <tr>
+                <th *ngIf="showCheckbox"><input type="checkbox" (change)="selectAll($event)" /></th>
+                <th *ngFor="let item of getHeaderVisible()" (click)="sortItems(item.key)">
+                    {{ item.value | translate }} 
+                    <i *ngIf="item.key === query.sortBy" class='bx bx-caret-up'
+                        [class.sortIcon]="query.sort == 'asc' ? true : false"></i>
+                </th>
+                <th *ngIf="showOptionButton" [ngStyle]="{'max-width': calculateOptionMaxWidth()}">
+                    {{ 'TOOLBAR.ACTIONS' | translate }}
+                </th>
+            </tr>
+        </thead>
+
+        <tbody [class.hidden]="!customBody">
+            <ng-content></ng-content>
+        </tbody>
+
+        <tbody *ngIf="!customBody">
+            <tr
+                *ngFor="let containerItems of listItemsTableContainer | paginate: {id: paginationId, itemsPerPage: query.perPage, currentPage: query.page, totalItems: query.total }">
+                <td *ngIf="showCheckbox"><input type="checkbox" [checked]="isSelected(containerItems.id)"
+                        (change)="selectItem($event, containerItems.id)" /></td>
+                <td *ngFor="let value of containerItems.data" class="text-decorator">
+                    <p [innerHTML]="value | breakText"></p>
+                </td>
+
+                <td *ngIf="showOptionButton" class="options">
+                    <button class="qr" *ngIf="showCustomButton" (click)="openModalCustomItem(containerItems.id)">
+                        <i [class]='iconCustomButton'></i>
+                    </button>
+                    <button class="view" *ngIf="showUpdateButton" (click)="openModalUpdateItem(containerItems.id)">
+                        <i class='bx bxs-edit'></i>
+                    </button>
+                    <button class="trash" *ngIf="showDeleteButton" (click)="deleteItem(containerItems.id)">
+                        <i class='bx bx-trash'></i>
+                    </button>
+                    <button class="check" *ngIf="showViewButton" (click)="openModalViewItem(containerItems.id)">
+                        <i class='bx bx-show-alt'></i>
+                    </button>
+                </td>
+
+            </tr>
+            <tr *ngIf="listItemsTableContainer.length === 0">
+                <td colspan="100%" class="text-center">
+                    {{ 'TOOLBAR.NO_ITEMS_FOUND' | translate }}
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<div *ngIf="pagination" class="container-finish-table">
+    <div class="finish-table">
+        <table-paginator [paginationId]="paginationId" [page]="query.page"
+            (numberPage)="changePage($event)"></table-paginator>
+    </div>
+</div>
+
+<div class="container-cards" *ngIf="windowWidth < 700">
+    <div
+        *ngFor="let containerItems of listItemsTableContainer | paginate: {id: paginationId, itemsPerPage: query.perPage, currentPage: query.page, totalItems: query.total }">
+        <div class="card">
+            <div *ngFor="let header of headers; let i = index">
+                <div class="values">
+                    <p class="label"><strong>{{ header.value | translate }}:</strong></p>
+                    <p>{{ containerItems.data[i] }}</p>
+                </div>
+            </div>
+            <div *ngIf="showOptionButton" class="options">
+                <button class="view" *ngIf="showUpdateButton" (click)="openModalUpdateItem(containerItems.id)">
+                    <i class='bx bxs-edit'></i>
+                </button>
+                <button class="trash" *ngIf="showDeleteButton" (click)="deleteItem(containerItems.id)">
+                    <i class='bx bx-trash'></i>
+                </button>
+                <button class="check" *ngIf="showViewButton" (click)="openModalViewItem(containerItems.id)">
+                    <i class='bx bx-show-alt'></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="finish-table">
+        <span>{{ 'TOOLBAR.TOTAL' | translate }} {{ query.total }}</span>
+
+        <table-paginator [paginationId]="paginationId" [page]="query.page"
+            (numberPage)="changePage($event)"></table-paginator>
+    </div>
+</div>

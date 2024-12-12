@@ -1,0 +1,49 @@
+<div class="toolbar-title">
+    <div class="title">
+        <h5>{{ title }}</h5>
+    </div>
+</div>
+
+<div class="container-bar">
+    <div class="toolbar">
+        <div class="toolbar-utils">
+            <form [formGroup]="searchForm" class="container-search">
+                <div *ngIf="showSearch" class="field">
+                    <input type="text" formControlName="name" [placeholder]="placeholder" class="campos" />
+                    <i class='bx bx-search'></i>
+                </div>
+            </form>
+            <div class="count">
+                <div class="field">
+                    <select (change)="setChangeAmount($event.target)" [(ngModel)]="perPageValue" class="form-select"
+                        attr.aria-label="{{ 'TOOLBAR.SELECT_ARIA_LABEL' | translate}}">
+                        <option *ngFor="let item of perPageList" [value]="item">{{ item }}</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="toolbar-buttons">
+            <button (click)="openAddModal()" class="btn btn-add-toolbar" *ngIf="showButtonAdd">
+                <i class='bx bx-add-to-queue'></i>
+                {{ 'TOOLBAR.ADD' | translate }}
+            </button>
+            <button (click)="openDeleteModal()" class="btn btn-secondary" *ngIf="showButtonDelete">
+                <i class='bx bx-trash'></i>
+                {{ 'TOOLBAR.DELETE' | translate }}
+            </button>
+            <button (click)="archiveItems.emit()" class="btn btn-secondary"
+                *ngIf="showButtonArchive && !isArchivedView">
+                <i class='bx bx-archive-in'></i>
+                {{ 'TOOLBAR.ARCHIVE' | translate }}
+            </button>
+            <button (click)="restoreItems.emit()" class="btn btn-secondary" *ngIf="showButtonArchive && isArchivedView">
+                <i class='bx bx-archive-out'></i>
+                {{ 'TOOLBAR.RESTORE' | translate }}
+            </button>
+            <ng-content select=".extra-buttons"></ng-content>
+        </div>
+    </div>
+
+    <ng-content></ng-content>
+</div>

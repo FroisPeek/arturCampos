@@ -1,0 +1,50 @@
+<div class="card-content">
+  <div class="left-painel">
+    <img src="../../assets/logo.svg" alt="logo" style="margin-top: 14px" />
+    <div class="context-text">
+      <h2 class="font-title">Acesso Central</h2>
+      <p class="font-description">
+        Acesse o ambiente interno e fique conectado às informações e recursos
+        essenciais para o seu dia a dia
+      </p>
+      <img src="../../assets/core.svg" alt="core" width="91px" height="45px" />
+    </div>
+  </div>
+  <div class="rigth-painel">
+    <h2 class="font-title">Entre na sua conta</h2>
+    <form class="sign-in-form">
+      <div class="actual-form">
+        <div class="input-container">
+          <input
+            type="email"
+            id="email"
+            class="input-field"
+            placeholder="Digite o email"
+            value=""
+            autocomplete="off"
+          />
+          <label for="email" class="input-label">Email</label>
+        </div>
+        <div class="input-container">
+          <input
+            type="password"
+            id="password"
+            class="input-field"
+            placeholder="Digite a senha"
+            value=""
+            autocomplete="off"
+          />
+          <label for="email" class="input-label">Senha</label>
+        </div>
+        <div class="check">
+          <div style="display: flex; gap: 10px">
+            <input type="checkbox" style="height: 20px; width: 20px" />
+            <label>Lembrar login</label>
+          </div>
+          <p>Esqueceu a senha?</p>
+        </div>
+      </div>
+      <button [routerLink]="['home']">ENTRAR</button>
+    </form>
+  </div>
+</div>

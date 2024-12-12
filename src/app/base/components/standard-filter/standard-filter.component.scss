@@ -1,0 +1,186 @@
+.container-bar {
+    .filter-title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 24px 0 24px;
+
+        .title {
+            h5 {
+                margin: 0;
+                font-size: 1.25rem;
+                line-height: 1.375;
+                font-family: Roboto, Helvetica, Arial, sans-serif;
+                letter-spacing: 0;
+                opacity: 1;
+                text-transform: none;
+                vertical-align: unset;
+                text-decoration: none;
+                color: var(--primary-color);
+                font-weight: 600;
+            }
+        }
+
+        .buttons {
+            button {
+                display: flex;
+                align-items: center;
+                font-size: 16px;
+                font-weight: bold;
+
+                i {
+                    color: var(--white);
+                    font-size: 24px;
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+
+    .filter-card {
+        margin: 20px 24px 0 24px;
+        width: calc(100% - 48px);
+        border: 1px solid var(--border);
+        border-radius: 10px;
+
+        .filter-header {
+            background-color: var(--primary-color);
+            width: 100%;
+            padding: 15px;
+            min-height: 45px;
+            border-radius: 10px;
+
+            p {
+                margin: 0;
+                font-size: 1rem;
+                font-family: Roboto, Helvetica, Arial, sans-serif;
+                text-transform: none;
+                color: var(--white);
+                font-weight: bold;
+            }
+        }
+
+        .filter-content {
+            padding: 15px;
+
+            form {
+                justify-content: flex-start;
+
+
+                .btn-filter {
+                    background-color: #0D6EFD;
+                    width: 150px;
+                }
+
+                .btn-reset {
+                    border: 2px solid #0D6EFD;
+                    background-color: transparent;
+                    color: #0D6EFD;
+                    width: 150px;
+                }
+
+                .btn-export {
+                    background-color: #01A121;
+                    width: 150px;
+                }
+            }
+        }
+    }
+
+    .filter {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 24px;
+        opacity: 1;
+        background: transparent;
+        color: var(--primary-color);
+        box-shadow: none;
+
+        .count {
+            display: flex;
+            align-items: center;
+            opacity: 1;
+            color: var(--primary-color);
+            box-shadow: none;
+
+            .field {
+                display: inline-flex;
+                flex-direction: column;
+                position: relative;
+                min-width: 0;
+                padding: 0;
+                margin: 0;
+                border: 0;
+                vertical-align: top;
+                width: 100%;
+                pointer-events: auto;
+
+                .form-select {
+                    border-radius: 0.35rem;
+                    background: var(--field);
+                    color: var(--text-color);
+                    border: var(--bs-border-width) solid var(--border);
+                }
+            }
+
+            span {
+                margin: 0;
+                font-family: Roboto, Helvetica, Arial, sans-serif;
+                font-size: 0.75rem;
+                font-weight: 300;
+                line-height: 1.25;
+                letter-spacing: 0.03333em;
+                opacity: 1;
+                text-transform: none;
+                vertical-align: unset;
+                text-decoration: none;
+                color: var(--text-color);
+            }
+        }
+
+        .options-config {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+
+            .container-search {
+                margin-left: auto;
+                opacity: 1;
+                color: var(--primary-color);
+                box-shadow: none;
+
+                .field {
+                    padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+                    border: 1px solid var(--border);
+                    background: var(--field);
+                    display: flex;
+                    border-radius: 0.35rem;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    input {
+                        border: none;
+                        background: var(--field);
+                        color: var(--text-color);
+
+                        &:focus {
+                            outline: none;
+                        }
+                    }
+
+                    i {
+                        color: #ced4da;
+                    }
+                }
+            }
+
+            a {
+                i {
+                    font-size: 23px;
+                    color: var(--primary-color);
+                }
+            }
+        }
+    }
+}

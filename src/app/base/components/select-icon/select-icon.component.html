@@ -1,0 +1,40 @@
+<div class="modal-header">
+    <h4 class="modal-title" id="modal-basic-title">{{ 'SELECT_ICON.TITLE' | translate }}</h4>
+    <button type="button" class="btn-close" aria-label="close" (click)="closeModal(false)"></button>
+</div>
+
+<div class="modal-body">
+    <div class="search">
+        <input type="text" placeholder="{{ 'SELECT_ICON.SEARCH_PLACEHOLDER' | translate }}" [(ngModel)]="searchTerm" (input)="onSearchTermChange()">
+        <i class='bx bx-search'></i>
+    </div>
+
+    <hr>
+
+    <div class="list-types">
+        <ul>
+            <li 
+                *ngFor="let type of types" 
+                (click)="selectIconType(type)" 
+                [class.selected]="iconType === type">
+                {{ 'SELECT_ICON.ICON_TYPES.' + type.toUpperCase() | translate }}
+            </li>
+        </ul>
+    </div>
+
+    <div class="list-icons">
+        <div class="icon-container" *ngFor="let icon of filteredIcons" (click)="selectIcon(icon)"
+            [class.selected]="icon === selectedIcon">
+            <div class="icon-select">
+                <div class="icon">
+                    <i [class]="icon.selector + icon.icon"></i>
+                </div>
+                <div class="icon-name">{{ icon.name }}</div>
+            </div>
+        </div>
+    </div>
+
+    <div *ngIf="selectedIcon" class="button-container">
+        <button class="btn btn-primary" (click)="confirmUsageIcon()">{{ 'SELECT_ICON.CONFIRM_SELECTION' | translate }}</button>
+    </div>
+</div>

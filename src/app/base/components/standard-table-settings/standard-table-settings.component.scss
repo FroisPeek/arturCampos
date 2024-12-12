@@ -1,0 +1,100 @@
+.table-settings-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 10000;
+}
+
+.table-settings-container {
+    background-color: var(--background-card-color);
+    padding: 20px;
+    border-radius: 8px 0 0 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+    height: 100vh;
+
+    .header-settings {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        color: var(--color-gray);
+
+        .btn-close {
+            filter: var(--filter-close)
+        }
+    }
+
+    .card-settings {
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        font-size: 14px;
+        line-height: 24px;
+        overflow-x: hidden;
+        overflow-y: auto;
+        text-align: left;
+        height: calc(100% - 70px);
+        scroll-behavior: smooth;
+
+        h3 {
+            color: var(--color-gray);
+            ;
+            font-weight: 700;
+            line-height: 150%;
+            font-size: .875rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .card-value {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 15px;
+            border: 1px solid var(--border);
+            border-radius: 10px;
+
+            .values {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                p {
+                    font-size: 20px;
+                    font-weight: bold;
+                    margin: 0px;
+                    color: var(--loading-color);
+                }
+            }
+
+            .settings-buttons {
+                display: flex;
+                gap: 5px;
+
+                button {
+                    border: 3px solid var(--primary-color);
+                    width: 50px;
+                    height: 50px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background: transparent;
+                    color: var(--primary-color);
+                    font-size: 26px;
+                    border-radius: 5px;
+
+                    &:disabled {
+                        border: 3px solid #ccc;
+                        color: #ccc;
+                    }
+                }
+            }
+        }
+    }
+}

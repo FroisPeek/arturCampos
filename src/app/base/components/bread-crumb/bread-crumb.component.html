@@ -1,0 +1,5 @@
+<div class="bread-crumb">
+  <a *ngFor="let item of breadCrumbData" (click)="navigateTo(item)">
+    {{ getTranslatedName(item) }}
+  </a>
+</div>

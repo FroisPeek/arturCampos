@@ -1,0 +1,12 @@
+<div class="paginator">
+    <pagination-controls
+        [id]="paginationId"
+        (pageChange)="page = $event"
+        (pageChange)="changePage($event)"
+        maxSize="5"
+        responsive="true"
+        [nextLabel]="'PAGINATOR.NEXT' | translate"
+        [previousLabel]="'PAGINATOR.PREVIOUS' | translate"
+    >
+    </pagination-controls>
+</div>

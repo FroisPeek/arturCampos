@@ -1,0 +1,35 @@
+.drop-zone {
+    border: 1px dashed #a8a8a8;
+    border-radius: 5px;
+    padding: 20px 0 30px;
+    text-align: center;
+
+    label {
+        width: 100%;
+        cursor: pointer;
+        display: block;
+        
+        i {
+            font-size: 41px;
+            color: var(--color-gray);
+        }
+
+        p {
+            font-size: 20px;
+            color: var(--color-gray);
+            font-weight: bold;
+        }
+
+        .supported {
+            font-size: 17px;
+            color: #b9b9b9;
+            font-weight: 400;
+        }
+    }
+
+    input {
+        opacity: 0;
+        position: absolute;
+        z-index: -1;
+    }
+}

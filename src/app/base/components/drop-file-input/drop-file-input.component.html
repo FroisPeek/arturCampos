@@ -1,0 +1,13 @@
+<div class="drop-zone">
+    <label [for]="inputId" class="mb-0"
+           (drop)="onFileDrop($event)"
+           (dragover)="onDragOver($event)"
+           (dragend)="onDragEnd($event)"
+           (dragleave)="onDragEnd($event)">
+        <i *ngIf="!file" class='bx bx-cloud-upload'></i>
+        <p>{{ file ? file.name : (hover ? ('DROP_FILE.INPUT.HOVER' | translate) : ('DROP_FILE.INPUT.DEFAULT' | translate)) }}</p>
+        <p *ngIf="!file" class="supported">{{ 'DROP_FILE.INPUT.SUPPORTED' | translate }}: {{acceptString}}</p>
+    </label>
+    <br>
+    <input [id]="inputId" type="file" (change)="onFileChange($event)" [accept]="acceptString" [multiple]="multiple">
+</div>
