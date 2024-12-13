@@ -20,3 +20,11 @@ button.primary {
   color: white;
   border-radius: 8px;
 }
+
+@font-face {
+  font-family: 'Inter';
+  src: url('path/to/inter-regular.woff2') format('woff2'),
+       url('path/to/inter-regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}

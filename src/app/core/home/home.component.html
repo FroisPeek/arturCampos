@@ -1,50 +1,293 @@
-<div class="card-content">
-  <div class="left-painel">
-    <img src="../../assets/logo.svg" alt="logo" style="margin-top: 14px" />
-    <div class="context-text">
-      <h2 class="font-title">Acesso Central</h2>
-      <p class="font-description">
-        Acesse o ambiente interno e fique conectado às informações e recursos
-        essenciais para o seu dia a dia
-      </p>
-      <img src="../../assets/core.svg" alt="core" width="91px" height="45px" />
-    </div>
+<div class="main-content">
+  <div class="content-video">
+    <iframe
+      src="https://www.youtube.com/embed/YUitGNMO3wY?autoplay=1&controls=0&modestbranding=1&rel=0&fs=0&iv_load_policy=3&mute=1&cc_load_policy=0"
+      frameborder="0"
+      allow="autoplay"
+    ></iframe>
   </div>
-  <div class="rigth-painel">
-    <h2 class="font-title">Entre na sua conta</h2>
-    <form class="sign-in-form">
-      <div class="actual-form">
-        <div class="input-container">
-          <input
-            type="email"
-            id="email"
-            class="input-field"
-            placeholder="Digite o email"
-            value=""
-            autocomplete="off"
-          />
-          <label for="email" class="input-label">Email</label>
-        </div>
-        <div class="input-container">
-          <input
-            type="password"
-            id="password"
-            class="input-field"
-            placeholder="Digite a senha"
-            value=""
-            autocomplete="off"
-          />
-          <label for="email" class="input-label">Senha</label>
-        </div>
-        <div class="check">
-          <div style="display: flex; gap: 10px">
-            <input type="checkbox" style="height: 20px; width: 20px" />
-            <label>Lembrar login</label>
+
+  <img src="../../../assets/pause.svg" alt="play" width="312px" height="205px">
+  <img src="../../../assets/title.svg" alt="Titulo">
+
+  <div class="icon-section">
+    <img src="../../../assets/insta-icon.svg" alt="instagram">
+    <img src="../../../assets/youtube-icon.svg" alt="youtube">
+    <img src="../../../assets/wpp-icon.svg" alt="whats app">
+    <img src="../../../assets/tiktok-icon.svg" alt="tiktok">
+  </div>
+
+  <div class="buttons-section">
+    <button>Visitar Site</button>
+    <button>E-mail</button>
+    <button>Presskit</button>
+    <button>Galeria</button>
+  </div>
+
+  <div class="my-events">
+    <h2>Meus Eventos</h2>
+    <div class="cards-events">
+      <!-- transformar card em componente depois -->
+      <div class="card">
+        <div class="card-top">
+          <img src="../../../assets/sextagode.svg" alt="SextaGode" width="263px" height="320px">
+          <div class="section-card">
+            <h2>SEXTAGODE</h2>
+            <div class="line-text" style="margin-top: 15px;">
+              <img src="../../../assets/calendar.svg" alt="calendar" width="20px" height="20px">
+              Data: 16 de dezembro de 2024
+            </div>
+            <div class="line-text">
+              <img src="../../../assets/clock.svg" alt="calendar" width="20px" height="20px">
+              Hora: 18h às 02h
+            </div>
+            <div class="line-text">
+              <img src="../../../assets/location.svg" alt="calendar" width="20px" height="20px">
+              Local: Arena BRB, Brasília - DF
+            </div>
+            <div class="line-text">
+              Preços a partir de R$150,00
+            </div>
+            <button class="map">
+              <img src="../../../assets/mapRGB.svg" alt="mapRGB" height="24px" width="24px">
+              Ver no Mapa
+            </button>
+
+            <div class="tag">
+              #tag
+            </div>
           </div>
-          <p>Esqueceu a senha?</p>
+        </div>
+        <div class="footer-card">
+          <button>Garanta seu ingresso</button>
         </div>
       </div>
-      <button [routerLink]="['home']">ENTRAR</button>
-    </form>
+
+      <div class="card">
+        <div class="card-top">
+          <img src="../../../assets/napraia.svg" alt="SextaGode" width="263px" height="320px">
+          <div class="section-card">
+            <h2>Na Praia</h2>
+            <div class="line-text" style="margin-top: 15px;">
+              <img src="../../../assets/calendar.svg" alt="calendar" width="20px" height="20px">
+              Data: 16 de dezembro de 2024
+            </div>
+            <div class="line-text">
+              <img src="../../../assets/clock.svg" alt="calendar" width="20px" height="20px">
+              Hora: 18h às 02h
+            </div>
+            <div class="line-text">
+              <img src="../../../assets/location.svg" alt="calendar" width="20px" height="20px">
+              Local: Arena BRB, Brasília - DF
+            </div>
+            <div class="line-text">
+              Preços a partir de R$150,00
+            </div>
+            <button class="map">
+              <img src="../../../assets/mapRGB.svg" alt="mapRGB" height="24px" width="24px">
+              Ver no Mapa
+            </button>
+
+            <div class="tag">
+              #tag
+            </div>
+          </div>
+        </div>
+        <div class="footer-card">
+          <button>Garanta seu ingresso</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-top">
+          <img src="../../../assets/foraEixo.svg" alt="SextaGode" width="263px" height="320px">
+          <div class="section-card">
+            <h2>Complexo Fora do Eixo</h2>
+            <div class="line-text" style="margin-top: 15px;">
+              <img src="../../../assets/calendar.svg" alt="calendar" width="20px" height="20px">
+              Data: 16 de dezembro de 2024
+            </div>
+            <div class="line-text">
+              <img src="../../../assets/clock.svg" alt="calendar" width="20px" height="20px">
+              Hora: 18h às 02h
+            </div>
+            <div class="line-text">
+              <img src="../../../assets/location.svg" alt="calendar" width="20px" height="20px">
+              Local: Arena BRB, Brasília - DF
+            </div>
+            <div class="line-text">
+              Preços a partir de R$150,00
+            </div>
+            <button class="map">
+              <img src="../../../assets/mapRGB.svg" alt="mapRGB" height="24px" width="24px">
+              Ver no Mapa
+            </button>
+
+            <div class="tag">
+              #tag
+            </div>
+          </div>
+        </div>
+        <div class="footer-card">
+          <button>Garanta seu ingresso</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-top">
+          <img src="../../../assets/funnFestival.svg" alt="SextaGode" width="263px" height="320px">
+          <div class="section-card">
+            <h2>Funn Festival</h2>
+            <div class="line-text" style="margin-top: 15px;">
+              <img src="../../../assets/calendar.svg" alt="calendar" width="20px" height="20px">
+              Data: 16 de dezembro de 2024
+            </div>
+            <div class="line-text">
+              <img src="../../../assets/clock.svg" alt="calendar" width="20px" height="20px">
+              Hora: 18h às 02h
+            </div>
+            <div class="line-text">
+              <img src="../../../assets/location.svg" alt="calendar" width="20px" height="20px">
+              Local: Arena BRB, Brasília - DF
+            </div>
+            <div class="line-text">
+              Preços a partir de R$150,00
+            </div>
+            <button class="map">
+              <img src="../../../assets/mapRGB.svg" alt="mapRGB" height="24px" width="24px">
+              Ver no Mapa
+            </button>
+
+            <div class="tag">
+              #tag
+            </div>
+          </div>
+        </div>
+        <div class="footer-card">
+          <button>Garanta seu ingresso</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="my-events">
+    <h2>Baile Funk</h2>
+    <div class="cards-events">
+      <!-- transformar card em componente depois -->
+      <div class="card">
+        <div class="card-top">
+          <img src="../../../assets/funkTitans.svg" alt="SextaGode" width="263px" height="320px">
+          <div class="section-card">
+            <h2>Funk dos Titans</h2>
+            <div class="line-text" style="margin-top: 15px;">
+              <img src="../../../assets/calendar.svg" alt="calendar" width="20px" height="20px">
+              Data: 16 de dezembro de 2024
+            </div>
+            <div class="line-text">
+              <img src="../../../assets/clock.svg" alt="calendar" width="20px" height="20px">
+              Hora: 18h às 02h
+            </div>
+            <div class="line-text">
+              <img src="../../../assets/location.svg" alt="calendar" width="20px" height="20px">
+              Local: Arena BRB, Brasília - DF
+            </div>
+            <div class="line-text">
+              Preços a partir de R$150,00
+            </div>
+            <button class="map">
+              <img src="../../../assets/mapRGB.svg" alt="mapRGB" height="24px" width="24px">
+              Ver no Mapa
+            </button>
+
+            <div class="tag">
+              #tag
+            </div>
+          </div>
+        </div>
+        <div class="footer-card">
+          <button>Garanta seu ingresso</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="my-events">
+    <h2>Eletrônica</h2>
+    <div class="cards-events">
+      <!-- transformar card em componente depois -->
+      <div class="card">
+        <div class="card-top">
+          <img src="../../../assets/boma.svg" alt="SextaGode" width="263px" height="320px">
+          <div class="section-card">
+            <h2>BOMA</h2>
+            <div class="line-text" style="margin-top: 15px;">
+              <img src="../../../assets/calendar.svg" alt="calendar" width="20px" height="20px">
+              Data: 16 de dezembro de 2024
+            </div>
+            <div class="line-text">
+              <img src="../../../assets/clock.svg" alt="calendar" width="20px" height="20px">
+              Hora: 18h às 02h
+            </div>
+            <div class="line-text">
+              <img src="../../../assets/location.svg" alt="calendar" width="20px" height="20px">
+              Local: Arena BRB, Brasília - DF
+            </div>
+            <div class="line-text">
+              Preços a partir de R$150,00
+            </div>
+            <button class="map">
+              <img src="../../../assets/mapRGB.svg" alt="mapRGB" height="24px" width="24px">
+              Ver no Mapa
+            </button>
+
+            <div class="tag">
+              #tag
+            </div>
+          </div>
+        </div>
+        <div class="footer-card">
+          <button>Garanta seu ingresso</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-top">
+          <img src="../../../assets/virada.svg" alt="SextaGode" width="263px" height="320px">
+          <div class="section-card">
+            <h2>Virada Eletrônica</h2>
+            <div class="line-text" style="margin-top: 15px;">
+              <img src="../../../assets/calendar.svg" alt="calendar" width="20px" height="20px">
+              Data: 16 de dezembro de 2024
+            </div>
+            <div class="line-text">
+              <img src="../../../assets/clock.svg" alt="calendar" width="20px" height="20px">
+              Hora: 18h às 02h
+            </div>
+            <div class="line-text">
+              <img src="../../../assets/location.svg" alt="calendar" width="20px" height="20px">
+              Local: Arena BRB, Brasília - DF
+            </div>
+            <div class="line-text">
+              Preços a partir de R$150,00
+            </div>
+            <button class="map">
+              <img src="../../../assets/mapRGB.svg" alt="mapRGB" height="24px" width="24px">
+              Ver no Mapa
+            </button>
+
+            <div class="tag">
+              #tag
+            </div>
+          </div>
+        </div>
+        <div class="footer-card">
+          <button>Garanta seu ingresso</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <img src="../../../assets/ACbranco.svg" alt="Rodapé" width="100px" height="71px">
+    <hr style="width: 100%;">
+    <p>© 2024 Todos os direitos reservados</p>
   </div>
 </div>
