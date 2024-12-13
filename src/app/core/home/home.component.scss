@@ -14,7 +14,8 @@
     width: 65vw;
     height: 15vw;
     opacity: 0.3;
-    position: fixed;
+    position: absolute;
+    margin-top: -80px;
     top: 0;
     left: 50%;
     transform: translateX(-50%);
