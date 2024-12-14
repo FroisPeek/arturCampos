@@ -1,16 +1,15 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { PreeskitComponent } from './preeskit.component';
 
-import { Info2Component } from './info2.component';
-
-describe('Info2Component', () => {
-  let component: Info2Component;
-  let fixture: ComponentFixture<Info2Component>;
+describe('PreeskitComponent', () => {
+  let component: PreeskitComponent;
+  let fixture: ComponentFixture<PreeskitComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [Info2Component]
+      declarations: [PreeskitComponent]
     });
-    fixture = TestBed.createComponent(Info2Component);
+    fixture = TestBed.createComponent(PreeskitComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

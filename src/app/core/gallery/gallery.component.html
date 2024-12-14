@@ -1,0 +1,24 @@
+<div class="icon-section">
+    <img src="../../../assets/insta-icon.svg" alt="instagram">
+    <img src="../../../assets/youtube-icon.svg" alt="youtube">
+    <img src="../../../assets/wpp-icon.svg" alt="whats app">
+    <img src="../../../assets/tiktok-icon.svg" alt="tiktok">
+</div>
+
+<div class="main-content">
+  <div class="buttons-section">
+    <button (click)="alterarEstado('start')">Visitar Site</button>
+    <button >Visitar Site</button>
+    <button>E-mail</button>
+    <button (click)="alterarEstado('preeskit')">Presskit</button>
+    <button (click)="alterarEstado('gallery')">Galeria</button>
+  </div>
+
+  <div class="imgs-content">
+    <app-imgs-gallery
+      *ngFor="let housingLocation of housingLocationList; let i = index"
+      [housingLocation]="housingLocation"
+      [ngClass]="'img-' + (i + 1)">
+    </app-imgs-gallery>
+  </div>
+</div>

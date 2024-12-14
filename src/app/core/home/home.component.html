@@ -8,20 +8,20 @@
   </div>
 
   <img src="../../../assets/pause.svg" alt="play" width="312px" height="205px">
-    <app-info1
-      *ngIf="estadoAtual === 'info1'"
+    <app-start
+      *ngIf="estadoAtual === 'start'"
       (estadoMudou)="alterarEstado($any($event))">
-    </app-info1>
+    </app-start>
 
-    <app-info2
-      *ngIf="estadoAtual === 'info2'"
+    <app-preeskit
+      *ngIf="estadoAtual === 'preeskit'"
       (estadoMudou)="alterarEstado($any($event))">
-    </app-info2>
+    </app-preeskit>
 
-    <app-info3
-      *ngIf="estadoAtual === 'info3'"
+    <app-gallery
+      *ngIf="estadoAtual === 'gallery'"
       (estadoMudou)="alterarEstado($any($event))">
-    </app-info3>
+    </app-gallery>
 
   <div class="footer">
     <img src="../../../assets/ACbranco.svg" alt="Rodapé" width="100px" height="71px">

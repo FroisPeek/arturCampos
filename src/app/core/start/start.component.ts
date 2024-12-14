@@ -1,12 +1,12 @@
 import { Component, EventEmitter, Output } from '@angular/core';
 
 @Component({
-  selector: 'app-info3',
-  templateUrl: './info3.component.html',
-  styleUrls: ['./info3.component.scss'],
+  selector: 'app-start',
+  templateUrl: './start.component.html',
+  styleUrls: ['./start.component.scss'],
   standalone: true
 })
-export class Info3Component {
+export class StartComponent {
   @Output() estadoMudou = new EventEmitter<string>();
 
   alterarEstado(novoEstado: string): void {

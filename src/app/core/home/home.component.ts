@@ -1,18 +1,18 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { Info1Component } from 'src/app/info1/info1.component';
-import { Info2Component } from 'src/app/info2/info2.component';
-import { Info3Component } from 'src/app/info3/info3.component';
+import { GalleryComponent } from 'src/app/core/gallery/gallery.component';
+import { PreeskitComponent } from '../preeskit/preeskit.component';
+import { StartComponent } from '../start/start.component';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [CommonModule, Info1Component, Info2Component, Info3Component],
+  imports: [CommonModule, StartComponent, PreeskitComponent, GalleryComponent],
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss'],
 })
 export class HomeComponent {
-  estadoAtual: string = 'info1';
+  estadoAtual: string = 'start';
 
   alterarEstado(novoEstado: string): void {
     this.estadoAtual = novoEstado;
