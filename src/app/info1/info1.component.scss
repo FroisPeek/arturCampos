@@ -9,28 +9,12 @@
   position: relative;
   z-index: 1;
 
-  .content-video {
-    background-image: linear-gradient(to right, transparent, #e1e1e1, transparent);
-    width: 65vw;
-    height: 15vw;
-    opacity: 0.3;
-    position: absolute;
-    margin-top: -80px;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: -1;
-    overflow: hidden;
-
-    iframe {
-      border: none;
-      width: 100%;
-      height: 100%;
-    }
+  .titleImg {
+    margin-top: -100px;
   }
 
   .icon-section {
-    margin-top: -2000px;
+    margin-top: -30px;
     display: flex;
     gap: 16px;
 
@@ -228,28 +212,6 @@
           }
         }
       }
-    }
-  }
-
-  .footer {
-    margin-top: 150px;
-    margin-bottom: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 98vw;
-    gap: 80px;
-    color: white;
-    font-family: "Inter", sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 10px;
-
-    hr {
-      border: none;
-      height: 1px;
-      background-color: #343434;
     }
   }
 }
