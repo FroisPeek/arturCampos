@@ -30,8 +30,8 @@
     img:hover {
       border-radius: 50%;
       filter: brightness(1.2);
-      background: radial-gradient(ellipse at left, #EC006E80, transparent),
-                  radial-gradient(ellipse at right, #2f35f880, transparent);
+      background: radial-gradient(ellipse at left, #ec006e80, transparent),
+        radial-gradient(ellipse at right, #2f35f880, transparent);
       cursor: pointer;
       border: none;
       outline: none;
@@ -51,17 +51,18 @@
       padding: 16px;
       gap: 10px;
       color: white;
-      background-color: #1C1C1C;
+      background-color: #1c1c1c;
       font-size: 18px;
       font-weight: 600;
       font-family: "Inter", sans-serif;
       cursor: pointer;
-      transition: background-color 0.3s ease, background-image 0.3s ease, color 0.3s ease;
+      transition: background-color 0.3s ease, background-image 0.3s ease,
+        color 0.3s ease;
     }
 
     button:hover {
       border: none;
-      background-image: linear-gradient(to right, #EC006E, #A4358F, #474DFF);
+      background-image: linear-gradient(to right, #ec006e, #a4358f, #474dff);
       background-color: transparent;
       color: #f0f0f0;
     }
@@ -90,128 +91,6 @@
       grid-template-columns: repeat(2, 1fr);
       gap: 30px 10px;
       grid-auto-rows: minmax(100px, auto);
-
-      .card {
-        background-color: #1C1C1C;
-        width: 90%;
-        height: 420px;
-        padding: 21px;
-        border-radius: 8px;
-        border: 1px solid;
-        border-color: #282828;
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-
-      .card-top{
-        gap: 20px;
-        display: flex;
-        flex-direction: row;
-
-        .section-card {
-          display: flex;
-          flex-direction: column;
-          gap: 13px;
-
-          h2 {
-            font-family: "Inter", sans-serif;
-            font-weight: 600;
-          }
-
-          .line-text {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: start;
-            color: #a1a1a1;
-            gap: 5px;
-            font-family: "Inter", sans-serif;
-            font-weight: 400;
-            font-size: 18px;
-            line-height: 27px;
-          }
-
-          .map {
-            background-color: transparent;
-            border: 1px solid #383838;
-            border-radius: 8px;
-            width: 156px;
-            height: 44px;
-            color: #a1a1a1;
-            font-family: "Inter", sans-serif;
-            font-weight: 400;
-            font-size: 18px;
-            line-height: 27px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 8px;
-            transition: background-color 0.3s ease, background-image 0.3s ease, color 0.3s ease;
-            cursor: pointer;
-          }
-
-          .map:hover {
-            border: none;
-            background-color: #292929;
-            color: #ffffff;
-          }
-
-          .tag {
-            position: relative;
-            color: white;
-            background-color: transparent;
-            width: 86px;
-            height: 38px;
-            border-radius: 1000px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            z-index: 1;
-            overflow: hidden;
-          }
-
-          .tag::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            border-radius: 1000px;
-            padding: 1px;
-            background: linear-gradient(45deg, #EC006E, #A4358F, #474DFF);
-            -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-            -webkit-mask-composite: destination-out;
-            mask-composite: exclude;
-            z-index: -1;
-          }
-        }
-        }
-
-        .footer-card {
-          button {
-            background-color: transparent;
-            width: 99%;
-            height: 63px;
-            border: 1px solid #383838;
-            border-radius: 8px;
-            color: white;
-            font-family: "Inter", sans-serif;
-            font-weight: 400;
-            font-size: 18px;
-            line-height: 25px;
-            transition: background-color 0.3s ease, background-image 0.3s ease, color 0.3s ease;
-            cursor: pointer;
-          }
-
-          button:hover {
-            background-image: linear-gradient(to right, #63002E80, #17195580);
-            background-color: transparent;
-            border: none;
-            color: #f0f0f0;
-          }
-        }
-      }
     }
   }
 }

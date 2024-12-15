@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CardEventsComponent } from './base/components/card-events/card-events.component';
 import { ImgsGalleryComponent } from './base/components/imgs-gallery/imgs-gallery.component';
 import { GalleryComponent } from './core/gallery/gallery.component';
 import { HomeComponent } from './core/home/home.component';
@@ -13,6 +14,14 @@ import { StartComponent } from './core/start/start.component';
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
-  declarations: [AppComponent, HomeComponent, StartComponent, PreeskitComponent, GalleryComponent, ImgsGalleryComponent],
+  declarations: [
+    AppComponent,
+    HomeComponent,
+    StartComponent,
+    PreeskitComponent,
+    GalleryComponent,
+    ImgsGalleryComponent,
+    CardEventsComponent,
+  ],
 })
 export class AppModule {}

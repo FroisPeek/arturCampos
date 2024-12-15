@@ -1,13 +1,19 @@
 <div class="main-content">
   <div class="titleImg">
-    <img src="../../../assets/title.svg" alt="Titulo" >
+    <img src="../../../assets/title.svg" alt="Titulo" />
   </div>
 
   <div class="icon-section">
-    <img src="../../../assets/insta-icon.svg" alt="instagram">
-    <img src="../../../assets/youtube-icon.svg" alt="youtube">
-    <img src="../../../assets/wpp-icon.svg" alt="whats app">
-    <img src="../../../assets/tiktok-icon.svg" alt="tiktok">
+    <img src="../../../assets/insta-icon.svg" alt="instagram" />
+    <a
+      href="https://www.youtube.com/@djarturcampos"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <img src="../../../assets/youtube-icon.svg" alt="youtube" />
+    </a>
+    <img src="../../../assets/wpp-icon.svg" alt="whats app" />
+    <img src="../../../assets/tiktok-icon.svg" alt="tiktok" />
   </div>
 
   <div class="buttons-section">
@@ -20,258 +26,29 @@
   <div class="my-events">
     <h2>Meus Eventos</h2>
     <div class="cards-events">
-      <div class="card">
-        <div class="card-top">
-          <img src="../../../assets/sextagode.svg" alt="SextaGode" width="263px" height="320px">
-          <div class="section-card">
-            <h2>SEXTAGODE</h2>
-            <div class="line-text" style="margin-top: 15px;">
-              <img src="../../../assets/calendar.svg" alt="calendar" width="20px" height="20px">
-              Data: 16 de dezembro de 2024
-            </div>
-            <div class="line-text">
-              <img src="../../../assets/clock.svg" alt="calendar" width="20px" height="20px">
-              Hora: 18h às 02h
-            </div>
-            <div class="line-text">
-              <img src="../../../assets/location.svg" alt="calendar" width="20px" height="20px">
-              Local: Arena BRB, Brasília - DF
-            </div>
-            <div class="line-text">
-              Preços a partir de R$150,00
-            </div>
-            <button class="map">
-              <img src="../../../assets/mapRGB.svg" alt="mapRGB" height="24px" width="24px">
-              Ver no Mapa
-            </button>
+      <app-card-events
+        *ngFor="let event of eventsList"
+        [event]="event"
+      ></app-card-events>
+    </div>
 
-            <div class="tag">
-              #tag
-            </div>
-          </div>
-        </div>
-        <div class="footer-card">
-          <button>Garanta seu ingresso</button>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="card-top">
-          <img src="../../../assets/napraia.svg" alt="SextaGode" width="263px" height="320px">
-          <div class="section-card">
-            <h2>Na Praia</h2>
-            <div class="line-text" style="margin-top: 15px;">
-              <img src="../../../assets/calendar.svg" alt="calendar" width="20px" height="20px">
-              Data: 16 de dezembro de 2024
-            </div>
-            <div class="line-text">
-              <img src="../../../assets/clock.svg" alt="calendar" width="20px" height="20px">
-              Hora: 18h às 02h
-            </div>
-            <div class="line-text">
-              <img src="../../../assets/location.svg" alt="calendar" width="20px" height="20px">
-              Local: Arena BRB, Brasília - DF
-            </div>
-            <div class="line-text">
-              Preços a partir de R$150,00
-            </div>
-            <button class="map">
-              <img src="../../../assets/mapRGB.svg" alt="mapRGB" height="24px" width="24px">
-              Ver no Mapa
-            </button>
-
-            <div class="tag">
-              #tag
-            </div>
-          </div>
-        </div>
-        <div class="footer-card">
-          <button>Garanta seu ingresso</button>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="card-top">
-          <img src="../../../assets/foraEixo.svg" alt="SextaGode" width="263px" height="320px">
-          <div class="section-card">
-            <h2>Complexo Fora do Eixo</h2>
-            <div class="line-text" style="margin-top: 15px;">
-              <img src="../../../assets/calendar.svg" alt="calendar" width="20px" height="20px">
-              Data: 16 de dezembro de 2024
-            </div>
-            <div class="line-text">
-              <img src="../../../assets/clock.svg" alt="calendar" width="20px" height="20px">
-              Hora: 18h às 02h
-            </div>
-            <div class="line-text">
-              <img src="../../../assets/location.svg" alt="calendar" width="20px" height="20px">
-              Local: Arena BRB, Brasília - DF
-            </div>
-            <div class="line-text">
-              Preços a partir de R$150,00
-            </div>
-            <button class="map">
-              <img src="../../../assets/mapRGB.svg" alt="mapRGB" height="24px" width="24px">
-              Ver no Mapa
-            </button>
-
-            <div class="tag">
-              #tag
-            </div>
-          </div>
-        </div>
-        <div class="footer-card">
-          <button>Garanta seu ingresso</button>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="card-top">
-          <img src="../../../assets/funnFestival.svg" alt="SextaGode" width="263px" height="320px">
-          <div class="section-card">
-            <h2>Funn Festival</h2>
-            <div class="line-text" style="margin-top: 15px;">
-              <img src="../../../assets/calendar.svg" alt="calendar" width="20px" height="20px">
-              Data: 16 de dezembro de 2024
-            </div>
-            <div class="line-text">
-              <img src="../../../assets/clock.svg" alt="calendar" width="20px" height="20px">
-              Hora: 18h às 02h
-            </div>
-            <div class="line-text">
-              <img src="../../../assets/location.svg" alt="calendar" width="20px" height="20px">
-              Local: Arena BRB, Brasília - DF
-            </div>
-            <div class="line-text">
-              Preços a partir de R$150,00
-            </div>
-            <button class="map">
-              <img src="../../../assets/mapRGB.svg" alt="mapRGB" height="24px" width="24px">
-              Ver no Mapa
-            </button>
-
-            <div class="tag">
-              #tag
-            </div>
-          </div>
-        </div>
-        <div class="footer-card">
-          <button>Garanta seu ingresso</button>
-        </div>
+    <div class="my-events">
+      <h2>Baile Funk</h2>
+      <div class="cards-events">
+        <app-card-events
+          *ngFor="let funk of funkList"
+          [event]="funk"
+        ></app-card-events>
       </div>
     </div>
-  </div>
 
-  <div class="my-events">
-    <h2>Baile Funk</h2>
-    <div class="cards-events">
-      <div class="card">
-        <div class="card-top">
-          <img src="../../../assets/funkTitans.svg" alt="SextaGode" width="263px" height="320px">
-          <div class="section-card">
-            <h2>Funk dos Titans</h2>
-            <div class="line-text" style="margin-top: 15px;">
-              <img src="../../../assets/calendar.svg" alt="calendar" width="20px" height="20px">
-              Data: 16 de dezembro de 2024
-            </div>
-            <div class="line-text">
-              <img src="../../../assets/clock.svg" alt="calendar" width="20px" height="20px">
-              Hora: 18h às 02h
-            </div>
-            <div class="line-text">
-              <img src="../../../assets/location.svg" alt="calendar" width="20px" height="20px">
-              Local: Arena BRB, Brasília - DF
-            </div>
-            <div class="line-text">
-              Preços a partir de R$150,00
-            </div>
-            <button class="map">
-              <img src="../../../assets/mapRGB.svg" alt="mapRGB" height="24px" width="24px">
-              Ver no Mapa
-            </button>
-
-            <div class="tag">
-              #tag
-            </div>
-          </div>
-        </div>
-        <div class="footer-card">
-          <button>Garanta seu ingresso</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="my-events">
-    <h2>Eletrônica</h2>
-    <div class="cards-events">
-      <div class="card">
-        <div class="card-top">
-          <img src="../../../assets/boma.svg" alt="SextaGode" width="263px" height="320px">
-          <div class="section-card">
-            <h2>BOMA</h2>
-            <div class="line-text" style="margin-top: 15px;">
-              <img src="../../../assets/calendar.svg" alt="calendar" width="20px" height="20px">
-              Data: 16 de dezembro de 2024
-            </div>
-            <div class="line-text">
-              <img src="../../../assets/clock.svg" alt="calendar" width="20px" height="20px">
-              Hora: 18h às 02h
-            </div>
-            <div class="line-text">
-              <img src="../../../assets/location.svg" alt="calendar" width="20px" height="20px">
-              Local: Arena BRB, Brasília - DF
-            </div>
-            <div class="line-text">
-              Preços a partir de R$150,00
-            </div>
-            <button class="map">
-              <img src="../../../assets/mapRGB.svg" alt="mapRGB" height="24px" width="24px">
-              Ver no Mapa
-            </button>
-
-            <div class="tag">
-              #tag
-            </div>
-          </div>
-        </div>
-        <div class="footer-card">
-          <button>Garanta seu ingresso</button>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-top">
-          <img src="../../../assets/virada.svg" alt="SextaGode" width="263px" height="320px">
-          <div class="section-card">
-            <h2>Virada Eletrônica</h2>
-            <div class="line-text" style="margin-top: 15px;">
-              <img src="../../../assets/calendar.svg" alt="calendar" width="20px" height="20px">
-              Data: 16 de dezembro de 2024
-            </div>
-            <div class="line-text">
-              <img src="../../../assets/clock.svg" alt="calendar" width="20px" height="20px">
-              Hora: 18h às 02h
-            </div>
-            <div class="line-text">
-              <img src="../../../assets/location.svg" alt="calendar" width="20px" height="20px">
-              Local: Arena BRB, Brasília - DF
-            </div>
-            <div class="line-text">
-              Preços a partir de R$150,00
-            </div>
-            <button class="map">
-              <img src="../../../assets/mapRGB.svg" alt="mapRGB" height="24px" width="24px">
-              Ver no Mapa
-            </button>
-
-            <div class="tag">
-              #tag
-            </div>
-          </div>
-        </div>
-        <div class="footer-card">
-          <button>Garanta seu ingresso</button>
-        </div>
+    <div class="my-events">
+      <h2>Eletrônica</h2>
+      <div class="cards-events">
+        <app-card-events
+          *ngFor="let have of haveList"
+          [event]="have"
+        ></app-card-events>
       </div>
     </div>
   </div>
