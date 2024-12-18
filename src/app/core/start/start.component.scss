@@ -22,9 +22,6 @@
       width: 40px;
       height: 40px;
       transition: all 0.3s ease, filter 0.3s ease;
-      background-color: transparent;
-      border: none;
-      outline: none;
     }
 
     img:hover {
@@ -33,8 +30,6 @@
       background: radial-gradient(ellipse at left, #ec006e80, transparent),
         radial-gradient(ellipse at right, #2f35f880, transparent);
       cursor: pointer;
-      border: none;
-      outline: none;
     }
   }
 
@@ -46,25 +41,21 @@
       width: 130px;
       height: 54px;
       border-radius: 8.17px;
-      border: 1px solid;
-      border-color: #282828;
+      border: 1px solid #282828;
       padding: 16px;
-      gap: 10px;
       color: white;
       background-color: #1c1c1c;
       font-size: 18px;
       font-weight: 600;
       font-family: "Inter", sans-serif;
       cursor: pointer;
-      transition: background-color 0.3s ease, background-image 0.3s ease,
-        color 0.3s ease;
+      transition: all 0.3s ease;
     }
 
     button:hover {
       border: none;
       background-image: linear-gradient(to right, #ec006e, #a4358f, #474dff);
       background-color: transparent;
-      color: #f0f0f0;
     }
   }
 

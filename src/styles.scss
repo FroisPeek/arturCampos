@@ -4,27 +4,15 @@
 }
 
 body {
-  font-family: "Be Vietnam Pro", sans-serif;
-}
-:root {
-  --primary-color: #605dc8;
-  --secondary-color: #8b89e6;
-  --accent-color: #e8e7fa;
-  --shadow-color: #e8e8e8;
+  font-family: 'Inter', sans-serif;
 }
 
-button.primary {
-  padding: 10px;
-  border: solid 1px var(--primary-color);
-  background: var(--primary-color);
-  color: white;
-  border-radius: 8px;
+h1,
+h2,
+h3 {
+  font-family: 'Montserrat', sans-serif;
 }
 
-@font-face {
-  font-family: 'Inter';
-  src: url('path/to/inter-regular.woff2') format('woff2'),
-       url('path/to/inter-regular.woff') format('woff');
-  font-weight: 400;
-  font-style: normal;
+p {
+  font-family: 'Be Vietnam Pro', sans-serif;
 }

@@ -1,30 +1,30 @@
 .icon-section {
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    padding-left: 101px;
-    padding-top: 355px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-left: 6%;
+  padding-top: 355px;
 
-    img {
-      margin: 10px 0;
-      width: 53px;
-      height: 53px;
-      cursor: pointer;
-    }
+  img {
+    margin: 10px 0;
+    width: 53px;
+    height: 53px;
+    cursor: pointer;
+  }
 
-    img:hover {
-      border-radius: 50%;
-      filter: brightness(1.2);
-      background: radial-gradient(ellipse at left, #EC006E80, transparent),
-                  radial-gradient(ellipse at right, #2f35f880, transparent);
-      cursor: pointer;
-      border: none;
-      outline: none;
-    }
+  img:hover {
+    border-radius: 50%;
+    filter: brightness(1.2);
+    background: radial-gradient(ellipse at left, #EC006E80, transparent),
+      radial-gradient(ellipse at right, #2f35f880, transparent);
+    cursor: pointer;
+    border: none;
+    outline: none;
+  }
 }
 
 .main-content {
@@ -129,6 +129,34 @@
     flex-direction: column;
     gap: 72px;
     margin-top: 150px;
+
+    .title {
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      color: white;
+      font-weight: 900;
+      font-size: 30px;
+    }
+
+    .text {
+      color: #ffffff;
+      font-size: 20px;
+      line-height: 35px;
+      text-align: justify;
+      font-weight: 400;
+      gap: 4px;
+      font-family: "Inter", sans-serif;
+
+      p {
+        margin: 0;
+        display: inline;
+      }
+
+      p:nth-child(2) {
+        color: #FFCC4C;
+      }
+    }
   }
 
   .versatility-section {
@@ -143,9 +171,10 @@
       padding-left: 60px;
 
       .button-section {
+        margin-top: 50px;
         display: flex;
         flex-direction: row;
-        gap: 30px;
+        gap: 15px;
 
         .vetor {
           display: flex;
@@ -157,13 +186,8 @@
             width: auto;
           }
 
-          a {
-            color: white;
+          img:hover {
             cursor: pointer;
-          }
-
-          a:hover {
-            text-decoration: underline;
           }
         }
       }
