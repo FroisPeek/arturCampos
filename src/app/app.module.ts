@@ -9,6 +9,7 @@ import { GalleryComponent } from './core/gallery/gallery.component';
 import { HomeComponent } from './core/home/home.component';
 import { PreeskitComponent } from './core/preeskit/preeskit.component';
 import { StartComponent } from './core/start/start.component';
+import { ModalComponent } from './modal/modal.component';
 
 @NgModule({
   imports: [BrowserModule, AppRoutingModule],
@@ -22,6 +23,7 @@ import { StartComponent } from './core/start/start.component';
     GalleryComponent,
     ImgsGalleryComponent,
     CardEventsComponent,
+    ModalComponent,
   ],
 })
 export class AppModule {}

@@ -1,49 +1,30 @@
 <div class="card">
   <div class="card-top">
-    <img [src]="event.img" [alt]="event.title" width="263px" height="320px" />
+    <img class="img-event" [src]="event.img" [alt]="event.title" />
     <div class="section-card">
       <h2>{{ event.title }}</h2>
       <div class="line-text" style="margin-top: 15px">
-        <img
-          src="../../../assets/calendar.svg"
-          alt="calendar"
-          width="20px"
-          height="20px"
-        />
+        <img src="../../../assets/calendar.svg" alt="calendar" width="20px" height="20px" />
         Data: {{ event.date }}
       </div>
       <div class="line-text">
-        <img
-          src="../../../assets/clock.svg"
-          alt="calendar"
-          width="20px"
-          height="20px"
-        />
+        <img src="../../../assets/clock.svg" alt="calendar" width="20px" height="20px" />
         Hora: {{ event.hour }}
       </div>
       <div class="line-text">
-        <img
-          src="../../../assets/location.svg"
-          alt="calendar"
-          width="20px"
-          height="20px"
-        />
+        <img src="../../../assets/location.svg" alt="calendar" width="20px" height="20px" />
         Local: {{ event.location }}
       </div>
       <div class="line-text">Preços a partir de {{ event.price }}</div>
       <button class="map">
-        <img
-          src="../../../assets/mapRGB.svg"
-          alt="mapRGB"
-          height="24px"
-          width="24px"
-        />
+        <img src="../../../assets/mapRGB.svg" alt="mapRGB" height="24px" width="24px" />
         Ver no Mapa
       </button>
       <div class="tag">#{{ event.tag }}</div>
     </div>
   </div>
   <div class="footer-card">
-    <button>Garanta seu ingresso</button>
+    <button (click)="modal.showModal()">Garanta seu ingresso</button>
   </div>
+  <app-modal #modal></app-modal>
 </div>

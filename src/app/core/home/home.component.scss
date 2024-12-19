@@ -12,7 +12,7 @@
   .content-video {
     background-image: linear-gradient(to right, transparent, #e1e1e1, transparent);
     width: 65vw;
-    height: 15vw;
+    height: 320px;
     opacity: 0.3;
     position: absolute;
     margin-top: -80px;
@@ -47,7 +47,7 @@
       border-radius: 50%;
       filter: brightness(1.2);
       background: radial-gradient(ellipse at left, #EC006E80, transparent),
-                  radial-gradient(ellipse at right, #2f35f880, transparent);
+        radial-gradient(ellipse at right, #2f35f880, transparent);
       cursor: pointer;
       border: none;
       outline: none;
@@ -83,156 +83,8 @@
     }
   }
 
-  .my-events {
-    width: 1440px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-    margin-top: 20px;
-
-    h2 {
-      color: white;
-      font-weight: 500;
-      font-family: "Inter", sans-serif;
-      font-size: 32px;
-      line-height: 39px;
-    }
-
-    .cards-events {
-      width: 100%;
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 30px 10px;
-      grid-auto-rows: minmax(100px, auto);
-
-      .card {
-        background-color: #1C1C1C;
-        width: 90%;
-        height: 420px;
-        padding: 21px;
-        border-radius: 8px;
-        border: 1px solid;
-        border-color: #282828;
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-
-      .card-top{
-        gap: 20px;
-        display: flex;
-        flex-direction: row;
-
-        .section-card {
-          display: flex;
-          flex-direction: column;
-          gap: 13px;
-
-          h2 {
-            font-family: "Inter", sans-serif;
-            font-weight: 600;
-          }
-
-          .line-text {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: start;
-            color: #a1a1a1;
-            gap: 5px;
-            font-family: "Inter", sans-serif;
-            font-weight: 400;
-            font-size: 18px;
-            line-height: 27px;
-          }
-
-          .map {
-            background-color: transparent;
-            border: 1px solid #383838;
-            border-radius: 8px;
-            width: 156px;
-            height: 44px;
-            color: #a1a1a1;
-            font-family: "Inter", sans-serif;
-            font-weight: 400;
-            font-size: 18px;
-            line-height: 27px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 8px;
-            transition: background-color 0.3s ease, background-image 0.3s ease, color 0.3s ease;
-            cursor: pointer;
-          }
-
-          .map:hover {
-            border: none;
-            background-color: #292929;
-            color: #ffffff;
-          }
-
-          .tag {
-            position: relative;
-            color: white;
-            background-color: transparent;
-            width: 86px;
-            height: 38px;
-            border-radius: 1000px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            z-index: 1;
-            overflow: hidden;
-          }
-
-          .tag::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            border-radius: 1000px;
-            padding: 1px;
-            background: linear-gradient(45deg, #EC006E, #A4358F, #474DFF);
-            -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-            -webkit-mask-composite: destination-out;
-            mask-composite: exclude;
-            z-index: -1;
-          }
-        }
-        }
-
-        .footer-card {
-          button {
-            background-color: transparent;
-            width: 99%;
-            height: 63px;
-            border: 1px solid #383838;
-            border-radius: 8px;
-            color: white;
-            font-family: "Inter", sans-serif;
-            font-weight: 400;
-            font-size: 18px;
-            line-height: 25px;
-            transition: background-color 0.3s ease, background-image 0.3s ease, color 0.3s ease;
-            cursor: pointer;
-          }
-
-          button:hover {
-            background-image: linear-gradient(to right, #63002E80, #17195580);
-            background-color: transparent;
-            border: none;
-            color: #f0f0f0;
-          }
-        }
-      }
-    }
-  }
-
   .footer {
-    margin-top: 150px;
+    margin-top: 100px;
     margin-bottom: 50px;
     display: flex;
     flex-direction: column;
@@ -250,6 +102,21 @@
       border: none;
       height: 1px;
       background-color: #343434;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    width: 100%;
+
+    .content-video {
+      width: 100%;
+      height: 300px;
+    }
+
+    .footer {
+      margin-top: 0px;
     }
   }
 }

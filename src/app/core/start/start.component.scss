@@ -4,13 +4,33 @@
   flex-direction: column;
   align-items: center;
   gap: 50px;
-  width: 9vw;
-  margin-top: 80px;
+  width: 99vw;
   position: relative;
   z-index: 1;
 
   .titleImg {
-    margin-top: -20px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+
+    .img-title {
+      width: 20.5%;
+      height: auto;
+    }
+
+    p {
+      color: white;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 32px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
   }
 
   .icon-section {
@@ -18,10 +38,12 @@
     display: flex;
     gap: 16px;
 
-    img {
-      width: 40px;
-      height: 40px;
-      transition: all 0.3s ease, filter 0.3s ease;
+    a {
+      img {
+        width: 100%;
+        height: 100%;
+        transition: all 0.3s ease, filter 0.3s ease;
+      }
     }
 
     img:hover {
@@ -60,7 +82,7 @@
   }
 
   .my-events {
-    width: 1440px;
+    width: 75%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -82,6 +104,91 @@
       grid-template-columns: repeat(2, 1fr);
       gap: 30px 10px;
       grid-auto-rows: minmax(100px, auto);
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+
+    .titleImg {
+      width: 70%;
+      margin-top: -100px;
+      display: flex;
+      text-align: center;
+      gap: 20px;
+
+      .img-title {
+        width: 80.5%;
+        height: auto;
+      }
+
+      p {
+        color: white;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+
+    .icon-section {
+      width: 70%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+
+      a {
+        img {
+          width: 50px;
+          height: 50px;
+        }
+      }
+    }
+
+    .buttons-section {
+      width: 70%;
+      display: flex;
+      flex-direction: row;
+    }
+
+    .my-events {
+      padding: 0;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+
+      .cards-events {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        gap: 20px;
+      }
+    }
+
+    .buttons-section {
+      flex-direction: column;
+      gap: 10px;
+
+      button {
+        width: 100%;
+      }
+    }
+
+    .icon-section {
+      justify-content: center;
+      gap: 12px;
     }
   }
 }

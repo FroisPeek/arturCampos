@@ -1,0 +1,28 @@
+<dialog #modal>
+  <div class="header-modal">
+    <div class="text">
+      <h2>Formulário</h2>
+      <p>Preencha suas informações para garantir o acesso ao evento e ficar por dentro das novidades!</p>
+    </div>
+    <button class="close-button" (click)="closeModal()">X</button>
+  </div>
+  <hr>
+  <div class="inputs-content">
+    <div class="entryarea">
+      <input type="text" placeholder="Digite aqui">
+      <div class="label">Nome*</div>
+    </div>
+    <div class="entryarea">
+      <input type="text" placeholder="Digite aqui">
+      <div class="label">Email*</div>
+    </div>
+    <div class="entryarea full-width">
+      <input type="text" placeholder="Digite aqui">
+      <div class="label">Telefone(opcional)</div>
+    </div>
+  </div>
+  <p style="margin-top: 80px; margin-bottom: 20px;">Atenção: Campos marcados com * são de preenchimento obrigatório</p>
+  <div class="footer-modal">
+    <button>Continuar compra</button>
+  </div>
+</dialog>

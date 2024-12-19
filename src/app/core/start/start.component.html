@@ -1,19 +1,24 @@
 <div class="main-content">
   <div class="titleImg">
-    <img src="../../../assets/title.svg" alt="Titulo" />
+    <img src="../../../assets/title.svg" alt="Titulo" class="img-title" />
+    <p>DJ Artur Campos, de Brasília, destaca-se na cena nacional com sua energia e talento, misturando funk, trap,
+      afrobeat e
+      hip hop em performances únicas desde 2021.</p>
   </div>
 
   <div class="icon-section">
-    <img src="../../../assets/insta-icon.svg" alt="instagram" />
-    <a
-      href="https://www.youtube.com/@djarturcampos"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
+    <a href="">
+      <img src="../../../assets/insta-icon.svg" alt="instagram" />
+    </a>
+    <a href="https://www.youtube.com/@djarturcampos" target="_blank" rel="noopener noreferrer">
       <img src="../../../assets/youtube-icon.svg" alt="youtube" />
     </a>
-    <img src="../../../assets/wpp-icon.svg" alt="whats app" />
-    <img src="../../../assets/tiktok-icon.svg" alt="tiktok" />
+    <a href="">
+      <img src="../../../assets/wpp-icon.svg" alt="whats app" />
+    </a>
+    <a href="">
+      <img src="../../../assets/tiktok-icon.svg" alt="tiktok" />
+    </a>
   </div>
 
   <div class="buttons-section">
@@ -26,30 +31,17 @@
   <div class="my-events">
     <h2>Meus Eventos</h2>
     <div class="cards-events">
-      <app-card-events
-        *ngFor="let event of eventsList"
-        [event]="event"
-      ></app-card-events>
+      <app-card-events *ngFor="let event of eventsList" [event]="event"></app-card-events>
     </div>
 
-    <div class="my-events">
-      <h2>Baile Funk</h2>
-      <div class="cards-events">
-        <app-card-events
-          *ngFor="let funk of funkList"
-          [event]="funk"
-        ></app-card-events>
-      </div>
+    <h2>Baile Funk</h2>
+    <div class="cards-events">
+      <app-card-events *ngFor="let funk of funkList" [event]="funk"></app-card-events>
     </div>
 
-    <div class="my-events">
-      <h2>Eletrônica</h2>
-      <div class="cards-events">
-        <app-card-events
-          *ngFor="let have of haveList"
-          [event]="have"
-        ></app-card-events>
-      </div>
+    <h2>Eletrônica</h2>
+    <div class="cards-events">
+      <app-card-events *ngFor="let have of haveList" [event]="have"></app-card-events>
     </div>
   </div>
 </div>
