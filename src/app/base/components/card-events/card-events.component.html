@@ -16,9 +16,9 @@
         Local: {{ event.location }}
       </div>
       <div class="line-text">Preços a partir de {{ event.price }}</div>
-      <button class="map">
+      <button class="map" (click)="modalMap.showModalMap()">
         <img src="../../../assets/mapRGB.svg" alt="mapRGB" height="24px" width="24px" />
-        Ver no Mapa
+        Ver no mapa
       </button>
       <div class="tag">#{{ event.tag }}</div>
     </div>
@@ -27,4 +27,5 @@
     <button (click)="modal.showModal()">Garanta seu ingresso</button>
   </div>
   <app-modal #modal></app-modal>
+  <app-modal-map #modalMap></app-modal-map>
 </div>

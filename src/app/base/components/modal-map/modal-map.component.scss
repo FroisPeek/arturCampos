@@ -1,0 +1,43 @@
+dialog {
+  width: 70%;
+  height: 870px;
+  border-radius: 9px;
+  background-color: #1D1E1E;
+  border: none;
+  color: white;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 24px;
+
+  .map-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 30px;
+    margin-top: 70px;
+  }
+
+  .map-frame {
+    border: 2px solid black;
+    height: 100%;
+  }
+
+  #map {
+    height: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  dialog {
+    top: 45%;
+
+    .inputs-content {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}

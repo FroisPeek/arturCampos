@@ -135,3 +135,14 @@ dialog {
     background-color: #0000006d;
   }
 }
+
+@media (max-width: 768px) {
+  dialog {
+    top: 45%;
+
+    .inputs-content {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
