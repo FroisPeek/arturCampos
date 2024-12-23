@@ -1,15 +1,35 @@
 dialog {
-  width: 70%;
-  height: 870px;
-  border-radius: 9px;
-  background-color: #1D1E1E;
+  width: 70.52%;
+  height: 650px;
+  border-radius: 24px;
+  background-color: #1C1C1C;
   border: none;
   color: white;
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding: 24px;
+  padding: 56px;
+
+  .button-content {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+
+    .close-button {
+      width: 30px;
+      height: 30px;
+      border: none;
+      border-radius: 100%;
+      background-color: #2d2d2d;
+      color: #A7A7A7;
+    }
+
+    .close-button:hover {
+      cursor: pointer;
+    }
+
+  }
 
   .map-container {
     position: absolute;
@@ -18,26 +38,84 @@ dialog {
     right: 0;
     bottom: 0;
     margin: 30px;
-    margin-top: 70px;
+    margin-top: 100px;
+
+    .map-frame {
+      border: none;
+      height: 621px;
+      border-radius: 16px;
+
+      #map {
+        height: 100%;
+        border-radius: 16px;
+      }
+    }
   }
 
-  .map-frame {
-    border: 2px solid black;
-    height: 100%;
-  }
-
-  #map {
-    height: 100%;
+  &::backdrop {
+    backdrop-filter: blur(4px);
+    background-color: #0000006d;
   }
 }
 
 @media (max-width: 768px) {
   dialog {
-    top: 45%;
+    width: 70.52%;
+    height: 650px;
+    border-radius: 24px;
+    background-color: #1C1C1C;
+    border: none;
+    color: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 56px;
 
-    .inputs-content {
+    .button-content {
+      width: 100%;
       display: flex;
-      flex-direction: column;
+      justify-content: end;
+
+      .close-button {
+        width: 30px;
+        height: 30px;
+        border: none;
+        border-radius: 100%;
+        background-color: #2d2d2d;
+        color: #A7A7A7;
+      }
+
+      .close-button:hover {
+        cursor: pointer;
+      }
+
+    }
+
+    .map-container {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: 30px;
+      margin-top: 100px;
+
+      .map-frame {
+        border: none;
+        height: 100%;
+        border-radius: 16px;
+
+        #map {
+          height: 100%;
+          border-radius: 16px;
+        }
+      }
+    }
+
+    &::backdrop {
+      backdrop-filter: blur(4px);
+      background-color: #0000006d;
     }
   }
 }

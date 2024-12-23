@@ -47,9 +47,14 @@ dialog {
       border-radius: 100%;
       border: none;
       padding: 9px;
-      background-color: #757575;
+      background-color: #2d2d2d;
+      color: #A7A7A7;
       position: fixed;
       margin-left: 90%;
+    }
+
+    .close-button:hover {
+      cursor: pointer;
     }
   }
 
