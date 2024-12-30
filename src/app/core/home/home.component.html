@@ -2,26 +2,18 @@
   <div class="content-video">
     <iframe
       src="https://www.youtube.com/embed/YUitGNMO3wY?autoplay=1&controls=0&modestbranding=1&rel=0&fs=0&iv_load_policy=3&mute=1&cc_load_policy=0"
-      frameborder="0"
-      allow="autoplay"
-    ></iframe>
+      frameborder="0" allow="autoplay"></iframe>
   </div>
 
-  <img src="../../../assets/pause.svg" alt="play" width="312px" height="205px">
-    <app-start
-      *ngIf="estadoAtual === 'start'"
-      (estadoMudou)="alterarEstado($any($event))">
-    </app-start>
+  <img src="../../../assets/pause.svg" alt="play" width="250px" height="150px">
+  <app-start *ngIf="estadoAtual === 'start'" (estadoMudou)="alterarEstado($any($event))">
+  </app-start>
 
-    <app-preeskit
-      *ngIf="estadoAtual === 'preeskit'"
-      (estadoMudou)="alterarEstado($any($event))">
-    </app-preeskit>
+  <app-preeskit *ngIf="estadoAtual === 'preeskit'" (estadoMudou)="alterarEstado($any($event))">
+  </app-preeskit>
 
-    <app-gallery
-      *ngIf="estadoAtual === 'gallery'"
-      (estadoMudou)="alterarEstado($any($event))">
-    </app-gallery>
+  <app-gallery *ngIf="estadoAtual === 'gallery'" (estadoMudou)="alterarEstado($any($event))">
+  </app-gallery>
 
   <div class="footer">
     <img src="../../../assets/ACbranco.svg" alt="Rodapé" width="100px" height="71px">
