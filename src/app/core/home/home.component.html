@@ -6,17 +6,17 @@
   </div>
 
   <img src="../../../assets/pause.svg" alt="play" width="250px" height="150px">
-  <app-start *ngIf="estadoAtual === 'start'" (estadoMudou)="alterarEstado($any($event))">
+  <app-start *ngIf="currentState === 'start'" (watchState)="changeState($any($event))">
   </app-start>
 
-  <app-preeskit *ngIf="estadoAtual === 'preeskit'" (estadoMudou)="alterarEstado($any($event))">
+  <app-preeskit *ngIf="currentState === 'preeskit'" (watchState)="changeState($any($event))">
   </app-preeskit>
 
-  <app-gallery *ngIf="estadoAtual === 'gallery'" (estadoMudou)="alterarEstado($any($event))">
+  <app-gallery *ngIf="currentState === 'gallery'" (watchState)="changeState($any($event))">
   </app-gallery>
 
   <div class="footer">
-    <img src="../../../assets/ACbranco.svg" alt="Rodapé" width="100px" height="71px">
+    <img src="../../../assets/ACbranco.svg" alt="Footer" width="100px" height="71px">
     <hr style="width: 100%;">
     <p>© 2024 Todos os direitos reservados</p>
   </div>

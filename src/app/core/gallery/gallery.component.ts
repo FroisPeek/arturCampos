@@ -12,16 +12,16 @@ import { ImgsType } from './gallery.interface';
   standalone: true
 })
 export class GalleryComponent {
-  @Output() estadoMudou = new EventEmitter<string>();
+  @Output() watchState = new EventEmitter<string>();
 
-  alterarEstado(novoEstado: string): void {
-    this.estadoMudou.emit(novoEstado);
+  changeState(newState: string): void {
+    this.watchState.emit(newState);
   }
 
-  housingLocationList: ImgsType[] = [];
-  housingService: GalleryServices = inject(GalleryServices);
+  imgsGalleryList: ImgsType[] = [];
+  galleryService: GalleryServices = inject(GalleryServices);
 
-  constructor(){
-    this.housingLocationList = this.housingService.getAllImg();
+  constructor() {
+    this.imgsGalleryList = this.galleryService.getAllImg();
   }
 }

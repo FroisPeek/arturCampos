@@ -12,9 +12,9 @@ import { StartComponent } from '../start/start.component';
   styleUrls: ['./home.component.scss'],
 })
 export class HomeComponent {
-  estadoAtual: string = 'start';
+  currentState: string = 'start';
 
-  alterarEstado(novoEstado: string): void {
-    this.estadoAtual = novoEstado;
+  changeState(newState: string): void {
+    this.currentState = newState;
   }
 }

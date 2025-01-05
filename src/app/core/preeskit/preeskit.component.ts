@@ -7,9 +7,9 @@ import { Component, EventEmitter, Output } from '@angular/core';
   standalone: true
 })
 export class PreeskitComponent {
-  @Output() estadoMudou = new EventEmitter<string>();
+  @Output() watchState = new EventEmitter<string>();
 
-  alterarEstado(novoEstado: string): void {
-    this.estadoMudou.emit(novoEstado);
+  changeState(newState: string): void {
+    this.watchState.emit(newState);
   }
 }

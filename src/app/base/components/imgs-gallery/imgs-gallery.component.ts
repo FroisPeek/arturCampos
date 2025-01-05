@@ -8,5 +8,5 @@ import { ImgsType } from 'src/app/core/gallery/gallery.interface';
   standalone: true
 })
 export class ImgsGalleryComponent {
-  @Input() housingLocation!: ImgsType;
+  @Input() imgsGallery!: ImgsType;
 }

@@ -15,16 +15,16 @@
 
 <div class="main-content">
   <div class="buttons-section">
-    <button (click)="alterarEstado('start')">Início</button>
+    <button (click)="changeState('start')">Início</button>
     <button>Visitar Site</button>
     <button>E-mail</button>
-    <button (click)="alterarEstado('preeskit')">Presskit</button>
-    <button (click)="alterarEstado('gallery')">Galeria</button>
+    <button (click)="changeState('preeskit')">Presskit</button>
+    <button (click)="changeState('gallery')">Galeria</button>
   </div>
 
   <div class="imgs-content">
-    <app-imgs-gallery *ngFor="let housingLocation of housingLocationList; let i = index"
-      [housingLocation]="housingLocation" [ngClass]="'img-' + (i + 1)">
+    <app-imgs-gallery *ngFor="let imgsGallery of imgsGalleryList; let i = index" [imgsGallery]="imgsGallery"
+      [ngClass]="'img-' + (i + 1)">
     </app-imgs-gallery>
   </div>
 </div>

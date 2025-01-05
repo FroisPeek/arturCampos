@@ -12,10 +12,10 @@ import { Card } from './start.interface';
   imports: [CardEventsComponent, CommonModule],
 })
 export class StartComponent {
-  @Output() estadoMudou = new EventEmitter<string>();
+  @Output() watchState = new EventEmitter<string>();
 
-  alterarEstado(novoEstado: string): void {
-    this.estadoMudou.emit(novoEstado);
+  alterarEstado(newState: string): void {
+    this.watchState.emit(newState);
   }
 
   eventsList: Card[] = [];
