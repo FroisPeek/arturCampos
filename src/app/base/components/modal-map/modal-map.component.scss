@@ -13,6 +13,7 @@ dialog {
 
   .button-content {
     width: 100%;
+    margin-top: -40px;
     display: flex;
     justify-content: end;
 
@@ -23,6 +24,7 @@ dialog {
       border-radius: 100%;
       background-color: #2d2d2d;
       color: #A7A7A7;
+      margin-right: -30px;
     }
 
     .close-button:hover {
@@ -38,11 +40,11 @@ dialog {
     right: 0;
     bottom: 0;
     margin: 30px;
-    margin-top: 100px;
+    margin-top: 60px;
 
     .map-frame {
       border: none;
-      height: 621px;
+      height: 680px;
       border-radius: 16px;
 
       #map {
